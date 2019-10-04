@@ -5,12 +5,9 @@ test-output/
 target/
 
 #log4j reports & excel reports
-*.html
-*.log
-*.xlsx
+
 
 #screenshots
-screenshots/*
 
 #allure reports
 allure-results/
