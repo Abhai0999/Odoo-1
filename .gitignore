@@ -5,12 +5,12 @@ test-output/
 target/
 
 #log4j reports & excel reports
-reports/excelreport/
-reports/HTML/
-reports/logs/
+reports/excelreport/*
+reports/HTML/*
+reports/logs/*
 
 #screenshots
-screenshots/
+screenshots/*
 
 #allure reports
 allure-results/
