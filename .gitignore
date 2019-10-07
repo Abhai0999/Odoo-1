@@ -5,9 +5,6 @@ test-output/
 target/
 
 #log4j reports & excel reports
-reports/excelreport/
-reports/HTML/
-reports/logs/
 
 #screenshots
 
