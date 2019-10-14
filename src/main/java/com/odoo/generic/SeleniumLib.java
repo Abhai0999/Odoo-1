@@ -72,6 +72,29 @@ public class SeleniumLib
 		return wb;
 	}
 	
+	public WebElement eWaitForVisibility(int seconds, String xpath)
+	
+	{
+		WebDriverWait wait= new WebDriverWait(driver, seconds);
+		WebElement wb = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(xpath)));
+		
+		return wb;
+	}
+	
+	public void iSleep(int seconds)
+	
+	{
+		try 
+		{
+			Thread.sleep(seconds*1000);
+		}
+		catch (InterruptedException e) 
+		{
+			e.printStackTrace();
+		}
+		
+		
+	}
 	
 	
 	

@@ -41,11 +41,11 @@ public class LoginSteps
 	
 	public void verifyCRM()
 	{
-		
-		WebElement crmWb = sl.eWaitForElementPresent(30, bp.Crm);
-		boolean flag = sl.eWaitForVisiblity(20, crmWb).isDisplayed();
-//		Assert.assertTrue(crmWb.isDisplayed());
-		System.out.println("***********"+flag);
+		sl.iSleep(3);
+	//	WebElement crmWb = sl.eWaitForElementPresent(30, bp.Crm);
+		boolean flag = sl.eWaitForVisibility(20, bp.Crm).isDisplayed();
+    	Assert.assertTrue(flag);
+	//  System.out.println("***********"+flag);
 	}
 	
 	public void verifyLoggedInEmailID(String username)
