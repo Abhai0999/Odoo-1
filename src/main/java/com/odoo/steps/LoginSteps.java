@@ -41,18 +41,16 @@ public class LoginSteps
 	
 	public void verifyCRM()
 	{
-		
-		WebElement crmWb = sl.eWaitForElementPresent(30, bp.Crm);
-		boolean flag = sl.eWaitForVisiblity(20, crmWb).isDisplayed();
-//		Assert.assertTrue(crmWb.isDisplayed());
-		System.out.println("***********"+flag);
+		sl.iSleep(3);
+		boolean flag = sl.eWaitForVisiblity(20, bp.Crm).isDisplayed();
+		Assert.assertTrue(flag);
 	}
 	
 	public void verifyLoggedInEmailID(String username)
 	{
 		String actualEmailID = driver.findElement(By.xpath(bp.loggedInEmailID)).getText();
 		System.out.println("*********"+actualEmailID);
-		//Assert.assertEquals(actualEmailID, username);
+		Assert.assertEquals(actualEmailID, username);
 	}
 	
 }
