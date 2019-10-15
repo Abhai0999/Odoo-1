@@ -1,0 +1,17 @@
+2019-10-14 23:28:16,676 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
+2019-10-14 23:28:28,562 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
+2019-10-14 23:28:41,868 [main] INFO com.odoo.webutils.MyTestListener - createCustomer script execution starts
+2019-10-14 23:29:10,381 [main] FATAL com.odoo.webutils.MyTestListener - no such element: Unable to locate element: {"method":"xpath","selector":"(//a[contains(text(),'Sales')])[1]"}
+  (Session info: chrome=77.0.3865.90)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'JENSEN-PC', ip: '192.168.43.240', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\jensen\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49243}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e29c4d194f003818029574a72c5865d3
+*** Element info: {Using=xpath, value=(//a[contains(text(),'Sales')])[1]}
+2019-10-14 23:29:10,453 [main] WARN com.odoo.webutils.MyTestListener - createCustomer script is failed
+2019-10-14 23:29:11,615 [main] INFO com.odoo.webutils.MyTestListener - Screenshot has been taken 
+2019-10-14 23:29:12,910 [main] INFO com.odoo.webutils.MyTestListener - ExcelReport generated
+2019-10-14 23:29:12,911 [main] INFO com.odoo.webutils.MyTestListener - Framework execution Time Taken: 56.0seconds
+2019-10-14 23:29:12,911 [main] INFO com.odoo.webutils.MyTestListener - Framework execution ends

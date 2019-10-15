@@ -6,6 +6,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 
 import com.odoo.features.CommonFeatures;
+import com.odoo.features.CustomerFeature;
 import com.odoo.features.LoginFeatures;
 import com.odoo.generic.Driver;
 import com.odoo.generic.GenericLib;
@@ -16,6 +17,7 @@ public abstract class BaseAbstractTest
 	public LoginFeatures lf;
 	public CommonFeatures cf;
 	
+	
 	@BeforeClass
 	public void setUp()
 	{
@@ -24,6 +26,7 @@ public abstract class BaseAbstractTest
 		driver.register(listener);
 		lf=new LoginFeatures(driver);
 		cf=new CommonFeatures(driver);
+		
 	}
 	
 	@BeforeMethod
@@ -35,7 +38,8 @@ public abstract class BaseAbstractTest
 	@AfterMethod
 	public void postCondition()
 	{
-		cf.logout();
+		//cf.logout();
+		//System.out.println("logout occour");
 	}
 	
 }

@@ -17,7 +17,7 @@
           <configuration>
             <source>1.8</source>
             <target>1.8</target>
-            <executable>C:/Program Files/Java/jdk1.8.0_66/bin/javac.exe</executable>
+            <executable>C:/Program Files/Java/jdk1.8.0_181/bin/javac.exe</executable>
             <fork>true</fork>
           </configuration>
         </plugin>
@@ -28,7 +28,7 @@
         <version>3.0.0-M3</version>
         <configuration>
           <suiteXmlFiles>
-            <suiteXmlFile>${suite}</suiteXmlFile>
+            <suiteXmlFile>customer.xml</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
       </plugin>

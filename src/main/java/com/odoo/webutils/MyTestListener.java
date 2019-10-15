@@ -5,6 +5,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
@@ -110,6 +111,7 @@ public class MyTestListener implements ITestListener, WebDriverEventListener
 		
 		WebDriver driver = DriverFactory.launch(system, browserName, headless);
 		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		Driver.setDriver(driver);
 		log.info("Browser Launched and maximized");
 	}
@@ -117,13 +119,13 @@ public class MyTestListener implements ITestListener, WebDriverEventListener
 	@Override
 	public void onFinish(ITestContext context) 
 	{
-		Driver.getDriver().close();
+		/*Driver.getDriver().close();
 		if (Driver.getDriver()!=null) 
 		{
 			Driver.getDriver().quit();
 		}
 		log.info("Browser Closed");
-		
+		*/
 		
 		Workbook wb=new XSSFWorkbook();
 		Sheet sh = wb.createSheet("Odoo Execution Report");
