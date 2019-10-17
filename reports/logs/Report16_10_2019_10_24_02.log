@@ -1,0 +1,246 @@
+2019-10-16 22:24:02,843 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
+2019-10-16 22:24:08,625 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
+2019-10-16 22:24:42,946 [main] INFO com.odoo.webutils.MyTestListener - validLoginTest script execution starts
+2019-10-16 22:27:29,212 [main] FATAL com.odoo.webutils.MyTestListener - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=77.0.3865.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ALAM-PC', ip: '192.168.0.104', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Alam\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:65424}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6309085d553d0f23c5278252d8abb400
+*** Element info: {Using=xpath, value=//div[text()='CRM']}
+2019-10-16 22:27:29,728 [main] FATAL com.odoo.webutils.MyTestListener - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=77.0.3865.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ALAM-PC', ip: '192.168.0.104', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Alam\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:65424}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6309085d553d0f23c5278252d8abb400
+*** Element info: {Using=xpath, value=//div[text()='CRM']}
+2019-10-16 22:27:30,258 [main] FATAL com.odoo.webutils.MyTestListener - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=77.0.3865.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ALAM-PC', ip: '192.168.0.104', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Alam\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:65424}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6309085d553d0f23c5278252d8abb400
+*** Element info: {Using=xpath, value=//div[text()='CRM']}
+2019-10-16 22:27:30,774 [main] FATAL com.odoo.webutils.MyTestListener - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=77.0.3865.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ALAM-PC', ip: '192.168.0.104', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Alam\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:65424}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6309085d553d0f23c5278252d8abb400
+*** Element info: {Using=xpath, value=//div[text()='CRM']}
+2019-10-16 22:27:31,351 [main] FATAL com.odoo.webutils.MyTestListener - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=77.0.3865.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ALAM-PC', ip: '192.168.0.104', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Alam\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:65424}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6309085d553d0f23c5278252d8abb400
+*** Element info: {Using=xpath, value=//div[text()='CRM']}
+2019-10-16 22:27:31,867 [main] FATAL com.odoo.webutils.MyTestListener - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=77.0.3865.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ALAM-PC', ip: '192.168.0.104', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Alam\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:65424}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6309085d553d0f23c5278252d8abb400
+*** Element info: {Using=xpath, value=//div[text()='CRM']}
+2019-10-16 22:27:32,398 [main] FATAL com.odoo.webutils.MyTestListener - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=77.0.3865.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ALAM-PC', ip: '192.168.0.104', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Alam\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:65424}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6309085d553d0f23c5278252d8abb400
+*** Element info: {Using=xpath, value=//div[text()='CRM']}
+2019-10-16 22:27:32,948 [main] FATAL com.odoo.webutils.MyTestListener - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=77.0.3865.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ALAM-PC', ip: '192.168.0.104', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Alam\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:65424}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6309085d553d0f23c5278252d8abb400
+*** Element info: {Using=xpath, value=//div[text()='CRM']}
+2019-10-16 22:27:33,479 [main] FATAL com.odoo.webutils.MyTestListener - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=77.0.3865.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ALAM-PC', ip: '192.168.0.104', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Alam\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:65424}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6309085d553d0f23c5278252d8abb400
+*** Element info: {Using=xpath, value=//div[text()='CRM']}
+2019-10-16 22:27:34,000 [main] FATAL com.odoo.webutils.MyTestListener - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=77.0.3865.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ALAM-PC', ip: '192.168.0.104', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Alam\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:65424}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6309085d553d0f23c5278252d8abb400
+*** Element info: {Using=xpath, value=//div[text()='CRM']}
+2019-10-16 22:27:34,530 [main] FATAL com.odoo.webutils.MyTestListener - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=77.0.3865.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ALAM-PC', ip: '192.168.0.104', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Alam\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:65424}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6309085d553d0f23c5278252d8abb400
+*** Element info: {Using=xpath, value=//div[text()='CRM']}
+2019-10-16 22:27:35,046 [main] FATAL com.odoo.webutils.MyTestListener - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=77.0.3865.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ALAM-PC', ip: '192.168.0.104', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Alam\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:65424}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6309085d553d0f23c5278252d8abb400
+*** Element info: {Using=xpath, value=//div[text()='CRM']}
+2019-10-16 22:27:35,576 [main] FATAL com.odoo.webutils.MyTestListener - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=77.0.3865.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ALAM-PC', ip: '192.168.0.104', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Alam\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:65424}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6309085d553d0f23c5278252d8abb400
+*** Element info: {Using=xpath, value=//div[text()='CRM']}
+2019-10-16 22:27:36,092 [main] FATAL com.odoo.webutils.MyTestListener - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=77.0.3865.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ALAM-PC', ip: '192.168.0.104', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Alam\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:65424}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6309085d553d0f23c5278252d8abb400
+*** Element info: {Using=xpath, value=//div[text()='CRM']}
+2019-10-16 22:27:36,623 [main] FATAL com.odoo.webutils.MyTestListener - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=77.0.3865.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ALAM-PC', ip: '192.168.0.104', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Alam\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:65424}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6309085d553d0f23c5278252d8abb400
+*** Element info: {Using=xpath, value=//div[text()='CRM']}
+2019-10-16 22:27:37,138 [main] FATAL com.odoo.webutils.MyTestListener - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=77.0.3865.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ALAM-PC', ip: '192.168.0.104', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Alam\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:65424}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6309085d553d0f23c5278252d8abb400
+*** Element info: {Using=xpath, value=//div[text()='CRM']}
+2019-10-16 22:27:37,669 [main] FATAL com.odoo.webutils.MyTestListener - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=77.0.3865.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ALAM-PC', ip: '192.168.0.104', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Alam\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:65424}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6309085d553d0f23c5278252d8abb400
+*** Element info: {Using=xpath, value=//div[text()='CRM']}
+2019-10-16 22:27:38,210 [main] FATAL com.odoo.webutils.MyTestListener - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=77.0.3865.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ALAM-PC', ip: '192.168.0.104', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Alam\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:65424}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6309085d553d0f23c5278252d8abb400
+*** Element info: {Using=xpath, value=//div[text()='CRM']}
+2019-10-16 22:27:38,725 [main] FATAL com.odoo.webutils.MyTestListener - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=77.0.3865.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ALAM-PC', ip: '192.168.0.104', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Alam\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:65424}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6309085d553d0f23c5278252d8abb400
+*** Element info: {Using=xpath, value=//div[text()='CRM']}
+2019-10-16 22:27:39,241 [main] FATAL com.odoo.webutils.MyTestListener - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=77.0.3865.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ALAM-PC', ip: '192.168.0.104', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Alam\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:65424}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6309085d553d0f23c5278252d8abb400
+*** Element info: {Using=xpath, value=//div[text()='CRM']}
+2019-10-16 22:27:39,757 [main] FATAL com.odoo.webutils.MyTestListener - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=77.0.3865.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ALAM-PC', ip: '192.168.0.104', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Alam\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:65424}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6309085d553d0f23c5278252d8abb400
+*** Element info: {Using=xpath, value=//div[text()='CRM']}
+2019-10-16 22:27:40,273 [main] FATAL com.odoo.webutils.MyTestListener - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=77.0.3865.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ALAM-PC', ip: '192.168.0.104', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Alam\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:65424}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6309085d553d0f23c5278252d8abb400
+*** Element info: {Using=xpath, value=//div[text()='CRM']}
+2019-10-16 22:27:40,789 [main] FATAL com.odoo.webutils.MyTestListener - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=77.0.3865.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ALAM-PC', ip: '192.168.0.104', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Alam\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:65424}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6309085d553d0f23c5278252d8abb400
+*** Element info: {Using=xpath, value=//div[text()='CRM']}
+2019-10-16 22:27:41,304 [main] FATAL com.odoo.webutils.MyTestListener - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=77.0.3865.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ALAM-PC', ip: '192.168.0.104', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Alam\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:65424}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6309085d553d0f23c5278252d8abb400
+*** Element info: {Using=xpath, value=//div[text()='CRM']}
+2019-10-16 22:27:41,820 [main] FATAL com.odoo.webutils.MyTestListener - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=77.0.3865.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ALAM-PC', ip: '192.168.0.104', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Alam\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:65424}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6309085d553d0f23c5278252d8abb400
+*** Element info: {Using=xpath, value=//div[text()='CRM']}
+2019-10-16 22:27:42,336 [main] FATAL com.odoo.webutils.MyTestListener - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=77.0.3865.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ALAM-PC', ip: '192.168.0.104', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Alam\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:65424}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6309085d553d0f23c5278252d8abb400
+*** Element info: {Using=xpath, value=//div[text()='CRM']}
+2019-10-16 22:27:42,866 [main] FATAL com.odoo.webutils.MyTestListener - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=77.0.3865.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ALAM-PC', ip: '192.168.0.104', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Alam\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:65424}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6309085d553d0f23c5278252d8abb400
+*** Element info: {Using=xpath, value=//div[text()='CRM']}

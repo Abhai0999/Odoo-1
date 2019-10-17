@@ -41,8 +41,10 @@ public class LoginSteps
 	
 	public void verifyCRM()
 	{
+		
 		sl.iSleep(3);
-		boolean flag = sl.eWaitForVisiblity(20, bp.Crm).isDisplayed();
+		
+		boolean flag = sl.eWaitForVisiblity(30, bp.Crm).isDisplayed();
 		Assert.assertTrue(flag);
 	}
 	

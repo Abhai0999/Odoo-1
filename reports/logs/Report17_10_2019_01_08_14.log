@@ -1,0 +1,18 @@
+2019-10-17 13:08:15,017 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
+2019-10-17 13:08:20,857 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
+2019-10-17 13:08:26,650 [main] INFO com.odoo.webutils.MyTestListener - newCustomer script execution starts
+2019-10-17 13:09:24,852 [main] INFO com.odoo.webutils.MyTestListener - newCustomer script is passed
+2019-10-17 13:09:26,193 [main] INFO com.odoo.webutils.MyTestListener - dltNewCustomer script execution starts
+2019-10-17 13:10:25,122 [main] FATAL com.odoo.webutils.MyTestListener - element not interactable
+  (Session info: chrome=77.0.3865.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ALAM-PC', ip: '192.168.0.113', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Alam\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57185}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 96bc6f5088cd1908331824adda9d34a5
+2019-10-17 13:10:25,133 [main] WARN com.odoo.webutils.MyTestListener - dltNewCustomer script is failed
+2019-10-17 13:10:25,822 [main] INFO com.odoo.webutils.MyTestListener - Screenshot has been taken 
+2019-10-17 13:10:31,184 [main] INFO com.odoo.webutils.MyTestListener - Browser Closed
+2019-10-17 13:10:31,579 [main] INFO com.odoo.webutils.MyTestListener - ExcelReport generated
+2019-10-17 13:10:31,580 [main] INFO com.odoo.webutils.MyTestListener - Framework execution Time Taken: 136.0seconds
+2019-10-17 13:10:31,580 [main] INFO com.odoo.webutils.MyTestListener - Framework execution ends

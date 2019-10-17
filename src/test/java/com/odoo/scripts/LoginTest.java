@@ -14,6 +14,7 @@ public class LoginTest extends BaseAbstractTest
 		String filepath=GenericLib.dir+"/testdata/Odoodata.xlsx";
 		ExcelUtilities eu=new ExcelUtilities(filepath);
 		String[] data = eu.readData("Sheet1", "validLogin_ID");
+
 		lf.login(data[1], data[2]);
 		
 		lf.verifyValidLogin(data[1]);

@@ -1,0 +1,20 @@
+2019-10-17 00:24:25,726 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
+2019-10-17 00:24:31,805 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
+2019-10-17 00:24:38,269 [main] INFO com.odoo.webutils.MyTestListener - newCustomer script execution starts
+2019-10-17 00:25:37,400 [main] INFO com.odoo.webutils.MyTestListener - newCustomer script is passed
+2019-10-17 00:25:38,556 [main] INFO com.odoo.webutils.MyTestListener - dltNewCustomer script execution starts
+2019-10-17 00:26:27,659 [main] FATAL com.odoo.webutils.MyTestListener - no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='btn-group o_dropdown show']//button"}
+  (Session info: chrome=77.0.3865.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ALAM-PC', ip: '192.168.0.104', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Alam\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50708}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0b6e62a9f47a74ae3aef73d2ce371ab2
+*** Element info: {Using=xpath, value=//div[@class='btn-group o_dropdown show']//button}
+2019-10-17 00:26:27,694 [main] WARN com.odoo.webutils.MyTestListener - dltNewCustomer script is failed
+2019-10-17 00:26:28,418 [main] INFO com.odoo.webutils.MyTestListener - Screenshot has been taken 
+2019-10-17 00:26:31,336 [main] INFO com.odoo.webutils.MyTestListener - Browser Closed
+2019-10-17 00:26:31,756 [main] INFO com.odoo.webutils.MyTestListener - ExcelReport generated
+2019-10-17 00:26:31,757 [main] INFO com.odoo.webutils.MyTestListener - Framework execution Time Taken: 126.0seconds
+2019-10-17 00:26:31,757 [main] INFO com.odoo.webutils.MyTestListener - Framework execution ends
