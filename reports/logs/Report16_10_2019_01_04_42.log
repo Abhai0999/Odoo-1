@@ -1,0 +1,23 @@
+2019-10-16 13:04:42,979 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
+2019-10-16 13:04:53,280 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
+2019-10-16 13:04:56,934 [main] INFO com.odoo.webutils.MyTestListener - validLoginTest script execution starts
+2019-10-16 13:05:15,870 [main] WARN com.odoo.webutils.MyTestListener - validLoginTest script is failed
+2019-10-16 13:05:16,603 [main] INFO com.odoo.webutils.MyTestListener - Screenshot has been taken 
+2019-10-16 13:05:18,826 [main] INFO com.odoo.webutils.MyTestListener - createCustomer script execution starts
+2019-10-16 13:06:02,494 [main] INFO com.odoo.webutils.MyTestListener - createCustomer script is passed
+2019-10-16 13:06:03,601 [main] INFO com.odoo.webutils.MyTestListener - createOppExitingCus script execution starts
+2019-10-16 13:06:03,668 [main] WARN com.odoo.webutils.MyTestListener - createOppExitingCus script is failed
+2019-10-16 13:06:04,061 [main] INFO com.odoo.webutils.MyTestListener - Screenshot has been taken 
+2019-10-16 13:06:04,100 [main] FATAL com.odoo.webutils.MyTestListener - no such element: Unable to locate element: {"method":"xpath","selector":"//li[@class='o_user_menu']/a"}
+  (Session info: chrome=77.0.3865.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-VVD7DET5', ip: '192.168.0.120', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:50037}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 13879e9c819fa82460a1245133dfbeea
+*** Element info: {Using=xpath, value=//li[@class='o_user_menu']/a}
+2019-10-16 13:06:04,910 [main] INFO com.odoo.webutils.MyTestListener - Browser Closed
+2019-10-16 13:06:05,157 [main] INFO com.odoo.webutils.MyTestListener - ExcelReport generated
+2019-10-16 13:06:05,158 [main] INFO com.odoo.webutils.MyTestListener - Framework execution Time Taken: 82.0seconds
+2019-10-16 13:06:05,158 [main] INFO com.odoo.webutils.MyTestListener - Framework execution ends

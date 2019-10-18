@@ -6,36 +6,39 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 
 import com.odoo.features.CommonFeatures;
+
 import com.odoo.features.LoginFeatures;
+import com.odoo.features.SalesFeatures;
 import com.odoo.generic.Driver;
 import com.odoo.generic.GenericLib;
 
-public abstract class BaseAbstractTest 
-{
-	public static EventFiringWebDriver driver;   //global driver
+public abstract class BaseAbstractTest {
+	public static EventFiringWebDriver driver; // global driver
 	public LoginFeatures lf;
 	public CommonFeatures cf;
-	
+	public SalesFeatures sf;
+	public GenericLib gl;
+
 	@BeforeClass
-	public void setUp()
-	{
-		MyTestListener listener=new MyTestListener();
-		driver=new EventFiringWebDriver(Driver.getDriver());
+	public void setUp() {
+		MyTestListener listener = new MyTestListener();
+		driver = new EventFiringWebDriver(Driver.getDriver());
 		driver.register(listener);
-		lf=new LoginFeatures(driver);
-		cf=new CommonFeatures(driver);
+		lf = new LoginFeatures(driver);
+		cf = new CommonFeatures(driver);
+		sf = new SalesFeatures(driver);
+		gl=new GenericLib();
+
 	}
-	
+
 	@BeforeMethod
-	public void preCondition()
-	{
+	public void preCondition() {
 		driver.get(GenericLib.getValue(GenericLib.getConfigFile(), "url"));
 	}
-	
+
 	@AfterMethod
-	public void postCondition()
-	{
+	public void postCondition() {
 		cf.logout();
 	}
-	
+
 }

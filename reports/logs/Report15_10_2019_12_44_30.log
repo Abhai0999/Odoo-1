@@ -1,0 +1,10 @@
+2019-10-15 00:44:30,909 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
+2019-10-15 00:44:41,159 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
+2019-10-15 00:44:43,382 [main] INFO com.odoo.webutils.MyTestListener - validLoginTest script execution starts
+2019-10-15 00:44:49,504 [main] INFO com.odoo.webutils.MyTestListener - validLoginTest script is passed
+2019-10-15 00:44:50,933 [main] INFO com.odoo.webutils.MyTestListener - createCustomer script execution starts
+2019-10-15 00:45:09,004 [main] INFO com.odoo.webutils.MyTestListener - createCustomer script is passed
+2019-10-15 00:45:09,972 [main] INFO com.odoo.webutils.MyTestListener - Browser Closed
+2019-10-15 00:45:10,151 [main] INFO com.odoo.webutils.MyTestListener - ExcelReport generated
+2019-10-15 00:45:10,151 [main] INFO com.odoo.webutils.MyTestListener - Framework execution Time Taken: 39.0seconds
+2019-10-15 00:45:10,152 [main] INFO com.odoo.webutils.MyTestListener - Framework execution ends

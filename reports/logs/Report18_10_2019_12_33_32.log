@@ -1,0 +1,23 @@
+2019-10-18 12:33:32,993 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
+2019-10-18 12:33:43,246 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
+2019-10-18 12:33:46,252 [main] INFO com.odoo.webutils.MyTestListener - createCustomer script execution starts
+2019-10-18 12:34:08,740 [main] FATAL com.odoo.webutils.MyTestListener - element click intercepted: Element <button type="button" class="btn btn-primary o-kanban-button-new" data-accesskey="c">...</button> is not clickable at point (51, 106). Other element would receive the click: <div class="blockUI blockOverlay" style="z-index: 1100; border: none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(0, 0, 0); opacity: 0.388212; cursor: wait; position: fixed;"></div>
+  (Session info: chrome=77.0.3865.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-VVD7DET5', ip: '192.168.0.120', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:59803}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8f66c111460be597de19ad0bbe3bd1e3
+2019-10-18 12:34:08,755 [main] WARN com.odoo.webutils.MyTestListener - createCustomer script is failed
+2019-10-18 12:34:09,183 [main] INFO com.odoo.webutils.MyTestListener - Screenshot has been taken 
+2019-10-18 12:34:09,247 [main] FATAL com.odoo.webutils.MyTestListener - element click intercepted: Element <a role="button" class="dropdown-toggle" data-toggle="dropdown" data-display="static" aria-expanded="false" href="#">...</a> is not clickable at point (1234, 23). Other element would receive the click: <div class="blockUI blockOverlay" style="z-index: 1100; border: none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(0, 0, 0); opacity: 0.6; cursor: wait; position: fixed;"></div>
+  (Session info: chrome=77.0.3865.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-VVD7DET5', ip: '192.168.0.120', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:59803}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8f66c111460be597de19ad0bbe3bd1e3
+2019-10-18 12:34:10,051 [main] INFO com.odoo.webutils.MyTestListener - Browser Closed
+2019-10-18 12:34:10,408 [main] INFO com.odoo.webutils.MyTestListener - ExcelReport generated
+2019-10-18 12:34:10,409 [main] INFO com.odoo.webutils.MyTestListener - Framework execution Time Taken: 37.0seconds
+2019-10-18 12:34:10,409 [main] INFO com.odoo.webutils.MyTestListener - Framework execution ends

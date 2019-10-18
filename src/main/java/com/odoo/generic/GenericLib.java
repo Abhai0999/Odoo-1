@@ -3,7 +3,9 @@ package com.odoo.generic;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.text.MessageFormat;
 import java.util.Properties;
+import java.util.Random;
 
 public class GenericLib
 {
@@ -49,5 +51,12 @@ public class GenericLib
 		
 		return filepath;
 	}
-
+	public String randomValue() {
+		String valueString;
+		Random rm = new Random();
+		int value = rm.nextInt(1000);
+		valueString = Integer.toString(value);
+		
+		return valueString;
+	}
 }
