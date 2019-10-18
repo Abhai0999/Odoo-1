@@ -4,7 +4,9 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.text.MessageFormat;
 import java.text.SimpleDateFormat;
+import java.util.Random;
 
 import org.apache.poi.EncryptedDocumentException;
 import org.apache.poi.ss.usermodel.Cell;
@@ -13,26 +15,35 @@ import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
-import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.openqa.selenium.WebDriver;
+
+
 
 public class ExcelUtilities 
 {
+
 	String filepath;
+	SeleniumLib sl;
+	
+
 
 	public ExcelUtilities(String filepath)  //read data
 
-	{
+	{  
 		this.filepath=filepath;
+		sl=new SeleniumLib();
 	}
 
 	public ExcelUtilities() //write data
 	{
 
 	}
+	
 
 	public String[] readData(String sheetName, String testcaseID) 
 	{
 		String[] value=null;
+
 
 		try
 		{
@@ -79,6 +90,7 @@ public class ExcelUtilities
 							break;
 						}
 
+
 					} //end cell loop
 
 					break;
@@ -92,8 +104,10 @@ public class ExcelUtilities
 		}
 		catch(IOException e)
 		{
-
 		}
+
+
+
 
 		return value;
 	}
@@ -105,10 +119,40 @@ public class ExcelUtilities
 
 		sh.createRow(row).createCell(0).setCellValue(title);
 		sh.getRow(row).createCell(1).setCellValue(data);
+
 	}
 
-	
+	public String readAndWriteData(String sheet,int row,int cell) 
+	{
+		String customerName=null;
 
-	
+		try
+		{
+			File file=new File(filepath);
+			FileInputStream fis=new FileInputStream(file);
+			Workbook wb = WorkbookFactory.create(fis);
+			Cell cl = wb.getSheet(sheet).getRow(row).getCell(cell);
+			String getValue = cl.getStringCellValue();
+			customerName=sl.randomNumber("'"+getValue+"-"+"'{0}");
+			
+			
+			cl.setCellValue(customerName);
+			FileOutputStream fos=new FileOutputStream(file);
+			wb.write(fos);
+		}
+		catch(EncryptedDocumentException e)
+		{
+
+		}
+		catch(IOException e)
+		{
+
+		}
+		return customerName;
+	}
+
+
+
+
 
 }

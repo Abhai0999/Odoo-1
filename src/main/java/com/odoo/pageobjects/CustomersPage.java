@@ -18,6 +18,7 @@ public class CustomersPage
 	public String action="(//div[@class='btn-group o_dropdown']//button)[2]";
 	public String delete="//a[contains(text(),'Delete')]";
 	public String deleteConfirmation="//span[text()='Ok']";
+	public String customerLink="//a[text()='Customers']";
 	
 	
 }
