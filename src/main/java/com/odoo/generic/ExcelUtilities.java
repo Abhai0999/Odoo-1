@@ -2,8 +2,11 @@ package com.odoo.generic;
 
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
+import java.util.Random;
 
 import org.apache.poi.EncryptedDocumentException;
 import org.apache.poi.ss.usermodel.Cell;
@@ -102,4 +105,32 @@ public class ExcelUtilities
 		sh.getRow(row).createCell(1).setCellValue(data);
 	}
 	
+	
+	public String readAndWriteData(String sheetNmae,int row,int cell) 
+	{
+		String name=null;
+	try
+	{
+		File file=new File(filepath);
+		FileInputStream fis=new FileInputStream(file);
+		Workbook wb=WorkbookFactory.create(fis);
+		Cell cl1 = wb.getSheet(sheetNmae).getRow(row).getCell(cell);
+		name= cl1.getStringCellValue();
+		System.out.println(name);
+		
+		Random rd=new Random();
+		String[] str = name.split("-");
+		name=str[0]+"-"+rd.nextInt(1000);
+		System.out.println(name);
+		
+		cl1.setCellValue(name);
+		FileOutputStream fos=new FileOutputStream(file);
+		wb.write(fos);
+	}
+	catch(EncryptedDocumentException |  IOException e)
+	{
+		
+	}
+	return name;
+	}
 }
