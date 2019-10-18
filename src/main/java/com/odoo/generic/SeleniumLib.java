@@ -1,5 +1,7 @@
 package com.odoo.generic;
 
+import java.util.Random;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -93,7 +95,13 @@ public class SeleniumLib
 		}
 	}
 	
-	
+	public int randomValue()
+	{
+		Random rm=new Random();
+		int value=rm.nextInt(100);
+		return value;
+		
+	}
 	
 	
 	

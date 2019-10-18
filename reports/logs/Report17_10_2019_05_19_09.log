@@ -1,0 +1,15 @@
+2019-10-17 17:19:09,711 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
+2019-10-17 17:19:18,219 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
+2019-10-17 17:19:25,142 [main] INFO com.odoo.webutils.MyTestListener - creteCustomeTest script execution starts
+2019-10-17 17:20:03,292 [main] FATAL com.odoo.webutils.MyTestListener - element click intercepted: Element <div class="o_caption">...</div> is not clickable at point (752, 231). Other element would receive the click: <div class="blockUI blockOverlay" style="z-index: 1100; border: none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(0, 0, 0); opacity: 0.458754; cursor: default; position: fixed;"></div>
+  (Session info: chrome=77.0.3865.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ROBIN-PC', ip: '192.168.0.111', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\robin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58721}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 84e1c9a1f558627653b57c7b4b1261dc
+2019-10-17 17:20:03,375 [main] WARN com.odoo.webutils.MyTestListener - creteCustomeTest script is failed
+2019-10-17 17:20:04,689 [main] INFO com.odoo.webutils.MyTestListener - Screenshot has been taken 
+2019-10-17 17:20:05,782 [main] INFO com.odoo.webutils.MyTestListener - ExcelReport generated
+2019-10-17 17:20:05,783 [main] INFO com.odoo.webutils.MyTestListener - Framework execution Time Taken: 56.0seconds
+2019-10-17 17:20:05,784 [main] INFO com.odoo.webutils.MyTestListener - Framework execution ends

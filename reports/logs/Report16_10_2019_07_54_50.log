@@ -1,0 +1,18 @@
+2019-10-16 19:54:50,228 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
+2019-10-16 19:54:57,300 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
+2019-10-16 19:55:02,567 [main] INFO com.odoo.webutils.MyTestListener - validLoginTest script execution starts
+2019-10-16 19:55:35,106 [main] FATAL com.odoo.webutils.MyTestListener - invalid selector: Unable to locate an element with the xpath expression //input[@placeholder='Name']38 because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//input[@placeholder='Name']38' is not a valid XPath expression.
+  (Session info: chrome=77.0.3865.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ROBIN-PC', ip: '192.168.43.216', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\robin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49620}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: cebeb6db543b06e3c7f56d287a9c32d3
+*** Element info: {Using=xpath, value=//input[@placeholder='Name']38}
+2019-10-16 19:55:35,177 [main] WARN com.odoo.webutils.MyTestListener - validLoginTest script is failed
+2019-10-16 19:55:35,806 [main] INFO com.odoo.webutils.MyTestListener - Screenshot has been taken 
+2019-10-16 19:55:36,899 [main] INFO com.odoo.webutils.MyTestListener - ExcelReport generated
+2019-10-16 19:55:36,900 [main] INFO com.odoo.webutils.MyTestListener - Framework execution Time Taken: 46.0seconds
+2019-10-16 19:55:36,901 [main] INFO com.odoo.webutils.MyTestListener - Framework execution ends

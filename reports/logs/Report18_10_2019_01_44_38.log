@@ -1,0 +1,8 @@
+2019-10-18 13:44:39,117 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
+2019-10-18 13:44:45,996 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
+2019-10-18 13:44:53,377 [main] INFO com.odoo.webutils.MyTestListener - creteCustomeTest script execution starts
+2019-10-18 13:45:56,715 [main] WARN com.odoo.webutils.MyTestListener - creteCustomeTest script is failed
+2019-10-18 13:45:57,272 [main] INFO com.odoo.webutils.MyTestListener - Screenshot has been taken 
+2019-10-18 13:45:57,935 [main] INFO com.odoo.webutils.MyTestListener - ExcelReport generated
+2019-10-18 13:45:57,936 [main] INFO com.odoo.webutils.MyTestListener - Framework execution Time Taken: 79.0seconds
+2019-10-18 13:45:57,936 [main] INFO com.odoo.webutils.MyTestListener - Framework execution ends
