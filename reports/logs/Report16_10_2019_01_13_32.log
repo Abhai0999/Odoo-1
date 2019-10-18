@@ -1,0 +1,18 @@
+2019-10-16 13:13:32,607 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
+2019-10-16 13:13:38,760 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
+2019-10-16 13:13:45,344 [main] INFO com.odoo.webutils.MyTestListener - createCustomer script execution starts
+2019-10-16 13:14:34,572 [main] FATAL com.odoo.webutils.MyTestListener - invalid selector: Unable to locate an element with the xpath expression //span[text()=sandy-1,244,746,321'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//span[text()=sandy-1,244,746,321']' is not a valid XPath expression.
+  (Session info: chrome=77.0.3865.90)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'JENSEN-PC', ip: '192.168.0.115', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\jensen\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49787}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ee8b17f154947644a718abb22eada404
+*** Element info: {Using=xpath, value=//span[text()=sandy-1,244,746,321']}
+2019-10-16 13:14:34,590 [main] WARN com.odoo.webutils.MyTestListener - createCustomer script is failed
+2019-10-16 13:14:35,053 [main] INFO com.odoo.webutils.MyTestListener - Screenshot has been taken 
+2019-10-16 13:14:35,545 [main] INFO com.odoo.webutils.MyTestListener - ExcelReport generated
+2019-10-16 13:14:35,545 [main] INFO com.odoo.webutils.MyTestListener - Framework execution Time Taken: 63.0seconds
+2019-10-16 13:14:35,546 [main] INFO com.odoo.webutils.MyTestListener - Framework execution ends

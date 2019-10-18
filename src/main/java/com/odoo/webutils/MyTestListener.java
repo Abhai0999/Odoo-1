@@ -84,7 +84,6 @@ public class MyTestListener implements ITestListener, WebDriverEventListener
 	public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
 	}
 
-	@Override
 	public void onTestFailedWithTimeout(ITestResult result) {
 	}
 

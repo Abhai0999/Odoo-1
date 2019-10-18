@@ -21,13 +21,5 @@ public class CommonFeatures
 		cs.clickMenuDrpDwnList();
 		cs.clickLogout();
 	}
-	public void salesDiv() {
-		sl.iSleep(4);
-		cs.clickCrm();
-		//sl.iSleep(3);
-		cs.clickSales();
-		//sl.iSleep(3);
-		cs.clickCust();
-		//sl.iSleep(3);
-	}
+	
 }

@@ -1,0 +1,13 @@
+2019-10-17 15:00:58,292 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
+2019-10-17 15:01:11,823 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
+2019-10-17 15:01:27,995 [main] INFO com.odoo.webutils.MyTestListener - createCustomer script execution starts
+2019-10-17 15:02:04,096 [main] FATAL com.odoo.webutils.MyTestListener - Cannot locate an element using xpath=//input[@id='login']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'JENSEN-PC', ip: '192.168.0.115', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: driver.version: EventFiringWebDriver
+2019-10-17 15:02:04,154 [main] WARN com.odoo.webutils.MyTestListener - createCustomer script is failed
+2019-10-17 15:02:10,490 [main] WARN com.odoo.webutils.MyTestListener - createCustomer script is failed
+2019-10-17 15:02:29,202 [main] INFO com.odoo.webutils.MyTestListener - ExcelReport generated
+2019-10-17 15:02:29,202 [main] INFO com.odoo.webutils.MyTestListener - Framework execution Time Taken: 91.0seconds
+2019-10-17 15:02:29,203 [main] INFO com.odoo.webutils.MyTestListener - Framework execution ends

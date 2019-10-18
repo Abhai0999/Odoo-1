@@ -2,8 +2,11 @@ package com.odoo.generic;
 
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.io.IOException;
+import java.text.MessageFormat;
 import java.text.SimpleDateFormat;
+import java.util.Random;
 
 import org.apache.poi.EncryptedDocumentException;
 import org.apache.poi.ss.usermodel.Cell;
@@ -12,6 +15,8 @@ import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
 
 public class ExcelUtilities 
 {
@@ -26,10 +31,13 @@ public class ExcelUtilities
 	{
 		
 	}
+	//String[] value;
 	
 	public String[] readData(String sheetName, String testcaseID) 
 	{
 		String[] value=null;
+		//value=null;
+		
 		
 		try
 		{
@@ -66,6 +74,7 @@ public class ExcelUtilities
 								long longValue=(long) cl.getNumericCellValue();
 								value[j]=Long.toString(longValue);
 							}
+		
 							break;
 							
 						case BOOLEAN:
@@ -75,6 +84,37 @@ public class ExcelUtilities
 						default:
 							break;
 						}
+						
+						Random rd=new Random();
+							int num = rd.nextInt(100);
+						if(j==3)
+						{
+							String spt = value[j];
+							String[] arr = spt.split("-");
+							String nval = arr[0]+"-{0}";
+							Object[] obj={num};
+							String optVal = MessageFormat.format(nval, obj);
+							rw.getCell(j).setCellValue(optVal);
+						}
+						else if (j==5) {
+							String spt = value[j];
+							String[] arr = spt.split("-");
+							String nval = arr[0]+"-{0}";
+							Object[] obj={num};
+							String optVal = MessageFormat.format(nval, obj);
+							rw.getCell(j).setCellValue(optVal);
+							
+						}
+						else
+						{
+							cl=rw.getCell(j);
+							cl.setCellValue(value[j]);
+						}
+						FileOutputStream fos=new FileOutputStream(new File(filepath));
+						wb.write(fos);
+						
+						
+						
 							
 					} //end cell loop
 					
@@ -82,6 +122,10 @@ public class ExcelUtilities
 				} //end if
 				
 			} //end of row loop
+			
+			
+			
+			
 		}
 		catch(EncryptedDocumentException e)
 		{
@@ -92,7 +136,13 @@ public class ExcelUtilities
 			
 		}
 		
+		//write code customer excel sheet.
+		//Workbook wc=new XSSFWorkbook();
+		//wc.createSheet(Sheet1);
+						
 		return value;
+		
+		
 	}
 	
 	
@@ -102,4 +152,5 @@ public class ExcelUtilities
 		sh.getRow(row).createCell(1).setCellValue(data);
 	}
 	
+
 }

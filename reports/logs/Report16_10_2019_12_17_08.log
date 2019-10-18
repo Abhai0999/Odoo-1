@@ -1,0 +1,17 @@
+2019-10-16 12:17:08,428 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
+2019-10-16 12:18:26,171 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
+2019-10-16 12:18:43,783 [main] INFO com.odoo.webutils.MyTestListener - createCustomer script execution starts
+2019-10-16 12:20:05,808 [main] FATAL com.odoo.webutils.MyTestListener - no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='sandy']"}
+  (Session info: chrome=77.0.3865.90)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'JENSEN-PC', ip: '192.168.0.115', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\jensen\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49205}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2e0a0f01f62aaa4bdb7b2b603fcffe4f
+*** Element info: {Using=xpath, value=//span[text()='sandy']}
+2019-10-16 12:20:06,193 [main] WARN com.odoo.webutils.MyTestListener - createCustomer script is failed
+2019-10-16 12:20:07,484 [main] INFO com.odoo.webutils.MyTestListener - Screenshot has been taken 
+2019-10-16 12:20:14,263 [main] INFO com.odoo.webutils.MyTestListener - ExcelReport generated
+2019-10-16 12:20:14,263 [main] INFO com.odoo.webutils.MyTestListener - Framework execution Time Taken: 186.0seconds
+2019-10-16 12:20:14,264 [main] INFO com.odoo.webutils.MyTestListener - Framework execution ends

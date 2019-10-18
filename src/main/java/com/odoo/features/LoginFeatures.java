@@ -19,6 +19,7 @@ public class LoginFeatures
 		ls.enterUN(username);
 		ls.enterPwd(password);
 		ls.clickLoginBtn();
+		
 	}
 	
 	public void verifyValidLogin(String username)

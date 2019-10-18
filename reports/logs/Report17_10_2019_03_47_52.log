@@ -1,0 +1,7 @@
+2019-10-17 15:47:52,279 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
+2019-10-17 15:47:59,408 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
+2019-10-17 15:48:14,760 [main] INFO com.odoo.webutils.MyTestListener - createCustomer script execution starts
+2019-10-17 15:48:59,908 [main] INFO com.odoo.webutils.MyTestListener - createCustomer script is passed
+2019-10-17 15:49:00,277 [main] INFO com.odoo.webutils.MyTestListener - ExcelReport generated
+2019-10-17 15:49:00,278 [main] INFO com.odoo.webutils.MyTestListener - Framework execution Time Taken: 68.0seconds
+2019-10-17 15:49:00,278 [main] INFO com.odoo.webutils.MyTestListener - Framework execution ends

@@ -1,5 +1,4 @@
 package com.odoo.generic;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -92,7 +91,6 @@ public class SeleniumLib
 			e.printStackTrace();
 		}
 	}
-	
 	
 	
 	

@@ -37,6 +37,7 @@ public class LoginSteps
 	public void clickLoginBtn()
 	{
 		driver.findElement(By.xpath(lp.loginBtn)).click();
+		sl.iSleep(5);
 	}
 	
 	public void verifyCRM()

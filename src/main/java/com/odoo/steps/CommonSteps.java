@@ -23,6 +23,7 @@ public class CommonSteps
 	
 	public void clickMenuDrpDwnList()
 	{
+		sl.iSleep(5);
 		driver.findElement(By.xpath(bp.menuDrpDwnList)).click();
 	}
 	
@@ -32,14 +33,15 @@ public class CommonSteps
 	}
 
 	public void clickCrm() {
+		sl.iSleep(5);
 		driver.findElement(By.xpath(bp.Crm)).click();
-		sl.eWaitForVisiblity(20, bp.Sales);
-		
+		//sl.eWaitForVisiblity(20, bp.Sales);
+		sl.iSleep(5);
 		
 	}
 	public void clickSales() {
 		driver.findElement(By.xpath(bp.Sales)).click();
-		sl.eWaitForVisiblity(20, bp.Customer);
+		//sl.eWaitForVisiblity(20, bp.Customer);
 	}
 	public void clickCust() {
 		driver.findElement(By.xpath(bp.Customer)).click();

@@ -6,7 +6,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 
 import com.odoo.features.CommonFeatures;
-import com.odoo.features.CustomerFeature;
+import com.odoo.features.SalesFeature;
 import com.odoo.features.LoginFeatures;
 import com.odoo.generic.Driver;
 import com.odoo.generic.GenericLib;
