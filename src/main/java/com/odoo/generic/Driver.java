@@ -9,6 +9,7 @@ public class Driver
 	public static WebDriver getDriver()
 	{
 		return wdriver;
+		
 	}
 	
 	public static void setDriver(WebDriver driver)

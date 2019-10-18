@@ -1,0 +1,10 @@
+2019-10-15 02:57:03,839 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
+2019-10-15 02:57:08,562 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
+2019-10-15 02:57:14,713 [main] INFO com.odoo.webutils.MyTestListener - newCustomer script execution starts
+2019-10-15 02:57:58,712 [main] FATAL com.odoo.webutils.MyTestListener - Keys to send should be a not null CharSequence
+2019-10-15 02:57:58,723 [main] WARN com.odoo.webutils.MyTestListener - newCustomer script is failed
+2019-10-15 02:57:59,130 [main] INFO com.odoo.webutils.MyTestListener - Screenshot has been taken 
+2019-10-15 02:58:00,219 [main] INFO com.odoo.webutils.MyTestListener - Browser Closed
+2019-10-15 02:58:00,488 [main] INFO com.odoo.webutils.MyTestListener - ExcelReport generated
+2019-10-15 02:58:00,488 [main] INFO com.odoo.webutils.MyTestListener - Framework execution Time Taken: 56.0seconds
+2019-10-15 02:58:00,488 [main] INFO com.odoo.webutils.MyTestListener - Framework execution ends
