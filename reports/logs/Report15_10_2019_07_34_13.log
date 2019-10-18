@@ -1,0 +1,23 @@
+2019-10-15 19:34:13,091 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
+2019-10-15 19:34:18,444 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
+2019-10-15 19:34:23,941 [main] INFO com.odoo.webutils.MyTestListener - CreateCustomerTest script execution starts
+2019-10-15 19:36:02,556 [main] FATAL com.odoo.webutils.MyTestListener - element not interactable
+  (Session info: chrome=77.0.3865.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PRASHANT-PC', ip: '192.168.1.207', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\prashant\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51034}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6bc16d012dc27787bbfbd221a27b3bbd
+2019-10-15 19:36:02,592 [main] WARN com.odoo.webutils.MyTestListener - CreateCustomerTest script is failed
+2019-10-15 19:36:03,269 [main] INFO com.odoo.webutils.MyTestListener - Screenshot has been taken 
+2019-10-15 19:36:03,469 [main] FATAL com.odoo.webutils.MyTestListener - element click intercepted: Element <a aria-expanded="false" class="dropdown-toggle" data-display="static" data-toggle="dropdown" href="#" role="button">...</a> is not clickable at point (1241, 23). Other element would receive the click: <div role="dialog" class="modal o_technical_modal show" tabindex="-1" data-backdrop="static" id="modal_254" open="open" aria-modal="true" style="display: block;">...</div>
+  (Session info: chrome=77.0.3865.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PRASHANT-PC', ip: '192.168.1.207', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\prashant\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51034}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6bc16d012dc27787bbfbd221a27b3bbd
+2019-10-15 19:36:06,714 [main] INFO com.odoo.webutils.MyTestListener - Browser Closed
+2019-10-15 19:36:07,272 [main] INFO com.odoo.webutils.MyTestListener - ExcelReport generated
+2019-10-15 19:36:07,273 [main] INFO com.odoo.webutils.MyTestListener - Framework execution Time Taken: 114.0seconds
+2019-10-15 19:36:07,274 [main] INFO com.odoo.webutils.MyTestListener - Framework execution ends

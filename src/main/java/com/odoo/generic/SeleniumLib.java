@@ -1,7 +1,10 @@
 package com.odoo.generic;
 
+import java.util.Random;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -93,9 +96,12 @@ public class SeleniumLib
 		}
 	}
 	
-	
-	
-	
+	public int randomValue()
+	{
+		Random rn=new Random();
+				int ran = rn.nextInt(1000);
+				return ran;
+	}
 	
 	
 	

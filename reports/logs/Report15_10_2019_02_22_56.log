@@ -1,0 +1,27 @@
+2019-10-15 14:22:56,497 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
+2019-10-15 14:23:03,420 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
+2019-10-15 14:23:15,184 [main] INFO com.odoo.webutils.MyTestListener - CreateCustomerTest script execution starts
+2019-10-15 14:23:44,487 [main] FATAL com.odoo.webutils.MyTestListener - no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='CRM']"}
+  (Session info: chrome=77.0.3865.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PRASHANT-PC', ip: '192.168.43.127', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\prashant\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49383}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 520e1068c64f85bd96afdec111e15306
+*** Element info: {Using=xpath, value=//div[text()='CRM']}
+2019-10-15 14:23:44,520 [main] WARN com.odoo.webutils.MyTestListener - CreateCustomerTest script is failed
+2019-10-15 14:23:45,116 [main] INFO com.odoo.webutils.MyTestListener - Screenshot has been taken 
+2019-10-15 14:23:45,160 [main] FATAL com.odoo.webutils.MyTestListener - no such element: Unable to locate element: {"method":"xpath","selector":"//li[@class='o_user_menu']/a"}
+  (Session info: chrome=77.0.3865.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PRASHANT-PC', ip: '192.168.43.127', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\prashant\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49383}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 520e1068c64f85bd96afdec111e15306
+*** Element info: {Using=xpath, value=//li[@class='o_user_menu']/a}
+2019-10-15 14:23:46,144 [main] INFO com.odoo.webutils.MyTestListener - Browser Closed
+2019-10-15 14:23:46,562 [main] INFO com.odoo.webutils.MyTestListener - ExcelReport generated
+2019-10-15 14:23:46,562 [main] INFO com.odoo.webutils.MyTestListener - Framework execution Time Taken: 50.0seconds
+2019-10-15 14:23:46,563 [main] INFO com.odoo.webutils.MyTestListener - Framework execution ends

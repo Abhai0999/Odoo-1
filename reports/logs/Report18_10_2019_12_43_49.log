@@ -1,0 +1,351 @@
+2019-10-18 12:43:49,950 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
+2019-10-18 12:43:56,592 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
+2019-10-18 12:44:20,347 [main] INFO com.odoo.webutils.MyTestListener - validLoginTest script execution starts
+2019-10-18 12:44:40,226 [main] FATAL com.odoo.webutils.MyTestListener - no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='CRM']"}
+  (Session info: chrome=77.0.3865.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PRASHANT-PC', ip: '192.168.43.127', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\prashant\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61954}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d3027db142bc7d28897968c0f34145cc
+*** Element info: {Using=xpath, value=//div[text()='CRM']}
+2019-10-18 12:44:40,789 [main] FATAL com.odoo.webutils.MyTestListener - no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='CRM']"}
+  (Session info: chrome=77.0.3865.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PRASHANT-PC', ip: '192.168.43.127', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\prashant\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61954}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d3027db142bc7d28897968c0f34145cc
+*** Element info: {Using=xpath, value=//div[text()='CRM']}
+2019-10-18 12:44:41,327 [main] FATAL com.odoo.webutils.MyTestListener - no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='CRM']"}
+  (Session info: chrome=77.0.3865.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PRASHANT-PC', ip: '192.168.43.127', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\prashant\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61954}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d3027db142bc7d28897968c0f34145cc
+*** Element info: {Using=xpath, value=//div[text()='CRM']}
+2019-10-18 12:44:41,865 [main] FATAL com.odoo.webutils.MyTestListener - no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='CRM']"}
+  (Session info: chrome=77.0.3865.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PRASHANT-PC', ip: '192.168.43.127', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\prashant\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61954}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d3027db142bc7d28897968c0f34145cc
+*** Element info: {Using=xpath, value=//div[text()='CRM']}
+2019-10-18 12:44:42,404 [main] FATAL com.odoo.webutils.MyTestListener - no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='CRM']"}
+  (Session info: chrome=77.0.3865.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PRASHANT-PC', ip: '192.168.43.127', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\prashant\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61954}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d3027db142bc7d28897968c0f34145cc
+*** Element info: {Using=xpath, value=//div[text()='CRM']}
+2019-10-18 12:44:42,944 [main] FATAL com.odoo.webutils.MyTestListener - no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='CRM']"}
+  (Session info: chrome=77.0.3865.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PRASHANT-PC', ip: '192.168.43.127', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\prashant\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61954}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d3027db142bc7d28897968c0f34145cc
+*** Element info: {Using=xpath, value=//div[text()='CRM']}
+2019-10-18 12:44:43,483 [main] FATAL com.odoo.webutils.MyTestListener - no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='CRM']"}
+  (Session info: chrome=77.0.3865.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PRASHANT-PC', ip: '192.168.43.127', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\prashant\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61954}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d3027db142bc7d28897968c0f34145cc
+*** Element info: {Using=xpath, value=//div[text()='CRM']}
+2019-10-18 12:44:44,024 [main] FATAL com.odoo.webutils.MyTestListener - no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='CRM']"}
+  (Session info: chrome=77.0.3865.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PRASHANT-PC', ip: '192.168.43.127', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\prashant\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61954}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d3027db142bc7d28897968c0f34145cc
+*** Element info: {Using=xpath, value=//div[text()='CRM']}
+2019-10-18 12:44:44,562 [main] FATAL com.odoo.webutils.MyTestListener - no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='CRM']"}
+  (Session info: chrome=77.0.3865.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PRASHANT-PC', ip: '192.168.43.127', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\prashant\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61954}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d3027db142bc7d28897968c0f34145cc
+*** Element info: {Using=xpath, value=//div[text()='CRM']}
+2019-10-18 12:44:45,101 [main] FATAL com.odoo.webutils.MyTestListener - no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='CRM']"}
+  (Session info: chrome=77.0.3865.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PRASHANT-PC', ip: '192.168.43.127', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\prashant\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61954}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d3027db142bc7d28897968c0f34145cc
+*** Element info: {Using=xpath, value=//div[text()='CRM']}
+2019-10-18 12:44:45,649 [main] FATAL com.odoo.webutils.MyTestListener - no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='CRM']"}
+  (Session info: chrome=77.0.3865.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PRASHANT-PC', ip: '192.168.43.127', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\prashant\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61954}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d3027db142bc7d28897968c0f34145cc
+*** Element info: {Using=xpath, value=//div[text()='CRM']}
+2019-10-18 12:44:46,188 [main] FATAL com.odoo.webutils.MyTestListener - no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='CRM']"}
+  (Session info: chrome=77.0.3865.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PRASHANT-PC', ip: '192.168.43.127', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\prashant\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61954}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d3027db142bc7d28897968c0f34145cc
+*** Element info: {Using=xpath, value=//div[text()='CRM']}
+2019-10-18 12:44:46,738 [main] FATAL com.odoo.webutils.MyTestListener - no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='CRM']"}
+  (Session info: chrome=77.0.3865.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PRASHANT-PC', ip: '192.168.43.127', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\prashant\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61954}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d3027db142bc7d28897968c0f34145cc
+*** Element info: {Using=xpath, value=//div[text()='CRM']}
+2019-10-18 12:44:47,281 [main] FATAL com.odoo.webutils.MyTestListener - no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='CRM']"}
+  (Session info: chrome=77.0.3865.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PRASHANT-PC', ip: '192.168.43.127', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\prashant\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61954}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d3027db142bc7d28897968c0f34145cc
+*** Element info: {Using=xpath, value=//div[text()='CRM']}
+2019-10-18 12:44:47,824 [main] FATAL com.odoo.webutils.MyTestListener - no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='CRM']"}
+  (Session info: chrome=77.0.3865.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PRASHANT-PC', ip: '192.168.43.127', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\prashant\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61954}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d3027db142bc7d28897968c0f34145cc
+*** Element info: {Using=xpath, value=//div[text()='CRM']}
+2019-10-18 12:44:48,365 [main] FATAL com.odoo.webutils.MyTestListener - no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='CRM']"}
+  (Session info: chrome=77.0.3865.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PRASHANT-PC', ip: '192.168.43.127', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\prashant\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61954}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d3027db142bc7d28897968c0f34145cc
+*** Element info: {Using=xpath, value=//div[text()='CRM']}
+2019-10-18 12:44:48,904 [main] FATAL com.odoo.webutils.MyTestListener - no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='CRM']"}
+  (Session info: chrome=77.0.3865.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PRASHANT-PC', ip: '192.168.43.127', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\prashant\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61954}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d3027db142bc7d28897968c0f34145cc
+*** Element info: {Using=xpath, value=//div[text()='CRM']}
+2019-10-18 12:44:49,444 [main] FATAL com.odoo.webutils.MyTestListener - no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='CRM']"}
+  (Session info: chrome=77.0.3865.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PRASHANT-PC', ip: '192.168.43.127', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\prashant\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61954}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d3027db142bc7d28897968c0f34145cc
+*** Element info: {Using=xpath, value=//div[text()='CRM']}
+2019-10-18 12:44:49,982 [main] FATAL com.odoo.webutils.MyTestListener - no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='CRM']"}
+  (Session info: chrome=77.0.3865.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PRASHANT-PC', ip: '192.168.43.127', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\prashant\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61954}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d3027db142bc7d28897968c0f34145cc
+*** Element info: {Using=xpath, value=//div[text()='CRM']}
+2019-10-18 12:44:50,521 [main] FATAL com.odoo.webutils.MyTestListener - no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='CRM']"}
+  (Session info: chrome=77.0.3865.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PRASHANT-PC', ip: '192.168.43.127', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\prashant\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61954}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d3027db142bc7d28897968c0f34145cc
+*** Element info: {Using=xpath, value=//div[text()='CRM']}
+2019-10-18 12:44:51,059 [main] FATAL com.odoo.webutils.MyTestListener - no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='CRM']"}
+  (Session info: chrome=77.0.3865.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PRASHANT-PC', ip: '192.168.43.127', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\prashant\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61954}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d3027db142bc7d28897968c0f34145cc
+*** Element info: {Using=xpath, value=//div[text()='CRM']}
+2019-10-18 12:44:51,597 [main] FATAL com.odoo.webutils.MyTestListener - no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='CRM']"}
+  (Session info: chrome=77.0.3865.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PRASHANT-PC', ip: '192.168.43.127', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\prashant\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61954}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d3027db142bc7d28897968c0f34145cc
+*** Element info: {Using=xpath, value=//div[text()='CRM']}
+2019-10-18 12:44:52,144 [main] FATAL com.odoo.webutils.MyTestListener - no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='CRM']"}
+  (Session info: chrome=77.0.3865.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PRASHANT-PC', ip: '192.168.43.127', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\prashant\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61954}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d3027db142bc7d28897968c0f34145cc
+*** Element info: {Using=xpath, value=//div[text()='CRM']}
+2019-10-18 12:44:52,827 [main] FATAL com.odoo.webutils.MyTestListener - no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='CRM']"}
+  (Session info: chrome=77.0.3865.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PRASHANT-PC', ip: '192.168.43.127', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\prashant\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61954}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d3027db142bc7d28897968c0f34145cc
+*** Element info: {Using=xpath, value=//div[text()='CRM']}
+2019-10-18 12:44:53,365 [main] FATAL com.odoo.webutils.MyTestListener - no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='CRM']"}
+  (Session info: chrome=77.0.3865.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PRASHANT-PC', ip: '192.168.43.127', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\prashant\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61954}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d3027db142bc7d28897968c0f34145cc
+*** Element info: {Using=xpath, value=//div[text()='CRM']}
+2019-10-18 12:44:53,908 [main] FATAL com.odoo.webutils.MyTestListener - no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='CRM']"}
+  (Session info: chrome=77.0.3865.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PRASHANT-PC', ip: '192.168.43.127', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\prashant\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61954}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d3027db142bc7d28897968c0f34145cc
+*** Element info: {Using=xpath, value=//div[text()='CRM']}
+2019-10-18 12:44:54,522 [main] FATAL com.odoo.webutils.MyTestListener - no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='CRM']"}
+  (Session info: chrome=77.0.3865.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PRASHANT-PC', ip: '192.168.43.127', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\prashant\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61954}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d3027db142bc7d28897968c0f34145cc
+*** Element info: {Using=xpath, value=//div[text()='CRM']}
+2019-10-18 12:44:55,060 [main] FATAL com.odoo.webutils.MyTestListener - no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='CRM']"}
+  (Session info: chrome=77.0.3865.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PRASHANT-PC', ip: '192.168.43.127', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\prashant\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61954}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d3027db142bc7d28897968c0f34145cc
+*** Element info: {Using=xpath, value=//div[text()='CRM']}
+2019-10-18 12:44:55,599 [main] FATAL com.odoo.webutils.MyTestListener - no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='CRM']"}
+  (Session info: chrome=77.0.3865.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PRASHANT-PC', ip: '192.168.43.127', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\prashant\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61954}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d3027db142bc7d28897968c0f34145cc
+*** Element info: {Using=xpath, value=//div[text()='CRM']}
+2019-10-18 12:44:56,135 [main] FATAL com.odoo.webutils.MyTestListener - no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='CRM']"}
+  (Session info: chrome=77.0.3865.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PRASHANT-PC', ip: '192.168.43.127', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\prashant\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61954}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d3027db142bc7d28897968c0f34145cc
+*** Element info: {Using=xpath, value=//div[text()='CRM']}
+2019-10-18 12:44:56,672 [main] FATAL com.odoo.webutils.MyTestListener - no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='CRM']"}
+  (Session info: chrome=77.0.3865.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PRASHANT-PC', ip: '192.168.43.127', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\prashant\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61954}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d3027db142bc7d28897968c0f34145cc
+*** Element info: {Using=xpath, value=//div[text()='CRM']}
+2019-10-18 12:44:57,210 [main] FATAL com.odoo.webutils.MyTestListener - no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='CRM']"}
+  (Session info: chrome=77.0.3865.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PRASHANT-PC', ip: '192.168.43.127', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\prashant\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61954}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d3027db142bc7d28897968c0f34145cc
+*** Element info: {Using=xpath, value=//div[text()='CRM']}
+2019-10-18 12:44:57,754 [main] FATAL com.odoo.webutils.MyTestListener - no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='CRM']"}
+  (Session info: chrome=77.0.3865.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PRASHANT-PC', ip: '192.168.43.127', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\prashant\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61954}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d3027db142bc7d28897968c0f34145cc
+*** Element info: {Using=xpath, value=//div[text()='CRM']}
+2019-10-18 12:44:58,293 [main] FATAL com.odoo.webutils.MyTestListener - no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='CRM']"}
+  (Session info: chrome=77.0.3865.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PRASHANT-PC', ip: '192.168.43.127', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\prashant\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61954}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d3027db142bc7d28897968c0f34145cc
+*** Element info: {Using=xpath, value=//div[text()='CRM']}
+2019-10-18 12:44:58,847 [main] FATAL com.odoo.webutils.MyTestListener - no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='CRM']"}
+  (Session info: chrome=77.0.3865.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PRASHANT-PC', ip: '192.168.43.127', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\prashant\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61954}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d3027db142bc7d28897968c0f34145cc
+*** Element info: {Using=xpath, value=//div[text()='CRM']}
+2019-10-18 12:44:59,384 [main] FATAL com.odoo.webutils.MyTestListener - no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='CRM']"}
+  (Session info: chrome=77.0.3865.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PRASHANT-PC', ip: '192.168.43.127', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\prashant\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61954}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d3027db142bc7d28897968c0f34145cc
+*** Element info: {Using=xpath, value=//div[text()='CRM']}
+2019-10-18 12:45:00,014 [main] FATAL com.odoo.webutils.MyTestListener - no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='CRM']"}
+  (Session info: chrome=77.0.3865.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PRASHANT-PC', ip: '192.168.43.127', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\prashant\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61954}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d3027db142bc7d28897968c0f34145cc
+*** Element info: {Using=xpath, value=//div[text()='CRM']}
+2019-10-18 12:45:00,561 [main] FATAL com.odoo.webutils.MyTestListener - no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='CRM']"}
+  (Session info: chrome=77.0.3865.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PRASHANT-PC', ip: '192.168.43.127', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\prashant\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61954}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d3027db142bc7d28897968c0f34145cc
+*** Element info: {Using=xpath, value=//div[text()='CRM']}
+2019-10-18 12:45:00,585 [main] WARN com.odoo.webutils.MyTestListener - validLoginTest script is failed
+2019-10-18 12:45:01,352 [main] INFO com.odoo.webutils.MyTestListener - Screenshot has been taken 
+2019-10-18 12:45:02,425 [main] INFO com.odoo.webutils.MyTestListener - Browser Closed
+2019-10-18 12:45:03,096 [main] INFO com.odoo.webutils.MyTestListener - ExcelReport generated
+2019-10-18 12:45:03,097 [main] INFO com.odoo.webutils.MyTestListener - Framework execution Time Taken: 73.0seconds
+2019-10-18 12:45:03,098 [main] INFO com.odoo.webutils.MyTestListener - Framework execution ends
