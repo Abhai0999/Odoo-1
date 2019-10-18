@@ -15,6 +15,15 @@ public class CommonSteps
 		this.driver=driver;
 		bp=new BasePage();
 	}
+	public void clickCrm() 
+	{
+		driver.findElement(By.xpath(bp.Crm)).click();
+		
+	}
+	public void clickonSales()
+	{
+		driver.findElement(By.xpath(bp.salesDrpDwn)).click();
+	}
 	
 	public void clickMenuDrpDwnList()
 	{
@@ -26,4 +35,9 @@ public class CommonSteps
 		driver.findElement(By.xpath(bp.logout)).click();
 	}
 	
+	
+	public void ClickCustomerBtn()
+	{
+		driver.findElement(By.xpath(bp.customerselect)).click();
+	}
 }

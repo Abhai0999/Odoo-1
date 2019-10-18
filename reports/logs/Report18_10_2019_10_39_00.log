@@ -1,0 +1,17 @@
+2019-10-18 10:39:00,385 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
+2019-10-18 10:39:06,156 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
+2019-10-18 10:39:09,115 [main] INFO com.odoo.webutils.MyTestListener - createCustomer script execution starts
+2019-10-18 10:40:05,554 [main] FATAL com.odoo.webutils.MyTestListener - no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Ok']"}
+  (Session info: chrome=77.0.3865.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ABC-PC', ip: '192.168.43.236', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\abc\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:53244}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a3055f73b8ca5e2b5d28d7e19feaffc6
+*** Element info: {Using=xpath, value=//span[text()='Ok']}
+2019-10-18 10:40:05,566 [main] WARN com.odoo.webutils.MyTestListener - createCustomer script is failed
+2019-10-18 10:40:05,949 [main] INFO com.odoo.webutils.MyTestListener - Screenshot has been taken 
+2019-10-18 10:40:06,121 [main] INFO com.odoo.webutils.MyTestListener - ExcelReport generated
+2019-10-18 10:40:06,122 [main] INFO com.odoo.webutils.MyTestListener - Framework execution Time Taken: 65.0seconds
+2019-10-18 10:40:06,122 [main] INFO com.odoo.webutils.MyTestListener - Framework execution ends

@@ -2,8 +2,11 @@ package com.odoo.generic;
 
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
+import java.util.Random;
 
 import org.apache.poi.EncryptedDocumentException;
 import org.apache.poi.ss.usermodel.Cell;
@@ -101,5 +104,62 @@ public class ExcelUtilities
 		sh.createRow(row).createCell(0).setCellValue(title);
 		sh.getRow(row).createCell(1).setCellValue(data);
 	}
+	
+	public void readAndWrite() throws EncryptedDocumentException, IOException
+	{
+		
+		FileInputStream fis=new FileInputStream(new File(filepath));
+		Workbook wbe = WorkbookFactory.create(fis);
+		Cell cl1 = wbe.getSheet("sheet1").getRow(2).getCell(3);		
+		String namecustomer = cl1.getStringCellValue();
+		System.out.println(namecustomer);
+		
+		Cell cl2 = wbe.getSheet("sheet1").getRow(2).getCell(8);	
+		String emailID = cl2.getStringCellValue();
+		System.out.println(emailID);
+		
+		Random rd=new Random();
+		String[] str=namecustomer.split("-");
+		namecustomer=str[0]+"-"+rd.nextInt(100);
+		System.out.println(namecustomer);
+		
+		String[] id = emailID.split("@");
+		emailID=namecustomer+"@"+id[1];
+		System.out.println(emailID);
+		
+		cl1.setCellValue(namecustomer);
+		cl2.setCellValue(emailID);
+		
+		FileOutputStream fost=new FileOutputStream(new File(filepath));
+		wbe.write(fost);
+		
+		
+	
+		
+		
+		
+	}
+	public String verifyCustdata(String customername) throws EncryptedDocumentException, IOException
+	{
+		String filepath= "./testdata/Odoodata.xlsx";
+		FileInputStream fist=new FileInputStream(new File(filepath));
+		Workbook wb = WorkbookFactory.create(fist);
+		Cell cl1 = wb.getSheet("Sheet1").getRow(3).getCell(0);
+		
+		cl1.setCellValue(customername);
+		
+
+		
+			FileOutputStream fos=new FileOutputStream(new File(filepath));
+		    wb.write(fos);	
+		    String cellv = cl1.getStringCellValue();
+			System.out.println(cellv);
+			
+		
+			return cellv;
+	     
+		           
+	}
+	
 	
 }

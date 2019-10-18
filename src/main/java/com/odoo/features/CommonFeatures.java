@@ -2,11 +2,13 @@ package com.odoo.features;
 
 import org.openqa.selenium.WebDriver;
 
+import com.odoo.generic.SeleniumLib;
 import com.odoo.steps.CommonSteps;
 
 public class CommonFeatures 
 {
 	CommonSteps cs;
+	SeleniumLib  sl;
 	
 	public CommonFeatures(WebDriver driver)
 	{
@@ -14,8 +16,10 @@ public class CommonFeatures
 	}
 	
 	public void logout()
-	{
+	{ 
 		cs.clickMenuDrpDwnList();
-		cs.clickLogout();
+        cs.clickLogout();
 	}
-}
+
+	}
+

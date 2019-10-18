@@ -1,0 +1,17 @@
+2019-10-17 12:46:29,822 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
+2019-10-17 12:46:34,558 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
+2019-10-17 12:46:39,509 [main] INFO com.odoo.webutils.MyTestListener - createCustomer script execution starts
+2019-10-17 12:47:25,124 [main] INFO com.odoo.webutils.MyTestListener - createCustomer script is passed
+2019-10-17 12:47:26,290 [main] INFO com.odoo.webutils.MyTestListener - deletecustomerfrompage script execution starts
+2019-10-17 12:48:19,177 [main] INFO com.odoo.webutils.MyTestListener - deletecustomerfrompage script is passed
+2019-10-17 12:48:19,242 [main] FATAL com.odoo.webutils.MyTestListener - element click intercepted: Element <a aria-expanded="false" class="dropdown-toggle" data-display="static" data-toggle="dropdown" href="#" role="button">...</a> is not clickable at point (998, 23). Other element would receive the click: <div role="dialog" class="modal o_technical_modal show" tabindex="-1" data-backdrop="static" id="modal_301" open="open" aria-modal="true" style="display: block;">...</div>
+  (Session info: chrome=77.0.3865.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ABC-PC', ip: '192.168.0.112', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\abc\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:49499}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c68fdc9f3862262a3124704b5e0ec23c
+2019-10-17 12:48:19,878 [main] INFO com.odoo.webutils.MyTestListener - Browser Closed
+2019-10-17 12:48:20,043 [main] INFO com.odoo.webutils.MyTestListener - ExcelReport generated
+2019-10-17 12:48:20,043 [main] INFO com.odoo.webutils.MyTestListener - Framework execution Time Taken: 110.0seconds
+2019-10-17 12:48:20,043 [main] INFO com.odoo.webutils.MyTestListener - Framework execution ends

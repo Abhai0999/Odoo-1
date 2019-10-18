@@ -6,4 +6,6 @@ public class BasePage
 	public String loggedInEmailID="//ul[@role='menu']//li[@class='o_user_menu']//span";
 	public String menuDrpDwnList="//li[@class='o_user_menu']/a";
 	public String logout="//a[text()='Log out']";
+	public String salesDrpDwn="//li/a[contains(text(),'Sales')]";
+	public String customerselect="//a[@role='menuitem']//span[text()='Customers']";
 }
