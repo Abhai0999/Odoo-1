@@ -8,12 +8,10 @@ import com.odoo.steps.CustomerSteps;
 
 public class SalesFeatures 
 {
-	
 	CustomerSteps cs;
 	CommonSteps cms;
 	SeleniumLib sl;
-	
-	
+		
 	public SalesFeatures(WebDriver driver) 
 	{
 		cs=new CustomerSteps(driver);
@@ -28,9 +26,9 @@ public class SalesFeatures
 		cms.clickCustomers();
 		cs.clickCreate();
 		cs.createCustomer(customerData);
+		cs.VerifyCrtCust(customerData);
 	}
-	
-	public void deleteCust(String customerData) 
+	public void deleteCust(String[] customerData) 
 	{
 		sl.iSleep(10);
 		cms.clickCRM();
@@ -38,5 +36,7 @@ public class SalesFeatures
 		cms.clickSales();
 		cms.clickCustomers();
 		cs.deleteCustomer(customerData);
+		sl.iSleep(10);
+		cs.VerifyDltCust(customerData);
 	}
 }

@@ -10,6 +10,7 @@ import com.odoo.features.SalesFeatures;
 import com.odoo.features.LoginFeatures;
 import com.odoo.generic.Driver;
 import com.odoo.generic.GenericLib;
+import com.odoo.steps.CustomerSteps;
 
 public abstract class BaseAbstractTest 
 {
@@ -17,6 +18,7 @@ public abstract class BaseAbstractTest
 	public LoginFeatures lf;
 	public CommonFeatures cf;
 	public SalesFeatures sf;
+	public CustomerSteps cs;
 	
 	@BeforeClass
 	public void setUp()
@@ -26,7 +28,8 @@ public abstract class BaseAbstractTest
 		driver.register(listener);
 		lf=new LoginFeatures(driver);
 		cf=new CommonFeatures(driver);
-		sf=new SalesFeatures(driver);	
+		sf=new SalesFeatures(driver);
+		cs=new CustomerSteps(driver);
 	}
 	
 	@BeforeMethod

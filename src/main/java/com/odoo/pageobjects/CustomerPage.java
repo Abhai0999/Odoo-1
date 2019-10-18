@@ -18,4 +18,6 @@ public class CustomerPage
 	public String actinDrpDwn="//button[contains(text(),'Action')]";
 	public String deleteBtn="//a[contains(text(),'Delete')]";
 	public String OkBtn="//span[text()='Ok']";
+	public String newCustName="//div[@class='oe_title']/h1/span";
+	public String customersTab="//li/a[text()='Customers']";
 }

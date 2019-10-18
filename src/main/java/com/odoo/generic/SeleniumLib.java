@@ -21,6 +21,7 @@ public class SeleniumLib
 	{
 		this.driver=driver;
 	}
+	public SeleniumLib() {};
 
 	public void mouseOver(WebElement ele)
 	{

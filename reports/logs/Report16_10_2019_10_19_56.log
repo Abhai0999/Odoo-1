@@ -1,5 +1,0 @@
-2019-10-16 22:19:56,442 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
-2019-10-16 22:20:08,244 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
-2019-10-16 22:20:13,868 [main] INFO com.odoo.webutils.MyTestListener - newCustomer script execution starts
-2019-10-16 22:20:25,410 [main] WARN com.odoo.webutils.MyTestListener - newCustomer script is failed
-2019-10-16 22:20:26,684 [main] INFO com.odoo.webutils.MyTestListener - Screenshot has been taken 
