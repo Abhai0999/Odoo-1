@@ -34,7 +34,7 @@ public class CustomerSteps
 		driver.findElement(By.xpath(cp.createBtn)).click();
 				
 		WebElement name = sl.explicitlyWait(cp.customerName);
-		name.sendKeys(CustomerData[3]);
+		name.sendKeys(sl.randomNumber("'"+CustomerData[3]+"-"+"'{0}"));
 		
 		WebElement street = sl.explicitlyWait(cp.streetName);
 		street.sendKeys(CustomerData[4]);
