@@ -12,8 +12,7 @@ public class BrowserFactory
 	{
 		WebDriver driver=null;
 		String filepath=GenericLib.getConfigFile();
-		
-		if (GenericLib.os.contains("Windows")) 
+				if (GenericLib.os.contains("Windows")) 
 		{
 			if (browserName.equalsIgnoreCase("chrome")) 
 			{

@@ -2,7 +2,7 @@ package com.odoo.steps;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+
 import org.testng.Assert;
 
 import com.odoo.generic.SeleniumLib;
@@ -26,6 +26,7 @@ public class LoginSteps
 	
 	public void enterUN(String username)
 	{
+		sl.iSleep(5);
 		driver.findElement(By.xpath(lp.unTxtBx)).sendKeys(username);
 	}
 	
