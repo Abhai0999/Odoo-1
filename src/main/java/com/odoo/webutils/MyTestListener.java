@@ -133,9 +133,9 @@ public class MyTestListener implements ITestListener, WebDriverEventListener
 		
 		ExcelUtilities eu=new ExcelUtilities();
 		eu.writeData(sh, 1, "Total scripts executed", executionCount);
-		eu.writeData(sh, 1, "Total scripts passed", passCount);
-		eu.writeData(sh, 1, "Total scripts failed", failCount);
-		eu.writeData(sh, 1, "Total scripts skipped", skipCount);
+		eu.writeData(sh, 2, "Total scripts passed", passCount);
+		eu.writeData(sh, 3, "Total scripts failed", failCount);
+		eu.writeData(sh, 4, "Total scripts skipped", skipCount);
 		
 		SimpleDateFormat sdf=new SimpleDateFormat("dd_MM_yyyy_hh_mm_ss");
 		

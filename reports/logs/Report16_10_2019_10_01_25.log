@@ -1,0 +1,14 @@
+2019-10-16 22:01:25,304 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
+2019-10-16 22:01:36,454 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
+2019-10-16 22:03:10,552 [main] INFO com.odoo.webutils.MyTestListener - newCustomer script execution starts
+2019-10-16 22:05:13,172 [main] FATAL com.odoo.webutils.MyTestListener - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=77.0.3865.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RQOJ408I', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\ASUS\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51319}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: bc41a051622d5c9bc958bd2ba5b8c8ce
+*** Element info: {Using=xpath, value=//div[text()='CRM']}
+2019-10-16 22:05:13,188 [main] WARN com.odoo.webutils.MyTestListener - newCustomer script is failed
+2019-10-16 22:05:13,204 [main] WARN com.odoo.webutils.MyTestListener - newCustomer script is failed

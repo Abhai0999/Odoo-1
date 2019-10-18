@@ -1,0 +1,23 @@
+2019-10-17 16:02:38,121 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
+2019-10-17 16:02:47,998 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
+2019-10-17 16:02:54,400 [main] INFO com.odoo.webutils.MyTestListener - newCustomer script execution starts
+2019-10-17 16:03:41,957 [main] FATAL com.odoo.webutils.MyTestListener - element click intercepted: Element <button class="btn btn-primary o-kanban-button-new" type="button" data-accesskey="c">...</button> is not clickable at point (49, 106). Other element would receive the click: <div class="blockUI blockOverlay" style="z-index: 1100; border: none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(0, 0, 0); opacity: 0.6; cursor: wait; position: fixed;"></div>
+  (Session info: chrome=77.0.3865.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RQOJ408I', ip: '192.168.43.244', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\ASUS\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63090}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ba9f025e3229e66871e9a70966ffe6d6
+2019-10-17 16:03:41,962 [main] WARN com.odoo.webutils.MyTestListener - newCustomer script is failed
+2019-10-17 16:03:42,334 [main] INFO com.odoo.webutils.MyTestListener - Screenshot has been taken 
+2019-10-17 16:04:05,095 [main] INFO com.odoo.webutils.MyTestListener - deleteCustomer script execution starts
+2019-10-17 16:04:49,225 [main] FATAL com.odoo.webutils.MyTestListener - chrome not reachable
+  (Session info: chrome=77.0.3865.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RQOJ408I', ip: '192.168.43.244', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\ASUS\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63090}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ba9f025e3229e66871e9a70966ffe6d6
+*** Element info: {Using=xpath, value=//div[text()='CRM']}
+2019-10-17 16:04:49,233 [main] WARN com.odoo.webutils.MyTestListener - deleteCustomer script is failed
+2019-10-17 16:05:03,473 [main] WARN com.odoo.webutils.MyTestListener - deleteCustomer script is failed

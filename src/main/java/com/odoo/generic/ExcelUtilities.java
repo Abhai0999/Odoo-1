@@ -13,6 +13,7 @@ import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
 
+
 public class ExcelUtilities 
 {
 	String filepath;
@@ -90,16 +91,13 @@ public class ExcelUtilities
 		catch(IOException e)
 		{
 			
-		}
-		
+		}	
 		return value;
 	}
-	
 	
 	public void writeData(Sheet sh, int row, String title, int data)
 	{
 		sh.createRow(row).createCell(0).setCellValue(title);
 		sh.getRow(row).createCell(1).setCellValue(data);
 	}
-	
 }

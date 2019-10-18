@@ -1,0 +1,4 @@
+2019-10-17 11:47:15,824 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
+2019-10-17 11:47:25,874 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
+2019-10-17 11:47:43,968 [main] INFO com.odoo.webutils.MyTestListener - deleteCustomer script execution starts
+2019-10-17 11:48:49,623 [main] INFO com.odoo.webutils.MyTestListener - deleteCustomer script is passed

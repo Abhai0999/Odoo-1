@@ -3,7 +3,7 @@
 <suite name="Suite">
 
 <listeners>
-<listener class-name="com.odoo.webutils.MyTestListener" />
+<listener class-name="com.odoo.webutils.MyTestListener"/>
 </listeners>
 
   <test name="Test">
