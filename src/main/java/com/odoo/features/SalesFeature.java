@@ -5,7 +5,6 @@ import org.openqa.selenium.WebDriver;
 import com.odoo.generic.SeleniumLib;
 import com.odoo.steps.CommonSteps;
 import com.odoo.steps.CustomersSteps;
-import com.odoo.steps.VerifyNewCustSteps;
 
 public class SalesFeature 
 {
@@ -33,6 +32,11 @@ public class SalesFeature
 		cs.clickCst();
 		cus.clickCreate();
 		cus.createCustomer(customerData);
+	}
+	
+	public void verifyNewCustomer(String userName,String custName)
+	{
+		cus.VerifyNewCustomer(userName, custName);
 	}
 	
 	

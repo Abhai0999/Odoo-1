@@ -66,6 +66,17 @@ public class CustomersSteps
 		driver.findElement(By.xpath(cp.saveBtn)).click();
 
 	}
+	
+	public void VerifyNewCustomer(String userName,String custName)
+	{
+		sl.iSleep(3);
+		String actual = driver.findElement(By.xpath(cp.newCustName)).getText();
+		Assert.assertEquals(actual, userName);
+		
+		String actualTitle = driver.getTitle();
+		String expTitle=""+custName+" - Odoo";		
+		Assert.assertEquals(actualTitle, expTitle);
+	}
 
 
 	public void dltCustomer(String[] customerData1)

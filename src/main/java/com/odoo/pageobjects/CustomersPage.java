@@ -14,6 +14,7 @@ public class CustomersPage
 	public String emailTxtBx="//input[@name='email']";
 	public String image="//button[@title='Edit']";
 	public String saveBtn="//div[@class='o_cp_buttons']//button[contains(text(),'Save')]";
+	public String newCustName="//div[@class='oe_title']/h1/span";
 	public String createdCustomer="//div[@class='oe_kanban_details']//strong//span";
 	public String action="(//div[@class='btn-group o_dropdown']//button)[2]";
 	public String delete="//a[contains(text(),'Delete')]";

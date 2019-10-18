@@ -2,7 +2,6 @@ package com.odoo.scripts;
 
 import org.testng.annotations.Test;
 
-import com.odoo.features.VerifyNewCustFeature;
 import com.odoo.generic.ExcelUtilities;
 import com.odoo.generic.GenericLib;
 import com.odoo.webutils.BaseAbstractTest;
@@ -19,8 +18,7 @@ public class SalesTest extends BaseAbstractTest
 		lf.login(customerData[1], customerData[2]);		
 		sf.createNewCustomer(customerData);		
 		String[] customerName = eu.readData("Sheet1", "createCustomer_ID");		  
-		 VerifyNewCustFeature vncf=new VerifyNewCustFeature(driver);
-		  vncf.verifyNewCustomer(customerName[3], customerName[3]);
+		sf.verifyNewCustomer(customerName[3], customerName[3]);
 		 
 	}
 	
