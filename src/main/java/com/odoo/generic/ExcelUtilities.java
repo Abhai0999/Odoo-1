@@ -106,62 +106,12 @@ public class ExcelUtilities
 		sh.getRow(row).createCell(1).setCellValue(data);
 	}
 	
-	public String writeVrfyDat(String namecustomer) throws EncryptedDocumentException, IOException 
-	{
-		
-		String filepath= "./testdata/Odoodata.xlsx";
-		FileInputStream fist=new FileInputStream(new File(filepath));
-		Workbook wbe = WorkbookFactory.create(fist);
-		Cell cl1 = wbe.getSheet("verifysheet").getRow(2).getCell(0);
-		
-		cl1.setCellValue(namecustomer);
-		
-
-		
-			FileOutputStream fos=new FileOutputStream(new File(filepath));
-		    wbe.write(fos);	
-		    String ts = cl1.getStringCellValue();
-			System.out.println(ts);
-			
-		
-			return ts;
-
 	
-		
-	}
-	public void readAndWrite() throws EncryptedDocumentException, IOException
-	{
-		
-		FileInputStream fist=new FileInputStream(new File(filepath));
-		Workbook wbe = WorkbookFactory.create(fist);
-		Cell cl1 = wbe.getSheet("sheet1").getRow(2).getCell(3);		
-		String namecustomer = cl1.getStringCellValue();
-		System.out.println(namecustomer);
-		
-		Cell cl2 = wbe.getSheet("sheet1").getRow(2).getCell(8);	
-		String emailID = cl2.getStringCellValue();
-		System.out.println(emailID);
-		
-		Random rd=new Random();
-		String[] str=namecustomer.split("-");
-		namecustomer=str[0]+"-"+rd.nextInt(100);
-		System.out.println(namecustomer);
-		
-		String[] id = emailID.split("@");
-		emailID=namecustomer+"@"+id[1];
-		System.out.println(emailID);
-		
-		cl1.setCellValue(namecustomer);
-		cl2.setCellValue(emailID);
-		
-		FileOutputStream fost=new FileOutputStream(new File(filepath));
-		wbe.write(fost);
-		
-		
-		
+	
+
 		
 	}
 	
 	
 	
-}
+

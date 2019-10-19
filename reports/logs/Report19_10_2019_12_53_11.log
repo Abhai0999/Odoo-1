@@ -1,0 +1,17 @@
+2019-10-19 12:53:11,871 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
+2019-10-19 12:53:17,497 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
+2019-10-19 12:53:22,596 [main] INFO com.odoo.webutils.MyTestListener - importTest script execution starts
+2019-10-19 12:54:09,929 [main] FATAL com.odoo.webutils.MyTestListener - no such element: Unable to locate element: {"method":"xpath","selector":"//span[@name='name']"}
+  (Session info: chrome=77.0.3865.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ROBIN-PC', ip: '192.168.43.216', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\robin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55363}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 45418bc5bd5c0c918eb436e248efa027
+*** Element info: {Using=xpath, value=//span[@name='name']}
+2019-10-19 12:54:09,935 [main] WARN com.odoo.webutils.MyTestListener - importTest script is failed
+2019-10-19 12:54:10,455 [main] INFO com.odoo.webutils.MyTestListener - Screenshot has been taken 
+2019-10-19 12:54:10,781 [main] INFO com.odoo.webutils.MyTestListener - ExcelReport generated
+2019-10-19 12:54:10,782 [main] INFO com.odoo.webutils.MyTestListener - Framework execution Time Taken: 59.0seconds
+2019-10-19 12:54:10,782 [main] INFO com.odoo.webutils.MyTestListener - Framework execution ends

@@ -36,11 +36,11 @@ public abstract class BaseAbstractTest
 	{
 		driver.get(GenericLib.getValue(GenericLib.getConfigFile(),"url"));
 	}
-//	
-//	@AfterMethod
-//	public void postCondition()
-//	{
-//		cf.logout();
-//	}
+	
+	@AfterMethod
+	public void postCondition()
+	{
+		cf.logout();
+	}
 
 }

@@ -26,7 +26,7 @@ public SalesFeatures(WebDriver driver)
 	sl=new SeleniumLib(driver);
 }
 
-public void createNewCustomer(String[] customerData) throws EncryptedDocumentException, IOException
+public void createNewCustomer(String[] customerData) 
 {
     sl.iSleep(2);
 	cs.clickOnCrm();
@@ -38,16 +38,27 @@ public void createNewCustomer(String[] customerData) throws EncryptedDocumentExc
 
 }
 
-public void deleteCustmer()
+public void deleteCustmer(String delCustmername)
 {
 
   
 	cs.clickOnCrm();
 	cs.clickOnSales();
 	cs.clickOnCustomer();
-	dcs.delCustomer();
+	dcs.delCustomer(delCustmername);
 	
 	
+}
+
+public void importCusomerFeature()
+{
+	cs.clickOnCrm();
+	cs.clickOnSales();
+	sl.iSleep(2);
+	cs.clickOnCustomer();
+	ccs.importCustomerSteps();
+	ccs.verifyImport();
+
 }
 
 

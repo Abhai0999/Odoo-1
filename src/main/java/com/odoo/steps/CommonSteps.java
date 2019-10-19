@@ -42,7 +42,7 @@ public class CommonSteps
 	
 	public void clickOnCustomer()
 	{
-		sl.iSleep(6);
+		sl.iSleep(5);
 		 driver.findElement(By.xpath(bp.clickCustmer)).click();
 	}
 	

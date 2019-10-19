@@ -1,0 +1,17 @@
+2019-10-19 12:06:40,371 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
+2019-10-19 12:06:47,185 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
+2019-10-19 12:06:51,703 [main] INFO com.odoo.webutils.MyTestListener - importTest script execution starts
+2019-10-19 12:07:35,439 [main] FATAL com.odoo.webutils.MyTestListener - no such element: Unable to locate element: {"method":"xpath","selector":"(//td//div[@class='select2-container oe_import_match_field select2-allowclear'])[1]"}
+  (Session info: chrome=77.0.3865.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ROBIN-PC', ip: '192.168.43.216', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\robin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53832}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ee7540242bc2a98d8c494a2c69396751
+*** Element info: {Using=xpath, value=(//td//div[@class='select2-container oe_import_match_field select2-allowclear'])[1]}
+2019-10-19 12:07:35,479 [main] WARN com.odoo.webutils.MyTestListener - importTest script is failed
+2019-10-19 12:07:36,117 [main] INFO com.odoo.webutils.MyTestListener - Screenshot has been taken 
+2019-10-19 12:07:36,860 [main] INFO com.odoo.webutils.MyTestListener - ExcelReport generated
+2019-10-19 12:07:36,861 [main] INFO com.odoo.webutils.MyTestListener - Framework execution Time Taken: 56.0seconds
+2019-10-19 12:07:36,861 [main] INFO com.odoo.webutils.MyTestListener - Framework execution ends

@@ -12,10 +12,16 @@ public class CustomerPage
 	 public String email=   "//input[@name='email']";
 	 public String save= "//button[contains(text(),'Save')]";
 	 public String selectCust= "(//div[contains(@class,'oe_kanban_global_click')])[1]";
+	// public String dynSelCust="//div[contains(@class,'oe_kanban_global_click')]//span[text()='"+namec+"']";
 	 public String action= "//button[contains(text(),'Action')]";
 	 public String delBtn= "//a[contains(text(),'Delete')]";
 	 public String okBtn= "//span[text()='Ok']";	
 	 public String editBtn= "//button[@title='Edit']";
 	 public String imok= "(//button[@class='btn btn-primary']//span[text()='Ok'])[1]";
      public String verCus= "//span[@name='name']";
-}
+     public String importBtn= "//button[contains(text(),'Import')]";
+     public String loadFilBtn= "//button[text()='Load File']";
+     public String importBtn1= "//button[text()='Import']";
+     public String rows= "(//td//a[@class='select2-choice'])[1]";
+     public String selNam = "(//input[@role='combobox'])[9]";
+     }

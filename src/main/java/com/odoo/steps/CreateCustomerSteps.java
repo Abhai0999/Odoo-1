@@ -2,9 +2,15 @@ package com.odoo.steps;
 
 
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.io.IOException;
 
 import org.apache.poi.EncryptedDocumentException;
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.ss.usermodel.WorkbookFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -13,6 +19,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 
 import com.odoo.generic.ExcelUtilities;
+import com.odoo.generic.GenericLib;
 import com.odoo.generic.SeleniumLib;
 import com.odoo.pageobjects.BasePage;
 import com.odoo.pageobjects.CustomerPage;
@@ -80,20 +87,31 @@ public class CreateCustomerSteps
 	
 	}
 	
-	public void verifyCreateCustomer() throws EncryptedDocumentException, IOException 
+	public void verifyCreateCustomer() 
 	{
 		sl.iSleep(4);
-        String verifycstmer = driver.findElement(By.xpath(cp.verCus)).getText();	
-        
-    ExcelUtilities es=new ExcelUtilities();
-      sl.iSleep(5);
-      String namec = es.writeVrfyDat(verifycstmer);
-      System.out.println(namec);
+        String verifycstmer = driver.findElement(By.xpath(cp.verCus)).getText();
+        System.out.println(verifycstmer);
+		try
+		{	
+	    String filepath=GenericLib.dir+"/testdata/Odoodata.xlsx";
+		FileInputStream fist=new FileInputStream(new File(filepath));
+		Workbook wbe = WorkbookFactory.create(fist);
+		Cell cl1 = wbe.getSheet("verifysheet").getRow(1).getCell(3);
+		sl.iSleep(2);
+		
+		cl1.setCellValue(verifycstmer);
+
+		FileOutputStream fost=new FileOutputStream(new File(filepath));
+	     wbe.write(fost);
+	
+		String namec = cl1.getStringCellValue();
+		System.out.println(namec);
+		
+	
       String[] namec1 = namec.split("-");
       String namec2 = namec1[1];
-      String names = namec1[0];
-      
-       
+     
        String title = driver.getTitle();
        String[] titl = title.split("-");
  	  String title1 = titl[0]+"-"+namec2;
@@ -101,10 +119,81 @@ public class CreateCustomerSteps
        Assert.assertEquals(title1,namec);
        System.out.println("customer is verified");
 		
-		
-		
+		}
+   	catch (EncryptedDocumentException e) 
+	{
 		
 	}
+		catch (IOException e) 
+		{
+			
+		}
+		
+	}
+	
+	public void importCustomerSteps()
+	{
+		sl.iSleep(5);
+		driver.findElement(By.xpath(cp.importBtn)).click();
+		sl.iSleep(2);
+		driver.findElement(By.xpath(cp.loadFilBtn)).click();
+		sl.iSleep(4);
 
+		try {
+			Runtime.getRuntime().exec("E:\\seleniumadvancedec\\Odoo\\Resources\\import.exe");
+			
+		}
+
+			catch (Exception e)
+			{
+				e.printStackTrace();
+			}
+		
+		sl.iSleep(4);
+		
+		driver.findElement(By.xpath(cp.rows)).click();
+		WebElement sele = driver.findElement(By.xpath(cp.selNam));
+		sele.sendKeys("Name");
+		sele.sendKeys(Keys.ARROW_DOWN);
+		sele.sendKeys(Keys.ENTER);
+		
+		driver.findElement(By.xpath(cp.importBtn1)).click();
+	}
+	
+	public void verifyImport()
+
+	{
+		
+		try
+		{	
+			
+	    String filepath=GenericLib.dir+"./Resources/Import.xlsx";
+		FileInputStream fist=new FileInputStream(new File(filepath));
+		Workbook wbe = WorkbookFactory.create(fist);
+		Cell cl1 = wbe.getSheet("Sheet1").getRow(1).getCell(0);
+		sl.iSleep(2);
+		
+		String name11 = cl1.getStringCellValue();
+		System.out.println(name11);
+		sl.iSleep(4);
+		
+		String verifycstmer = driver.findElement(By.xpath("//div[contains(@class,'oe_kanban_global_click')]//span[text()='"+name11+"']")).getText();
+	       System.out.println(verifycstmer);
+	       
+           Assert.assertEquals(verifycstmer,name11);
+       System.out.println(" import customer is verified");
+		
+		}
+   	catch (EncryptedDocumentException e) 
+	{
+		
+	}
+		catch (IOException e) 
+		{
+			
+		}
+		
+	}
+	
 }
 
