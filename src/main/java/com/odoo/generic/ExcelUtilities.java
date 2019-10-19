@@ -1,4 +1,4 @@
-package com.odoo.generic;
+  package com.odoo.generic;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -46,40 +46,40 @@ public class ExcelUtilities
 				Row rw = sh.getRow(i);
 				if (rw.getCell(0).getStringCellValue().equalsIgnoreCase(testcaseID)) 
 				{
-					int cellCount = rw.getLastCellNum();
-					value=new String[cellCount];
-					for (int j = 0; j < cellCount; j++) 
-					{
-						Cell cl = rw.getCell(j);
+				int cellCount = rw.getLastCellNum();
+				value=new String[cellCount];
+				for (int j = 0; j < cellCount; j++) 
+				{
+				Cell cl = rw.getCell(j);
 						
-						switch (cl.getCellType()) 
-						{
-						case STRING:
-							value[j]=cl.getStringCellValue();
-							break;
+				switch (cl.getCellType()) 
+				{
+				case STRING:
+			    value[j]=cl.getStringCellValue();
+				break;
 							
-						case NUMERIC:
-							if (DateUtil.isCellDateFormatted(cl)) 
-							{
-								SimpleDateFormat sdf=new SimpleDateFormat("dd/MM/yyyy");
-								value[j]=sdf.format(cl.getDateCellValue());
-							}
-							else
-							{
-								long longValue=(long) cl.getNumericCellValue();
-								value[j]=Long.toString(longValue);
-							}
-							break;
+				case NUMERIC:
+				if (DateUtil.isCellDateFormatted(cl)) 
+				{
+				SimpleDateFormat sdf=new SimpleDateFormat("dd/MM/yyyy");
+				value[j]=sdf.format(cl.getDateCellValue());
+				}
+				else
+				{
+				long longValue=(long) cl.getNumericCellValue();
+				value[j]=Long.toString(longValue);
+				}
+				break;
 							
-						case BOOLEAN:
-							value[j]=Boolean.toString(cl.getBooleanCellValue());
-							break;
+				case BOOLEAN:
+				value[j]=Boolean.toString(cl.getBooleanCellValue());
+				break;
 							
-						default:
-							break;
-						}
+				default:
+				break;
+				}
 							
-					} //end cell loop
+				} //end cell loop
 					
 					break;
 				} //end if
@@ -133,33 +133,23 @@ public class ExcelUtilities
 		FileOutputStream fost=new FileOutputStream(new File(filepath));
 		wbe.write(fost);
 		
-		
-	
-		
-		
-		
 	}
 	public String verifyCustdata(String customername) throws EncryptedDocumentException, IOException
-	{
+	 {
 		String filepath= "./testdata/Odoodata.xlsx";
 		FileInputStream fist=new FileInputStream(new File(filepath));
 		Workbook wb = WorkbookFactory.create(fist);
-		Cell cl1 = wb.getSheet("Sheet1").getRow(3).getCell(0);
+		Cell cl1 = wb.getSheet("Sheet1").getRow(3).getCell(1);
 		
 		cl1.setCellValue(customername);
-		
-
-		
-			FileOutputStream fos=new FileOutputStream(new File(filepath));
-		    wb.write(fos);	
-		    String cellv = cl1.getStringCellValue();
-			System.out.println(cellv);
+		FileOutputStream fos=new FileOutputStream(new File(filepath));
+		wb.write(fos);	
+		String cellv = cl1.getStringCellValue();
+	    System.out.println(cellv);
 			
 		
-			return cellv;
+		return cellv;
 	     
 		           
 	}
-	
-	
-}
+	}

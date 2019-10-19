@@ -29,7 +29,18 @@ public class SalesTest extends BaseAbstractTest
 		ExcelUtilities eu=new ExcelUtilities(filepath);
 		String[] customerData = eu.readData("Sheet1", "createCustomer_ID");
 		
-		//lf.login(customerData[1], customerData[2]);
-		sf.delcustmoer();
+		lf.login(customerData[1], customerData[2]);
+		String[] sel = eu.readData("Sheet1","customersel_ID");
+		sf.delcustmoer(sel[1]);
+ }
+ @Test
+ public void custimp()
+ {
+	String filepath=GenericLib.dir+"/testdata/Odoodata.xlsx";
+	ExcelUtilities eu=new ExcelUtilities(filepath);
+	String[] customerData = eu.readData("Sheet1", "createCustomer_ID");
+		
+	lf.login(customerData[1], customerData[2]);
+	sf.customerimport();
  }
 }

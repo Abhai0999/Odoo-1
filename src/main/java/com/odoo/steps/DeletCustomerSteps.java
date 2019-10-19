@@ -22,10 +22,12 @@ public class DeletCustomerSteps
 	   sl=new SeleniumLib(driver);
 	   
    }
-   public void deleteCustomer() 
-   {    sl.iSleep(7);
-	   driver.findElement(By.xpath(cp.selectdelcust)).click();
+   public void deleteCustomer(String deletCustmer) 
+   {   
+	    
 	   sl.iSleep(5);
+       driver.findElement(By.xpath("//div[contains(@class,'oe_kanban_global_click')]//span[text()='"+deletCustmer+"']")).click();
+       sl.iSleep(5);
 	   driver.findElement(By.xpath(cp.clickonaction)).click();
 	   sl.iSleep(5);
 	   driver.findElement(By.xpath(cp.clickondelete)).click();

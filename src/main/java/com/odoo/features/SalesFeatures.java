@@ -40,7 +40,7 @@ public void createCustomer(String[] customerData) throws EncryptedDocumentExcept
 	ccs.verifyCreateCustomer();
 }
 			
-public void delcustmoer()
+public void delcustmoer(String delcustomer)
 {   
 	sl.iSleep(7);
 	cs.clickCrm();
@@ -52,7 +52,20 @@ public void delcustmoer()
 	cs.ClickCustomerBtn();
 	
 	sl.iSleep(7);
-	dcs.deleteCustomer();
+	dcs.deleteCustomer(delcustomer);
 }
+public void customerimport()
+{
+	sl.iSleep(7);
+    cs.clickCrm();
 
+    sl.iSleep(7);
+    cs.clickonSales();
+
+     sl.iSleep(7);
+     cs.ClickCustomerBtn();
+    ccs.imptcustomerfile();
+    sl.iSleep(7);
+	ccs.verifyimportcustomer();
+}
 }
