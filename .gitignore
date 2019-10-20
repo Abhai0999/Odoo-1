@@ -1,0 +1,12 @@
+#testng reports
+test-output/
+
+#maven reports & compiled files
+target/
+
+#log4j reports & excel reports
+
+#screenshots
+
+#allure reports
+allure-results/
