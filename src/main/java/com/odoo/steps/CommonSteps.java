@@ -5,14 +5,15 @@ import org.openqa.selenium.WebDriver;
 
 import com.odoo.generic.SeleniumLib;
 import com.odoo.pageobjects.BasePage;
-import com.odoo.pageobjects.CustomerPage;
+import com.odoo.pageobjects.CustomersPage;
+
 
 public class CommonSteps 
 {
 	WebDriver driver;
 	BasePage bp;
 	SeleniumLib sl;
-	CustomerPage cp;
+	CustomersPage cp;
 	public CommonSteps(WebDriver driver)
 	{
 		this.driver=driver;

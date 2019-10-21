@@ -1,47 +1,62 @@
 package com.odoo.features;
 
-
-
-
-
 import org.openqa.selenium.WebDriver;
 
 import com.odoo.generic.SeleniumLib;
 import com.odoo.steps.CommonSteps;
-import com.odoo.steps.CustomerSteps;
+import com.odoo.steps.CustomersSteps;
 
-public class SalesFeature {
-	public WebDriver driver;
-	CustomerSteps cus;
+public class SalesFeature 
+{
+
+	CustomersSteps cus;
 	CommonSteps cs;
 	SeleniumLib sl;
 	
-	public SalesFeature(WebDriver driver) {
+	
+	
+	
+	public SalesFeature(WebDriver driver)
+	{
 		
-		this.driver=driver;
-		
-		cus=new CustomerSteps(driver);
+		cus=new CustomersSteps(driver);
 		cs=new CommonSteps(driver);
 		sl=new SeleniumLib(driver);
 		
 	}
 	
-	public void createNewCustomer(String [] customerData) 
+	public void createNewCustomer(String[] customerData)
 	{
-		sl.iSleep(4);
 		cs.clickCrm();
-		sl.iSleep(4);
 		cs.clickSales();
-		sl.iSleep(4);
-		
 		cs.clickCust();
-		sl.iSleep(4);
 		cus.clickCreate();
-		sl.iSleep(4);
 		cus.createCustomer(customerData);
-	
-		
 	}
 	
-
+	public void verifyNewCustomer(String userName,String custName)
+	{
+		cus.VerifyNewCustomer(userName, custName);
+	}
+	
+	
+	
+	public void dltNewCustomer(String[] customerData1 )
+	{
+		
+		cs.clickCrm();
+		cs.clickSales();
+		cs.clickCust();
+		cus.dltCustomer(customerData1);
+	}
+	
+	public void verifyDltCustomer(String[] expextedCust )
+	{
+		cus.verifyDltCustomer(expextedCust);
+	}
+	
+	
+	
+	
+	
 }
