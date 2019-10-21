@@ -9,4 +9,12 @@ public class BasePage
 	
 	public String sales=" //ul[@role='menu']//a[contains(text(),' Sales')]";
 	public String customers="//span[text()='Customers']";
+	
+	public String configuration="//a[contains(text(),'Configuration')]";
+	public String salesTeam="//span[text()='Sales Teams']";
+	public String create="//button[contains(text(),'Create')]";
+	public String save="//button[contains(text(),'Save')]";
+	
+	
+
 }

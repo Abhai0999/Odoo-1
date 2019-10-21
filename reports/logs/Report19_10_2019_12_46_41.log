@@ -1,0 +1,19 @@
+2019-10-19 00:46:41,876 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
+2019-10-19 00:46:47,146 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
+2019-10-19 00:46:54,628 [main] INFO com.odoo.webutils.MyTestListener - createCustomer script execution starts
+2019-10-19 00:47:40,631 [main] INFO com.odoo.webutils.MyTestListener - createCustomer script is passed
+2019-10-19 00:47:45,931 [main] FATAL com.odoo.webutils.MyTestListener - element not interactable
+  (Session info: chrome=77.0.3865.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADARSH', ip: '192.168.1.225', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\ANSHU\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65155}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5b194778e687a3880ff14fc449383452
+2019-10-19 00:47:45,981 [main] INFO com.odoo.webutils.MyTestListener - createOpportunity script execution starts
+2019-10-19 00:47:45,981 [main] INFO com.odoo.webutils.MyTestListener - createOpportunity script is skipped
+2019-10-19 00:47:45,997 [main] INFO com.odoo.webutils.MyTestListener - deleteCustomer script execution starts
+2019-10-19 00:47:45,997 [main] INFO com.odoo.webutils.MyTestListener - deleteCustomer script is skipped
+2019-10-19 00:47:49,674 [main] INFO com.odoo.webutils.MyTestListener - Browser Closed
+2019-10-19 00:47:49,847 [main] INFO com.odoo.webutils.MyTestListener - ExcelReport generated
+2019-10-19 00:47:49,847 [main] INFO com.odoo.webutils.MyTestListener - Framework execution Time Taken: 68.0seconds
+2019-10-19 00:47:49,847 [main] INFO com.odoo.webutils.MyTestListener - Framework execution ends

@@ -1,0 +1,29 @@
+2019-10-19 08:31:01,698 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
+2019-10-19 08:31:06,945 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
+2019-10-19 08:31:11,420 [main] INFO com.odoo.webutils.MyTestListener - createCustomer script execution starts
+2019-10-19 08:31:57,792 [main] INFO com.odoo.webutils.MyTestListener - createCustomer script is passed
+2019-10-19 08:32:10,084 [main] INFO com.odoo.webutils.MyTestListener - createOpportunity script execution starts
+2019-10-19 08:32:44,470 [main] FATAL com.odoo.webutils.MyTestListener - no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Create']"}
+  (Session info: chrome=77.0.3865.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADARSH', ip: '192.168.1.225', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\ANSHU\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50334}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a5608143765933f627a84006be7905f7
+*** Element info: {Using=xpath, value=//span[text()='Create']}
+2019-10-19 08:32:44,481 [main] WARN com.odoo.webutils.MyTestListener - createOpportunity script is failed
+2019-10-19 08:32:44,983 [main] INFO com.odoo.webutils.MyTestListener - Screenshot has been taken 
+2019-10-19 08:32:55,357 [main] FATAL com.odoo.webutils.MyTestListener - element click intercepted: Element <a class="dropdown-item" data-menu="logout" href="#" role="menuitem">...</a> is not clickable at point (1261, 203). Other element would receive the click: <div role="dialog" class="modal o_technical_modal show" tabindex="-1" data-backdrop="static" id="modal_149" open="open" aria-modal="true" style="display: block;">...</div>
+  (Session info: chrome=77.0.3865.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADARSH', ip: '192.168.1.225', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\ANSHU\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50334}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a5608143765933f627a84006be7905f7
+2019-10-19 08:32:55,381 [main] INFO com.odoo.webutils.MyTestListener - deleteCustomer script execution starts
+2019-10-19 08:32:55,388 [main] INFO com.odoo.webutils.MyTestListener - deleteCustomer script is skipped
+2019-10-19 08:32:59,193 [main] INFO com.odoo.webutils.MyTestListener - Browser Closed
+2019-10-19 08:32:59,366 [main] INFO com.odoo.webutils.MyTestListener - ExcelReport generated
+2019-10-19 08:32:59,366 [main] INFO com.odoo.webutils.MyTestListener - Framework execution Time Taken: 117.0seconds
+2019-10-19 08:32:59,366 [main] INFO com.odoo.webutils.MyTestListener - Framework execution ends

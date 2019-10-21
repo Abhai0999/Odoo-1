@@ -1,0 +1,13 @@
+2019-10-19 08:14:30,575 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
+2019-10-19 08:14:36,670 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
+2019-10-19 08:14:40,665 [main] INFO com.odoo.webutils.MyTestListener - createCustomer script execution starts
+2019-10-19 08:15:12,138 [main] FATAL com.odoo.webutils.MyTestListener - chrome not reachable
+  (Session info: chrome=77.0.3865.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADARSH', ip: '192.168.1.225', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\ANSHU\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49379}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b9e9b91ebb93da8053d2e2aa901bb92b
+*** Element info: {Using=xpath, value=//button[contains(text(),'Create')]}
+2019-10-19 08:15:12,157 [main] WARN com.odoo.webutils.MyTestListener - createCustomer script is failed
+2019-10-19 08:15:18,189 [main] WARN com.odoo.webutils.MyTestListener - createCustomer script is failed

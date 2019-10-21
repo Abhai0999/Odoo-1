@@ -7,7 +7,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-
+import org.testng.Assert;
+import org.testng.Reporter;
 
 import com.odoo.generic.SeleniumLib;
 import com.odoo.pageobjects.BasePage;
@@ -27,11 +28,15 @@ public class CustomerSteps
 		ctp=new CustomerPage();
 		sl=new SeleniumLib(driver);
 	}
-	
-	public void createCustomer(String customerName,String [] customerData,String exepath)
+	public void clickOnCreate()
 	{
 		sl.iSleep(5);
 		driver.findElement(By.xpath(ctp.create)).click();
+	}
+	
+	public void createCustomer(String customerName,String [] customerData,String exepath)
+	{
+		
 		sl.iSleep(5);
 		driver.findElement(By.xpath(ctp.custName)).sendKeys(customerName);
 		driver.findElement(By.xpath(ctp.street)).sendKeys(customerData[4]);
@@ -53,12 +58,61 @@ public class CustomerSteps
 		{
 			e.printStackTrace();
 		}
+	}
+	
+	
+	public void clickOnSave()
+	{
 		sl.iSleep(5);
 		driver.findElement(By.xpath(ctp.save)).click();
-		sl.iSleep(5);
-		System.out.println("customer done****************");
 	}
-	public void deleteCustomer(String customerName)
+	
+	public void verifyCustText(String customerName)
+	{
+		String actTxt = driver.findElement(By.xpath(ctp.verifyCust)).getText();
+		Assert.assertEquals(actTxt, customerName);
+	}
+	public void verifyCustTitle(String customerName)
+	{
+		String exptitle=""+customerName+" - Odoo";
+		String acttitle = driver.getTitle();
+		Assert.assertEquals(acttitle, exptitle);
+	}
+	public void TotalCustomers(String customerName)
+	{
+		sl.iSleep(10);
+		List<WebElement> ele = driver.findElements(By.xpath(ctp.customerNames));
+		int count = ele.size();
+		for (int i = 0; i < count; i++) 
+		{
+			WebElement name = ele.get(i);
+			if(name.getText().equalsIgnoreCase(customerName))
+			{
+				name.click();
+				break;
+			}
+		}
+	}
+	
+	public void clickOnActions()
+	{
+		sl.iSleep(5);
+		driver.findElement(By.xpath(ctp.actions)).click();
+		sl.iSleep(5);
+		driver.findElement(By.xpath(ctp.delete)).click();
+		sl.iSleep(5);
+		driver.findElement(By.xpath(ctp.confrmOk)).click();
+	}
+	public void verifyDeleteCustTitle(String customerName)
+	{
+		String exptitle=""+customerName+" - Odoo";
+		sl.iSleep(5);
+		String acttitle = driver.getTitle();
+		Assert.assertNotEquals(acttitle, exptitle);
+		
+		Reporter.log(customerName+": Customer Delete Successfully done",true);
+	}
+	public void verifyDeleteCustName(String customerName)
 	{
 		sl.iSleep(10);
 		List<WebElement> ele = driver.findElements(By.xpath(ctp.customerNames));
@@ -68,16 +122,10 @@ public class CustomerSteps
 			WebElement name = ele.get(i);
 			if(name.getText().equalsIgnoreCase(customerName))
 			{
-				name.click();
+				Assert.assertFalse(false, "Customer not Deleted");
 				break;
 			}
 		}
-		sl.iSleep(5);
-		driver.findElement(By.xpath(ctp.actions)).click();
-		sl.iSleep(5);
-		driver.findElement(By.xpath(ctp.delete)).click();
-		sl.iSleep(5);
-		driver.findElement(By.xpath(ctp.confrmOk)).click();
 	}
 	
 

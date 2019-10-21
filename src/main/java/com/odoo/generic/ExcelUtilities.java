@@ -106,7 +106,7 @@ public class ExcelUtilities
 	}
 	
 	
-	public String readAndWriteData(String sheetNmae,int row,int cell) 
+	public String readAndWriteData(String sheetNmae,String testcaseID,int cell) 
 	{
 		String name=null;
 	try
@@ -114,18 +114,29 @@ public class ExcelUtilities
 		File file=new File(filepath);
 		FileInputStream fis=new FileInputStream(file);
 		Workbook wb=WorkbookFactory.create(fis);
-		Cell cl1 = wb.getSheet(sheetNmae).getRow(row).getCell(cell);
-		name= cl1.getStringCellValue();
-		System.out.println(name);
-		
-		Random rd=new Random();
-		String[] str = name.split("-");
-		name=str[0]+"-"+rd.nextInt(1000);
-		System.out.println(name);
-		
-		cl1.setCellValue(name);
-		FileOutputStream fos=new FileOutputStream(file);
-		wb.write(fos);
+		Sheet sh=wb.getSheet(sheetNmae);
+		int rowcount =sh.getLastRowNum(); 
+		for (int i = 0; i < rowcount; i++)
+		{
+			Row rw = sh.getRow(i);
+			if(rw.getCell(0).getStringCellValue().equalsIgnoreCase(testcaseID))
+			{
+				 Cell cl1 =sh.getRow(i).getCell(cell);
+				 name= cl1.getStringCellValue();
+				 System.out.println(name);
+					
+					Random rd=new Random();
+					String[] str = name.split("-");
+					name=str[0]+"-"+rd.nextInt(1000);
+					System.out.println(name);
+					
+					cl1.setCellValue(name);
+					FileOutputStream fos=new FileOutputStream(file);
+					wb.write(fos);
+				 break;
+			}
+			
+		}
 	}
 	catch(EncryptedDocumentException |  IOException e)
 	{
