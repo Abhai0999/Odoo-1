@@ -13,9 +13,9 @@ public class CommonFeatures
 		cs=new CommonSteps(driver);
 	}
 	
-	public void logout()
-	{
-		cs.clickMenuDrpDwnList();
-		cs.clickLogout();
-	}
+//	public void logout()
+//	{
+//		cs.clickMenuDrpDwnList();
+//		cs.clickLogout();
+//	}
 }

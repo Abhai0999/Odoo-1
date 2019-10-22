@@ -98,7 +98,7 @@ public class SeleniumLib
 	public int randomValue()
 	{
 		Random rm=new Random();
-		int value=rm.nextInt(100);
+		int value=rm.nextInt(10);
 		return value;
 		
 	}

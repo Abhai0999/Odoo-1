@@ -1,0 +1,8 @@
+2019-10-20 12:56:49,403 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
+2019-10-20 12:56:55,308 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
+2019-10-20 12:57:03,530 [main] INFO com.odoo.webutils.MyTestListener - lostRsnCreateTest script execution starts
+2019-10-20 12:57:54,076 [main] WARN com.odoo.webutils.MyTestListener - lostRsnCreateTest script is failed
+2019-10-20 12:57:54,514 [main] INFO com.odoo.webutils.MyTestListener - Screenshot has been taken 
+2019-10-20 12:57:54,740 [main] INFO com.odoo.webutils.MyTestListener - ExcelReport generated
+2019-10-20 12:57:54,741 [main] INFO com.odoo.webutils.MyTestListener - Framework execution Time Taken: 65.0seconds
+2019-10-20 12:57:54,741 [main] INFO com.odoo.webutils.MyTestListener - Framework execution ends

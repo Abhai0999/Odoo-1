@@ -9,6 +9,7 @@ import com.odoo.generic.SeleniumLib;
 import com.odoo.steps.CommonSteps;
 import com.odoo.steps.CreateCustomerSteps;
 import com.odoo.steps.DeleatCustomerSteps;
+import com.odoo.steps.MyPipelineSteps;
 
 public class SalesFeatures
 {
@@ -17,6 +18,7 @@ CommonSteps cs;
 CreateCustomerSteps ccs;
 DeleatCustomerSteps dcs;
 SeleniumLib sl;
+MyPipelineSteps mps;
 public SalesFeatures(WebDriver driver)
 {
 
@@ -24,6 +26,7 @@ public SalesFeatures(WebDriver driver)
 	ccs=new CreateCustomerSteps(driver);
 	dcs=new DeleatCustomerSteps(driver);
 	sl=new SeleniumLib(driver);
+	mps=new MyPipelineSteps(driver);
 }
 
 public void createNewCustomer(String[] customerData) 
@@ -61,6 +64,12 @@ public void importCusomerFeature()
 
 }
 
+public void createMPpipeline(String Opportunity)
+{
+	cs.clickOnCrm();
+	mps.createPipeline(Opportunity);	
+	mps.verifyOpportunity();
+}
 
 
 }

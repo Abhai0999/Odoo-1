@@ -107,10 +107,63 @@ public class ExcelUtilities
 	}
 	
 	
-	
+	public void readAndWriteData(String sheetname,int row,int cell,int cell1)
+	{
 
+        try
+        {
+        String filepath=GenericLib.dir+"/testdata/Odoodata.xlsx";
+		FileInputStream fist=new FileInputStream(new File(filepath));
+		Workbook wbe = WorkbookFactory.create(fist);
+		
+		Cell cl1 = wbe.getSheet(sheetname).getRow(row).getCell(cell);		
+		String namecustomer = cl1.getStringCellValue();
+		System.out.println(namecustomer);
+		
+		Cell cl2 = wbe.getSheet(sheetname).getRow(row).getCell(cell1);	
+		String emailID = cl2.getStringCellValue();
+		System.out.println(emailID);
+		
+	
+	
+		
+		Random rd=new Random();
+		
+		String[] str=namecustomer.split("-");
+		namecustomer=str[0]+"-"+rd.nextInt(100);
+		System.out.println(namecustomer);
+		
+		String[] id = emailID.split("@");
+		emailID=namecustomer+"@"+id[1];
+		System.out.println(emailID);
+		
+		
+		
+		
+		cl1.setCellValue(namecustomer);
+		cl2.setCellValue(emailID);
+		
+	
+		
+		FileOutputStream fost=new FileOutputStream(new File(filepath));
+		wbe.write(fost);
+	}
+  	catch (EncryptedDocumentException e) 
+	{
 		
 	}
+		catch (IOException e) 
+		{
+			
+		}
+		
+	
+	}	
+		
+	}
+
+		
+	
 	
 	
 	

@@ -1,0 +1,15 @@
+2019-10-21 16:34:59,073 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
+2019-10-21 16:35:36,550 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
+2019-10-21 16:35:55,581 [main] INFO com.odoo.webutils.MyTestListener - createOpportunityTest script execution starts
+2019-10-21 16:36:41,538 [main] FATAL com.odoo.webutils.MyTestListener - element click intercepted: Element <input class="o_input" placeholder="" type="text" id="o_field_input_160"> is not clickable at point (132, 360). Other element would receive the click: <a id="ui-id-9" tabindex="-1" class="ui-menu-item-wrapper">...</a>
+  (Session info: chrome=77.0.3865.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ROBIN-PC', ip: '192.168.0.124', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\robin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55681}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0e47f32530ebcc9d1bcb8d88d1cebae3
+2019-10-21 16:36:41,667 [main] WARN com.odoo.webutils.MyTestListener - createOpportunityTest script is failed
+2019-10-21 16:36:42,581 [main] INFO com.odoo.webutils.MyTestListener - Screenshot has been taken 
+2019-10-21 16:36:44,201 [main] INFO com.odoo.webutils.MyTestListener - ExcelReport generated
+2019-10-21 16:36:44,202 [main] INFO com.odoo.webutils.MyTestListener - Framework execution Time Taken: 105.0seconds
+2019-10-21 16:36:44,202 [main] INFO com.odoo.webutils.MyTestListener - Framework execution ends

@@ -6,7 +6,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 
 import com.odoo.features.CommonFeatures;
-
+import com.odoo.features.ConfigurationFeatures;
 import com.odoo.features.LoginFeatures;
 import com.odoo.features.SalesFeatures;
 import com.odoo.generic.Driver;
@@ -18,7 +18,7 @@ public abstract class BaseAbstractTest
 	public LoginFeatures lf;
 	public CommonFeatures cf;
     public SalesFeatures sf;
-	
+	public ConfigurationFeatures cof;
 	@BeforeClass
 	public void setUp()
 	{
@@ -28,6 +28,7 @@ public abstract class BaseAbstractTest
 		lf=new LoginFeatures(driver);
 		cf=new CommonFeatures(driver);
 		sf=new SalesFeatures(driver);
+		cof=new ConfigurationFeatures(driver);
 		
 	}
 	
@@ -37,10 +38,10 @@ public abstract class BaseAbstractTest
 		driver.get(GenericLib.getValue(GenericLib.getConfigFile(),"url"));
 	}
 	
-	@AfterMethod
-	public void postCondition()
-	{
-		cf.logout();
-	}
+//	@AfterMethod
+//	public void postCondition()
+//	{
+//		cf.logout();
+//	}
 
 }

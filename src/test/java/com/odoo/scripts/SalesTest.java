@@ -12,30 +12,30 @@ import com.odoo.webutils.BaseAbstractTest;
 public class SalesTest extends BaseAbstractTest
      {
 
-//	@Test()
-//	public void creteCustomeTest() 
-//	{
-//		String filepath=GenericLib.dir+"/testdata/Odoodata.xlsx";
-//		ExcelUtilities eu=new ExcelUtilities(filepath);
-//		String[] customerData = eu.readData("verifysheet", "createCustomer_ID");
-//		lf.login(customerData[1], customerData[2]);
-//		
-//			sf.createNewCustomer(customerData);
-//		
-//	}
+	@Test()
+	public void creteCustomeTest() 
+	{
+		String filepath=GenericLib.dir+"/testdata/Odoodata.xlsx";
+		ExcelUtilities eu=new ExcelUtilities(filepath);
+		String[] customerData = eu.readData("verifysheet", "createCustomer_ID");
+		lf.login(customerData[1], customerData[2]);
+		
+			sf.createNewCustomer(customerData);
+		
+	}
 
-//	@Test()
-//	public void deleteTest()
-//	{
-//		
-//		String filepath=GenericLib.dir+"/testdata/Odoodata.xlsx";
-//		ExcelUtilities eu=new ExcelUtilities(filepath);
-//		String[] Data = eu.readData("verifysheet", "createCustomer_ID");
-//		lf.login(Data[1],Data[2]);
-//		sf.deleteCustmer(Data[3]);
-//		
-//		
-//	}
+	@Test()
+	public void deleteTest()
+	{
+		
+		String filepath=GenericLib.dir+"/testdata/Odoodata.xlsx";
+		ExcelUtilities eu=new ExcelUtilities(filepath);
+		String[] Data = eu.readData("verifysheet", "createCustomer_ID");
+		lf.login(Data[1],Data[2]);
+		sf.deleteCustmer(Data[3]);
+		
+		
+	}
 	
 	
 	@Test
@@ -49,4 +49,21 @@ public class SalesTest extends BaseAbstractTest
 		sf.importCusomerFeature();
 		
 	}
+
+	@Test
+	public void createOpportunityTest()
+	{
+		
+		String filepath=GenericLib.dir+"/testdata/Odoodata.xlsx";
+		ExcelUtilities eu=new ExcelUtilities(filepath);
+		String[] Data = eu.readData("verifysheet", "createCustomer_ID");
+		lf.login(Data[1],Data[2]);
+		String[] Data1 = eu.readData("verifysheet", "My opportunity");
+		sf.createMPpipeline(Data1[1]);
+		
+	}
+
+	
+	
+	
 }

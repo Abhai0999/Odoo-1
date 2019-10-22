@@ -10,4 +10,8 @@ public class BasePage
 	public String logout="//a[text()='Log out']";
 	public String salesButton= "//ul[@class='o_menu_sections']//a[contains(text(),'Sales')]";
 	public String clickCustmer= "//a[@role='menuitem']//span[text()='Customers']";
+	public String configurationButton= "//a[contains(text(),'Configuration')]";
+	public String lostReasonBtn= "//span[text()='Lost Reasons']";
+//	public String myPipeline= "//div[@class='dropdown-menu show']//span[text()='My Pipeline']";
+	public String salesteamBtn="//a//span[text()='Sales Teams']";
 }

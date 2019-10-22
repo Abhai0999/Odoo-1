@@ -1,0 +1,27 @@
+2019-10-21 14:12:50,121 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
+2019-10-21 14:13:02,864 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
+2019-10-21 14:13:13,623 [main] INFO com.odoo.webutils.MyTestListener - createOpportunityTest script execution starts
+2019-10-21 14:13:48,647 [main] FATAL com.odoo.webutils.MyTestListener - element click intercepted: Element <div class="o_caption">...</div> is not clickable at point (752, 231). Other element would receive the click: <div class="blockUI blockOverlay" style="z-index: 1100; border: none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(0, 0, 0); opacity: 0.180856; cursor: default; position: fixed;"></div>
+  (Session info: chrome=77.0.3865.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ROBIN-PC', ip: '192.168.43.216', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\robin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51903}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 51537d541bbabd325758fe4589c629e0
+2019-10-21 14:13:48,789 [main] WARN com.odoo.webutils.MyTestListener - createOpportunityTest script is failed
+2019-10-21 14:13:51,298 [main] INFO com.odoo.webutils.MyTestListener - Screenshot has been taken 
+2019-10-21 14:13:53,833 [main] INFO com.odoo.webutils.MyTestListener - importTest script execution starts
+2019-10-21 14:13:59,963 [main] FATAL com.odoo.webutils.MyTestListener - no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='login']"}
+  (Session info: chrome=77.0.3865.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ROBIN-PC', ip: '192.168.43.216', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\robin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51903}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 51537d541bbabd325758fe4589c629e0
+*** Element info: {Using=xpath, value=//input[@id='login']}
+2019-10-21 14:13:59,972 [main] WARN com.odoo.webutils.MyTestListener - importTest script is failed
+2019-10-21 14:14:00,727 [main] INFO com.odoo.webutils.MyTestListener - Screenshot has been taken 
+2019-10-21 14:14:01,936 [main] INFO com.odoo.webutils.MyTestListener - ExcelReport generated
+2019-10-21 14:14:01,937 [main] INFO com.odoo.webutils.MyTestListener - Framework execution Time Taken: 72.0seconds
+2019-10-21 14:14:01,937 [main] INFO com.odoo.webutils.MyTestListener - Framework execution ends

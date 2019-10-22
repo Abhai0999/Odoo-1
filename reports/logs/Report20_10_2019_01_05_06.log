@@ -1,0 +1,17 @@
+2019-10-20 13:05:06,161 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
+2019-10-20 13:05:11,702 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
+2019-10-20 13:05:22,531 [main] INFO com.odoo.webutils.MyTestListener - lostRsnCreateTest script execution starts
+2019-10-20 13:05:46,886 [main] FATAL com.odoo.webutils.MyTestListener - no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='CRM']"}
+  (Session info: chrome=77.0.3865.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ROBIN-PC', ip: '192.168.43.216', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\robin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55457}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ed3449ba24ce98ae679c4c7422da0c39
+*** Element info: {Using=xpath, value=//div[text()='CRM']}
+2019-10-20 13:05:46,898 [main] WARN com.odoo.webutils.MyTestListener - lostRsnCreateTest script is failed
+2019-10-20 13:05:47,278 [main] INFO com.odoo.webutils.MyTestListener - Screenshot has been taken 
+2019-10-20 13:05:47,533 [main] INFO com.odoo.webutils.MyTestListener - ExcelReport generated
+2019-10-20 13:05:47,534 [main] INFO com.odoo.webutils.MyTestListener - Framework execution Time Taken: 41.0seconds
+2019-10-20 13:05:47,534 [main] INFO com.odoo.webutils.MyTestListener - Framework execution ends

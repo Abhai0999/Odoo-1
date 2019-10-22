@@ -1,0 +1,7 @@
+2019-10-21 16:37:23,972 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
+2019-10-21 16:37:35,322 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
+2019-10-21 16:37:45,610 [main] INFO com.odoo.webutils.MyTestListener - createOpportunityTest script execution starts
+2019-10-21 16:38:45,505 [main] INFO com.odoo.webutils.MyTestListener - createOpportunityTest script is passed
+2019-10-21 16:38:54,351 [main] INFO com.odoo.webutils.MyTestListener - ExcelReport generated
+2019-10-21 16:38:54,351 [main] INFO com.odoo.webutils.MyTestListener - Framework execution Time Taken: 90.0seconds
+2019-10-21 16:38:54,352 [main] INFO com.odoo.webutils.MyTestListener - Framework execution ends

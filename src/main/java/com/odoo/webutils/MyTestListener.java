@@ -117,12 +117,12 @@ public class MyTestListener implements ITestListener, WebDriverEventListener
 	@Override
 	public void onFinish(ITestContext context) 
 	{
-		Driver.getDriver().close();
-		if (Driver.getDriver()!=null) 
-		{
-			Driver.getDriver().quit();
-		}
-		log.info("Browser Closed");
+//		Driver.getDriver().close();
+//		if (Driver.getDriver()!=null) 
+//		{
+//			Driver.getDriver().quit();
+//		}
+//		log.info("Browser Closed");
 		
 		
 		Workbook wb=new XSSFWorkbook();
