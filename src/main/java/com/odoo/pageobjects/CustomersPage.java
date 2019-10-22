@@ -19,15 +19,11 @@ public class CustomersPage {
 	public String DeleteBtn = "//div/a[contains(text(),'Delete')]";
 
 	public String ConfOKBtn = "//button//span[text()='Ok']";
-	
-	public String photoframe ="//button[@title='Edit']";
+
+	public String photoframe = "//button[@title='Edit']";
 
 	public String photoEdit = "//div[@class='o_form_image_controls']//button[@title='Edit']";
-	
-	
-	
-	
-	
-	
+
+	public String allCustomerName = "//div[@class='o_content']/div//strong//span";
 
 }

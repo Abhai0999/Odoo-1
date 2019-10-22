@@ -12,5 +12,6 @@ public class BasePage {
 	public String Configuration = "//a[contains(text(),'Configuration')]";
 
 	public String salesTeamBtn = "//a//span[text()='Sales Teams']";
+	public String activityType = "//span[text()='Activity Types']";
 
 }

@@ -1,0 +1,23 @@
+2019-10-22 12:14:36,406 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
+2019-10-22 12:14:46,814 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
+2019-10-22 12:14:50,348 [main] INFO com.odoo.webutils.MyTestListener - CreatingSalesTeam script execution starts
+2019-10-22 12:15:38,118 [main] FATAL com.odoo.webutils.MyTestListener - element click intercepted: Element <label for="checkbox-168" class="custom-control-label">...</label> is not clickable at point (228, 178). Other element would receive the click: <div class="custom-control custom-checkbox">...</div>
+  (Session info: chrome=77.0.3865.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-VVD7DET5', ip: '192.168.0.120', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:55801}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6713a396df63ec45d3532715604eb426
+2019-10-22 12:15:38,144 [main] WARN com.odoo.webutils.MyTestListener - CreatingSalesTeam script is failed
+2019-10-22 12:15:38,533 [main] INFO com.odoo.webutils.MyTestListener - Screenshot has been taken 
+2019-10-22 12:15:38,625 [main] FATAL com.odoo.webutils.MyTestListener - element click intercepted: Element <a role="button" class="dropdown-toggle" data-toggle="dropdown" data-display="static" aria-expanded="false" href="#">...</a> is not clickable at point (1234, 23). Other element would receive the click: <div role="dialog" class="modal o_technical_modal show" tabindex="-1" data-backdrop="static" id="modal_172" open="open" aria-modal="true" style="display: block;">...</div>
+  (Session info: chrome=77.0.3865.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-VVD7DET5', ip: '192.168.0.120', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:55801}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6713a396df63ec45d3532715604eb426
+2019-10-22 12:15:43,651 [main] INFO com.odoo.webutils.MyTestListener - Browser Closed
+2019-10-22 12:15:43,731 [main] INFO com.odoo.webutils.MyTestListener - ExcelReport generated
+2019-10-22 12:15:43,731 [main] INFO com.odoo.webutils.MyTestListener - Framework execution Time Taken: 67.0seconds
+2019-10-22 12:15:43,731 [main] INFO com.odoo.webutils.MyTestListener - Framework execution ends

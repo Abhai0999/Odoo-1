@@ -11,6 +11,7 @@ import com.odoo.features.LoginFeatures;
 import com.odoo.features.SalesFeatures;
 import com.odoo.generic.Driver;
 import com.odoo.generic.GenericLib;
+import com.odoo.steps.CreateCustomerStep;
 
 public abstract class BaseAbstractTest {
 	public static EventFiringWebDriver driver; // global driver
@@ -18,6 +19,8 @@ public abstract class BaseAbstractTest {
 	public CommonFeatures cf;
 	public SalesFeatures sf;
 	public GenericLib gl;
+	
+	
 
 	@BeforeClass
 	public void setUp() {
@@ -28,6 +31,7 @@ public abstract class BaseAbstractTest {
 		cf = new CommonFeatures(driver);
 		sf = new SalesFeatures(driver);
 		gl=new GenericLib();
+		
 
 	}
 

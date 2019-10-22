@@ -5,9 +5,10 @@ import java.util.Random;
 import org.openqa.selenium.By;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
+import org.testng.Reporter;
 
 import com.odoo.generic.ExcelUtilities;
 import com.odoo.generic.GenericLib;
@@ -40,12 +41,19 @@ public class CreateCustomerStep {
 	}
 
 	public void createCustomer(String[] customerData) {
+		String name;
+		Random rm = new Random();
+		int randonvalue = rm.nextInt(1000);
 
+		String filepath = GenericLib.dir + "/testdata/Odoodata.xlsx";
+		ExcelUtilities eu = new ExcelUtilities(filepath);
+
+		String[] customer = eu.readData("Sheet1", "CreateCustomer_ID");
+		name = customer[3].concat(Integer.toString(randonvalue));
+		eu.setCellValue("Sheet1", 2, 3, name);
 		
 
-	 driver.findElement(By.xpath(cp.nameFeild)).sendKeys(customerData[3]);
-		
-		
+		driver.findElement(By.xpath(cp.nameFeild)).sendKeys(name);
 
 		driver.findElement(By.xpath(cp.addressStreet)).sendKeys(customerData[4]);
 		driver.findElement(By.xpath(cp.addressStreet2)).sendKeys(customerData[5]);
@@ -63,14 +71,15 @@ public class CreateCustomerStep {
 		sl.RunAutoIT("./Resouce/fileupload.exe");
 		sl.iSleep(5);
 		driver.findElement(By.xpath(cp.saveBtn)).click();
-	}
+		Reporter.log("customer"+name+"is successfully created ", true );
+		sl.iSleep(5);
 
-//	public void verifyCustomer() {
-//		String expectedTittle = "Deep280";
-//		String actualtitle = driver.getTitle();
-//
-//		Assert.assertEquals(actualtitle, expectedTittle);
-//
-//	}
+		String verCoustomer = "//h1/span[text()='" + name + "']";
+		String actualTxt = driver.findElement(By.xpath(verCoustomer)).getText();
+		String[] customerName = eu.readData("Sheet1", "CreateCustomer_ID");
+		String expectedTxt = customerName[3];
+		Assert.assertEquals(actualTxt, expectedTxt);
+		Reporter.log(name + " customer has been created and veryfy successfully ", true);
+	}
 
 }

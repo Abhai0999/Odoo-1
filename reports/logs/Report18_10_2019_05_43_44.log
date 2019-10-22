@@ -1,0 +1,30 @@
+2019-10-18 17:43:44,190 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
+2019-10-18 17:43:54,833 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
+2019-10-18 17:43:56,578 [main] INFO com.odoo.webutils.MyTestListener - createCustomer script execution starts
+2019-10-18 17:44:12,525 [main] FATAL com.odoo.webutils.MyTestListener - no such element: Unable to locate element: {"method":"xpath","selector":"//li/a[contains(text(),'Sales')]"}
+  (Session info: chrome=77.0.3865.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-VVD7DET5', ip: '192.168.0.120', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:64813}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 66e3ba9b706c182e70b7272965e42876
+*** Element info: {Using=xpath, value=//li/a[contains(text(),'Sales')]}
+2019-10-18 17:44:12,569 [main] WARN com.odoo.webutils.MyTestListener - createCustomer script is failed
+2019-10-18 17:44:13,357 [main] INFO com.odoo.webutils.MyTestListener - Screenshot has been taken 
+2019-10-18 17:44:15,011 [main] INFO com.odoo.webutils.MyTestListener - deleteCustomer script execution starts
+2019-10-18 17:44:41,896 [main] FATAL com.odoo.webutils.MyTestListener - no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='o_content']/div//strong//span"}
+  (Session info: chrome=77.0.3865.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-VVD7DET5', ip: '192.168.0.120', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:64813}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 66e3ba9b706c182e70b7272965e42876
+*** Element info: {Using=xpath, value=//div[@class='o_content']/div//strong//span}
+2019-10-18 17:44:41,903 [main] WARN com.odoo.webutils.MyTestListener - deleteCustomer script is failed
+2019-10-18 17:44:42,417 [main] INFO com.odoo.webutils.MyTestListener - Screenshot has been taken 
+2019-10-18 17:44:44,647 [main] INFO com.odoo.webutils.MyTestListener - Browser Closed
+2019-10-18 17:44:44,888 [main] INFO com.odoo.webutils.MyTestListener - ExcelReport generated
+2019-10-18 17:44:44,888 [main] INFO com.odoo.webutils.MyTestListener - Framework execution Time Taken: 60.0seconds
+2019-10-18 17:44:44,888 [main] INFO com.odoo.webutils.MyTestListener - Framework execution ends

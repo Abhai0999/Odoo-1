@@ -5,7 +5,7 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
-import java.util.Random;
+
 
 import org.apache.poi.EncryptedDocumentException;
 import org.apache.poi.ss.usermodel.Cell;
@@ -113,10 +113,8 @@ public class ExcelUtilities {
 			FileInputStream fis = new FileInputStream(new File(filepath));
 			Workbook wb = WorkbookFactory.create(fis);
 			Cell cl = wb.getSheet(Sheet).getRow(row).getCell(cell);
-			String customername = cl.getStringCellValue();
-
-			cl.setCellValue(customername);
 			FileOutputStream fos = new FileOutputStream(new File(filepath));
+			cl.setCellValue(value);
 			wb.write(fos);
 
 		} catch (Exception e) {

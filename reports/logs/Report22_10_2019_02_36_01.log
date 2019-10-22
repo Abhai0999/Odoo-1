@@ -1,0 +1,9 @@
+2019-10-22 14:36:01,390 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
+2019-10-22 14:36:11,731 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
+2019-10-22 14:36:13,537 [main] INFO com.odoo.webutils.MyTestListener - CreateActivity script execution starts
+2019-10-22 14:36:44,649 [main] WARN com.odoo.webutils.MyTestListener - CreateActivity script is failed
+2019-10-22 14:36:45,018 [main] INFO com.odoo.webutils.MyTestListener - Screenshot has been taken 
+2019-10-22 14:36:46,010 [main] INFO com.odoo.webutils.MyTestListener - Browser Closed
+2019-10-22 14:36:46,185 [main] INFO com.odoo.webutils.MyTestListener - ExcelReport generated
+2019-10-22 14:36:46,185 [main] INFO com.odoo.webutils.MyTestListener - Framework execution Time Taken: 44.0seconds
+2019-10-22 14:36:46,185 [main] INFO com.odoo.webutils.MyTestListener - Framework execution ends

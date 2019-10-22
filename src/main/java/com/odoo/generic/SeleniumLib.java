@@ -22,6 +22,15 @@ public class SeleniumLib {
 	public void enter() {
 		Actions act = new Actions(driver);
 		act.sendKeys(Keys.ENTER).perform();
+
+	}
+
+	public void clearTextFeild(WebElement ele) {
+		Actions act = new Actions(driver);
+		
+		act.sendKeys(Keys.CONTROL+"a"+Keys.DELETE).perform();
+		iSleep(1);
+		
 	}
 
 	public void mouseOver(WebElement ele) {
@@ -84,6 +93,7 @@ public class SeleniumLib {
 			e.printStackTrace();
 		}
 	}
+
 	public void RunAutoIT(String filepath) {
 		try {
 			Runtime.getRuntime().exec(filepath);
