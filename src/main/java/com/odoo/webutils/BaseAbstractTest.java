@@ -7,6 +7,8 @@ import org.testng.annotations.BeforeMethod;
 
 import com.odoo.features.CommonFeatures;
 import com.odoo.features.LoginFeatures;
+import com.odoo.features.PipeLineFeatures;
+import com.odoo.features.Configurationfeatures;
 import com.odoo.features.SalesFeatures;
 import com.odoo.generic.Driver;
 import com.odoo.generic.GenericLib;
@@ -17,15 +19,19 @@ public abstract class BaseAbstractTest
 	public LoginFeatures lf;
 	public CommonFeatures cf;
 	public SalesFeatures sf;
+	public Configurationfeatures  cfs;
+	public PipeLineFeatures plf;
 	@BeforeClass
 	public void setUp()
 	{
 		MyTestListener listener=new MyTestListener();
 		driver=new EventFiringWebDriver(Driver.getDriver());
 		driver.register(listener);
+		cfs=new Configurationfeatures(driver);
 		lf=new LoginFeatures(driver);
 		cf=new CommonFeatures(driver);
 		sf=new SalesFeatures(driver);
+		plf=new PipeLineFeatures(driver);
 	}
 	
 	@BeforeMethod
@@ -34,10 +40,10 @@ public abstract class BaseAbstractTest
 		driver.get(GenericLib.getValue(GenericLib.getConfigFile(), "url"));
 	}
 	
-//	@AfterMethod
-//	public void postCondition()
-//	{
-//		cf.logout();
-//	}
-//	
+	@AfterMethod
+	public void postCondition()
+	{
+		cf.logout();
+	}
+	
 }

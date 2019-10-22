@@ -1,0 +1,8 @@
+2019-10-21 15:17:36,298 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
+2019-10-21 15:17:47,250 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
+2019-10-21 15:17:52,282 [main] INFO com.odoo.webutils.MyTestListener - createopp script execution starts
+2019-10-21 15:18:19,362 [main] WARN com.odoo.webutils.MyTestListener - createopp script is failed
+2019-10-21 15:18:19,917 [main] INFO com.odoo.webutils.MyTestListener - Screenshot has been taken 
+2019-10-21 15:18:20,239 [main] INFO com.odoo.webutils.MyTestListener - ExcelReport generated
+2019-10-21 15:18:20,240 [main] INFO com.odoo.webutils.MyTestListener - Framework execution Time Taken: 44.0seconds
+2019-10-21 15:18:20,240 [main] INFO com.odoo.webutils.MyTestListener - Framework execution ends

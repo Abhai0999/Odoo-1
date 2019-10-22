@@ -1,0 +1,16 @@
+2019-10-22 13:47:03,218 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
+2019-10-22 13:47:07,900 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
+2019-10-22 13:47:12,295 [main] INFO com.odoo.webutils.MyTestListener - salesteam script execution starts
+2019-10-22 13:48:09,520 [main] FATAL com.odoo.webutils.MyTestListener - chrome not reachable
+  (Session info: chrome=77.0.3865.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ABC-PC', ip: '192.168.0.129', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\abc\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:49369}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 865e0f2b096e60892be5c1cb38c9aaac
+*** Element info: {Using=xpath, value=(//input[@name='alias_name'])}
+2019-10-22 13:48:09,534 [main] WARN com.odoo.webutils.MyTestListener - salesteam script is failed
+2019-10-22 13:48:15,563 [main] WARN com.odoo.webutils.MyTestListener - salesteam script is failed
+2019-10-22 13:48:21,796 [main] INFO com.odoo.webutils.MyTestListener - ExcelReport generated
+2019-10-22 13:48:21,796 [main] INFO com.odoo.webutils.MyTestListener - Framework execution Time Taken: 78.0seconds
+2019-10-22 13:48:21,797 [main] INFO com.odoo.webutils.MyTestListener - Framework execution ends

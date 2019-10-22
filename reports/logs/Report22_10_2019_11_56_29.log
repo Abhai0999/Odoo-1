@@ -1,0 +1,28 @@
+2019-10-22 11:56:29,296 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
+2019-10-22 11:56:45,439 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
+2019-10-22 11:56:55,909 [main] INFO com.odoo.webutils.MyTestListener - createCustomer script execution starts
+2019-10-22 11:58:14,849 [main] INFO com.odoo.webutils.MyTestListener - createCustomer script is passed
+2019-10-22 11:58:17,977 [main] INFO com.odoo.webutils.MyTestListener - custimp script execution starts
+2019-10-22 11:59:06,375 [main] FATAL com.odoo.webutils.MyTestListener - element not interactable
+  (Session info: chrome=77.0.3865.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ABC-PC', ip: '192.168.0.129', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\abc\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:49191}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 29b2b1af2e66894e784b418c0ede8164
+2019-10-22 11:59:06,380 [main] WARN com.odoo.webutils.MyTestListener - custimp script is failed
+2019-10-22 11:59:06,798 [main] INFO com.odoo.webutils.MyTestListener - Screenshot has been taken 
+2019-10-22 11:59:09,867 [main] INFO com.odoo.webutils.MyTestListener - deletecustomerfrompage script execution starts
+2019-10-22 11:59:24,754 [main] FATAL com.odoo.webutils.MyTestListener - chrome not reachable
+  (Session info: chrome=77.0.3865.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ABC-PC', ip: '192.168.0.129', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\abc\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:49191}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 29b2b1af2e66894e784b418c0ede8164
+*** Element info: {Using=xpath, value=//div[text()='CRM']}
+2019-10-22 11:59:24,761 [main] WARN com.odoo.webutils.MyTestListener - deletecustomerfrompage script is failed
+2019-10-22 11:59:30,823 [main] WARN com.odoo.webutils.MyTestListener - deletecustomerfrompage script is failed
+2019-10-22 11:59:37,094 [main] INFO com.odoo.webutils.MyTestListener - ExcelReport generated
+2019-10-22 11:59:37,094 [main] INFO com.odoo.webutils.MyTestListener - Framework execution Time Taken: 187.0seconds
+2019-10-22 11:59:37,095 [main] INFO com.odoo.webutils.MyTestListener - Framework execution ends

@@ -1,0 +1,17 @@
+2019-10-22 13:31:49,323 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
+2019-10-22 13:31:54,229 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
+2019-10-22 13:32:03,199 [main] INFO com.odoo.webutils.MyTestListener - createopp script execution starts
+2019-10-22 13:32:12,961 [main] FATAL com.odoo.webutils.MyTestListener - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=77.0.3865.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ABC-PC', ip: '192.168.1.140', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\abc\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:49936}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: bcbf18317143bee6e27dc614dbc1030c
+*** Element info: {Using=xpath, value=//div[text()='CRM']}
+2019-10-22 13:32:12,976 [main] WARN com.odoo.webutils.MyTestListener - createopp script is failed
+2019-10-22 13:32:12,993 [main] WARN com.odoo.webutils.MyTestListener - createopp script is failed
+2019-10-22 13:32:13,270 [main] INFO com.odoo.webutils.MyTestListener - ExcelReport generated
+2019-10-22 13:32:13,271 [main] INFO com.odoo.webutils.MyTestListener - Framework execution Time Taken: 24.0seconds
+2019-10-22 13:32:13,271 [main] INFO com.odoo.webutils.MyTestListener - Framework execution ends

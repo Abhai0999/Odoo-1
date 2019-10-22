@@ -22,7 +22,7 @@ public class SalesTest extends BaseAbstractTest
 
 		
 	}
- @Test
+ @Test (dependsOnMethods = {"createCustomer"})
  public void deletecustomerfrompage()
  {
 	 String filepath=GenericLib.dir+"/testdata/Odoodata.xlsx";

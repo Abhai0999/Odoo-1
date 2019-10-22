@@ -62,8 +62,8 @@ public void customerimport()
     sl.iSleep(7);
     cs.clickonSales();
 
-     sl.iSleep(7);
-     cs.ClickCustomerBtn();
+    sl.iSleep(7);
+    cs.ClickCustomerBtn();
     ccs.imptcustomerfile();
     sl.iSleep(7);
 	ccs.verifyimportcustomer();

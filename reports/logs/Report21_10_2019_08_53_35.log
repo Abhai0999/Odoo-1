@@ -1,0 +1,15 @@
+2019-10-21 20:53:35,628 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
+2019-10-21 20:53:40,530 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
+2019-10-21 20:53:51,890 [main] INFO com.odoo.webutils.MyTestListener - salesteam script execution starts
+2019-10-21 20:55:13,330 [main] FATAL com.odoo.webutils.MyTestListener - element click intercepted: Element <button class="btn btn-primary o_form_button_save" type="button" data-accesskey="s">...</button> is not clickable at point (41, 106). Other element would receive the click: <div class="blockUI blockOverlay" style="z-index: 1100; border: none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(0, 0, 0); opacity: 0.6; cursor: wait; position: fixed;"></div>
+  (Session info: chrome=77.0.3865.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ABC-PC', ip: '192.168.43.236', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\abc\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:49466}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 41a6eea4d3d9309a4a0195ea7fe76374
+2019-10-21 20:55:13,337 [main] WARN com.odoo.webutils.MyTestListener - salesteam script is failed
+2019-10-21 20:55:13,706 [main] INFO com.odoo.webutils.MyTestListener - Screenshot has been taken 
+2019-10-21 20:55:13,883 [main] INFO com.odoo.webutils.MyTestListener - ExcelReport generated
+2019-10-21 20:55:13,884 [main] INFO com.odoo.webutils.MyTestListener - Framework execution Time Taken: 98.0seconds
+2019-10-21 20:55:13,884 [main] INFO com.odoo.webutils.MyTestListener - Framework execution ends

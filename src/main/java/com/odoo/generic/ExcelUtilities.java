@@ -152,4 +152,35 @@ public class ExcelUtilities
 	     
 		           
 	}
+	public void readandwrit(String sheetname,int row,int cell,int cell1) throws IOException
+	{
+		String filepath=GenericLib.dir+"/testdata/Odoodata.xlsx";
+	    FileInputStream fis=new FileInputStream(new File(filepath));
+		Workbook wbe = WorkbookFactory.create(fis);
+		Cell cl11 = wbe.getSheet(sheetname).getRow(row).getCell(cell);		
+		String salesteamname = cl11.getStringCellValue();
+		System.out.println(salesteamname);
+		
+		Cell cl12 = wbe.getSheet(sheetname).getRow(row).getCell(cell1);	
+		String teamleadername = cl12.getStringCellValue();
+		System.out.println(teamleadername);
+		
+		Random rd=new Random();
+		String[] str=salesteamname.split("-");
+		salesteamname=str[0]+"-"+rd.nextInt(100);
+		System.out.println(salesteamname);
+		
+		String[] str1=teamleadername.split("-");
+		teamleadername=str1[0]+"-"+rd.nextInt(100);
+		System.out.println(teamleadername);
+		
+		cl11.setCellValue(salesteamname);
+		cl12.setCellValue(teamleadername);
+		
+		FileOutputStream fost=new FileOutputStream(new File(filepath));
+		wbe.write(fost);
+		
+ }
+
 	}
+	

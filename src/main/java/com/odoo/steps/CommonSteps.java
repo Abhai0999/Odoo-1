@@ -24,7 +24,18 @@ public class CommonSteps
 	{
 		driver.findElement(By.xpath(bp.salesDrpDwn)).click();
 	}
-	
+	public void clickonconfiguration()
+	{
+		driver.findElement(By.xpath(bp.configuration)).click();
+	}
+	public void clickonpipelinetab()
+	{
+		driver.findElement(By.xpath(bp.selectpipeline)).click();
+	}
+	public void clicksalesteamoption()
+	{
+		driver.findElement(By.xpath(bp.salesteamoption)).click();
+	}
 	public void clickMenuDrpDwnList()
 	{
 		driver.findElement(By.xpath(bp.menuDrpDwnList)).click();

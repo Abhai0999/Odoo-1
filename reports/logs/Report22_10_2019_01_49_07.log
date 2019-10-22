@@ -1,0 +1,16 @@
+2019-10-22 13:49:07,320 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
+2019-10-22 13:49:12,001 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
+2019-10-22 13:49:17,131 [main] INFO com.odoo.webutils.MyTestListener - salesteam script execution starts
+2019-10-22 13:50:45,982 [main] FATAL com.odoo.webutils.MyTestListener - chrome not reachable
+  (Session info: chrome=77.0.3865.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ABC-PC', ip: '192.168.0.129', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\abc\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:49524}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4d396db022b7ede0d1194285bfa62b7d
+*** Element info: {Using=xpath, value=//button[@class='btn btn-primary o_form_button_save']}
+2019-10-22 13:50:45,992 [main] WARN com.odoo.webutils.MyTestListener - salesteam script is failed
+2019-10-22 13:50:50,020 [main] WARN com.odoo.webutils.MyTestListener - salesteam script is failed
+2019-10-22 13:50:56,242 [main] INFO com.odoo.webutils.MyTestListener - ExcelReport generated
+2019-10-22 13:50:56,242 [main] INFO com.odoo.webutils.MyTestListener - Framework execution Time Taken: 108.0seconds
+2019-10-22 13:50:56,242 [main] INFO com.odoo.webutils.MyTestListener - Framework execution ends
