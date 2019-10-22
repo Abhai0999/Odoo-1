@@ -2,7 +2,6 @@ package com.odoo.steps;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 
 import com.odoo.generic.SeleniumLib;
@@ -42,7 +41,7 @@ public class LoginSteps
 	public void verifyCRM()
 	{
 		
-		sl.iSleep(3);
+		sl.iSleep(5);
 		
 		boolean flag = sl.eWaitForVisiblity(30, bp.Crm).isDisplayed();
 		Assert.assertTrue(flag);

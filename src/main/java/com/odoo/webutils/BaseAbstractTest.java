@@ -6,6 +6,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 
 import com.odoo.features.CommonFeatures;
+import com.odoo.features.ConfigurationFeature;
 import com.odoo.features.LoginFeatures;
 import com.odoo.features.SalesFeature;
 import com.odoo.generic.Driver;
@@ -17,6 +18,7 @@ public abstract class BaseAbstractTest
 	public LoginFeatures lf;
 	public CommonFeatures cf;
 	public SalesFeature sf;
+	public ConfigurationFeature cnfgFe;
 	
 	@BeforeClass
 	public void setUp()
@@ -27,6 +29,7 @@ public abstract class BaseAbstractTest
 		lf=new LoginFeatures(driver);
 		cf=new CommonFeatures(driver);
 		sf=new SalesFeature(driver);
+		cnfgFe=new ConfigurationFeature(driver);
 	}
 		@BeforeMethod
 	public void preCondition()

@@ -14,6 +14,7 @@ public class SalesTest extends BaseAbstractTest
 		String filepath=GenericLib.dir+"/testdata/Odoodata.xlsx";
 		ExcelUtilities eu=new ExcelUtilities(filepath);
 		eu.readAndWriteData("Sheet1", 2, 3);
+		
 		String[] customerData = eu.readData("Sheet1", "createCustomer_ID");
 		lf.login(customerData[1], customerData[2]);		
 		sf.createNewCustomer(customerData);		

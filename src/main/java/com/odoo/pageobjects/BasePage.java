@@ -8,6 +8,8 @@ public class BasePage
 	public String logout="//a[text()='Log out']";
 	public String salesLink="//ul[@class='o_menu_sections']//a[contains(text(),'Sales')]";
 	public String customerLink="//span[text()='Customers']";
-	public String configurationLink="//a[contains(text(),'Configuration')]";
-	public String salesTeam="//span[text()='Sales Teams']";
+	public String configuration="//a[contains(text(),'Configuration')]";
+	public String salesTeamBtn="//span[text()='Sales Teams']";
+	
+	
 }

@@ -9,8 +9,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 
-import com.odoo.generic.ExcelUtilities;
-import com.odoo.generic.GenericLib;
 import com.odoo.generic.SeleniumLib;
 import com.odoo.pageobjects.CustomersPage;
 
@@ -40,7 +38,7 @@ public class CustomersSteps
 
 	public void  createCustomer(String[] customerData )
 	{
-		sl.iSleep(10);
+		sl.iSleep(5);
 
 		driver.findElement(By.xpath(cp.custNameTxtBx)).sendKeys(customerData[3]);		
 		driver.findElement(By.xpath(cp.streetTxtBx)).sendKeys(customerData[4]);
@@ -62,7 +60,7 @@ public class CustomersSteps
 			e.printStackTrace();
 		}
 
-		sl.iSleep(10);
+		sl.iSleep(5);
 		driver.findElement(By.xpath(cp.saveBtn)).click();
 
 	}
@@ -82,7 +80,7 @@ public class CustomersSteps
 	public void dltCustomer(String[] customerData1)
 
 	{
-		sl.iSleep(10);
+		sl.iSleep(3);
 		List<WebElement> alloptions = driver.findElements(By.xpath(cp.createdCustomer));
 		int count = alloptions.size();
 		for(int i=0;i<count;i++)
@@ -92,7 +90,7 @@ public class CustomersSteps
 
 			if(optiontext.equalsIgnoreCase(customerData1[3]))
 			{
-				driver.findElement(By.xpath("//div[@class='oe_kanban_details']//span[text()='"+customerData1[3]+"']")).click();
+				option.click();
 
 				break;
 			}
@@ -111,7 +109,7 @@ public class CustomersSteps
 	public void verifyDltCustomer(String[] expextedCust)
 	{
 
-		sl.iSleep(5);
+		sl.iSleep(3);
 		driver.findElement(By.xpath(cp.customerLink)).click();
 		List<WebElement> allOptions = driver.findElements(By.xpath(cp.createdCustomer));
 		int CustomerCount = allOptions.size();
@@ -119,7 +117,7 @@ public class CustomersSteps
 		{
 			WebElement options = allOptions.get(i);
 			String actual = options.getText();
-			Assert.assertNotEquals(actual, expextedCust);
+			Assert.assertNotEquals(actual, expextedCust[3]);
 		}
 
 		

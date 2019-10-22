@@ -1,0 +1,8 @@
+2019-10-22 09:44:07,960 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
+2019-10-22 09:44:17,196 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
+2019-10-22 09:44:21,625 [main] INFO com.odoo.webutils.MyTestListener - createSalesTeam script execution starts
+2019-10-22 09:47:11,252 [main] INFO com.odoo.webutils.MyTestListener - createSalesTeam script is passed
+2019-10-22 09:47:24,471 [main] INFO com.odoo.webutils.MyTestListener - Browser Closed
+2019-10-22 09:47:24,900 [main] INFO com.odoo.webutils.MyTestListener - ExcelReport generated
+2019-10-22 09:47:24,901 [main] INFO com.odoo.webutils.MyTestListener - Framework execution Time Taken: 197.0seconds
+2019-10-22 09:47:24,902 [main] INFO com.odoo.webutils.MyTestListener - Framework execution ends
