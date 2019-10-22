@@ -1,0 +1,26 @@
+2019-10-21 00:54:43,494 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
+2019-10-21 00:54:53,598 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
+2019-10-21 00:54:58,372 [main] INFO com.odoo.webutils.MyTestListener - createSalesTeam script execution starts
+2019-10-21 00:56:19,760 [main] FATAL com.odoo.webutils.MyTestListener - no such element: Unable to locate element: {"method":"xpath","selector":"//span[@name='name']"}
+  (Session info: chrome=77.0.3865.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RQOJ408I', ip: '192.168.0.120', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\ASUS\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57010}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: fa54e8fa734615a8ef1ec269770fd0c0
+*** Element info: {Using=xpath, value=//span[@name='name']}
+2019-10-21 00:56:19,766 [main] WARN com.odoo.webutils.MyTestListener - createSalesTeam script is failed
+2019-10-21 00:56:20,131 [main] INFO com.odoo.webutils.MyTestListener - Screenshot has been taken 
+2019-10-21 00:56:37,353 [main] INFO com.odoo.webutils.MyTestListener - deleteSalesTeam script execution starts
+2019-10-21 00:57:09,272 [main] FATAL com.odoo.webutils.MyTestListener - no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(),'Action')]"}
+  (Session info: chrome=77.0.3865.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RQOJ408I', ip: '192.168.0.120', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\ASUS\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57010}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: fa54e8fa734615a8ef1ec269770fd0c0
+*** Element info: {Using=xpath, value=//button[contains(text(),'Action')]}
+2019-10-21 00:57:09,275 [main] WARN com.odoo.webutils.MyTestListener - deleteSalesTeam script is failed
+2019-10-21 00:57:09,634 [main] INFO com.odoo.webutils.MyTestListener - Screenshot has been taken 

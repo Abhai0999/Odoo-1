@@ -25,7 +25,7 @@ public class LoginSteps
 	
 	public void enterUN(String username)
 	{
-		sl.iSleep(3);
+		sl.iSleep(5);
 		driver.findElement(By.xpath(lp.unTxtBx)).sendKeys(username);
 	}
 	

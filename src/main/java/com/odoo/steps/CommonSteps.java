@@ -23,9 +23,20 @@ public class CommonSteps
 		sl.iSleep(5);
 		driver.findElement(By.xpath(bp.crm)).click();
 	}
-	public void clickSales() 
+	
+	public void clickConfiguration() 
 	{
 		sl.iSleep(5);
+		driver.findElement(By.xpath(bp.configurationTab)).click();
+	}
+	public void clickSaleTeam() 
+	{
+		sl.iSleep(5);
+		driver.findElement(By.xpath(bp.SalesteamTab)).click();
+	}
+	public void clickSales() 
+	{
+		sl.iSleep(10);
 		driver.findElement(By.xpath(bp.salesTab)).click();
 	}
 	public void clickCustomers() 
@@ -35,12 +46,17 @@ public class CommonSteps
 	}
 	public void clickMenuDrpDwnList()
 	{
-		sl.iSleep(5);
+		sl.iSleep(10);
 		driver.findElement(By.xpath(bp.menuDrpDwnList)).click();
 	}
 	public void clickLogout()
 	{
 		sl.iSleep(5);
 		driver.findElement(By.xpath(bp.logout)).click();
+	}
+	public void clickMyPipeLine() 
+	{
+		sl.iSleep(5);
+		driver.findElement(By.xpath(bp.MyPipelineTab)).click();
 	}
 }

@@ -84,25 +84,14 @@ public class ExcelUtilities
 				}
 			} 
 		}
-		catch(EncryptedDocumentException e)
-		{
-
-		}
-		catch(IOException e)
-		{
-
-		}	
+		catch(EncryptedDocumentException|IOException e)
+		{e.printStackTrace();}
 		return value;
 	}
 
-	public void writeData(Sheet sh, int row, String title, int data)
+	public String readAndWriteData(String sheetName, String testcaseID, int cellCount) 
 	{
-		sh.createRow(row).createCell(0).setCellValue(title);
-		sh.getRow(row).createCell(1).setCellValue(data);
-	}
-	public String readAndWriteData(String sheetName, String testcaseID) //redAndWrite(String Sheet, String IDnname)
-	{
-		String customerName=null;;
+		String value=null;
 		try
 		{
 			File file=new File(filepath);
@@ -116,27 +105,52 @@ public class ExcelUtilities
 				Row rw = sh.getRow(i);
 				if (rw.getCell(0).getStringCellValue().equalsIgnoreCase(testcaseID)) 
 				{
-					System.out.println("************step************");
-					Cell cl=rw.getCell(3);
-					String InputValue=cl.getStringCellValue();
-					customerName=sl.randomNumber("'"+InputValue+"-"+"'{0}");
-					System.out.println("***********"+customerName+"***********");
+					for (int j=3; j<cellCount; j++) 
+					{
+						Cell cl = rw.getCell(j);
+						switch (cl.getCellType()) 
+						{
+						case STRING:
+							value=cl.getStringCellValue();
+							break;
 
-					cl.setCellValue(customerName);
-					FileOutputStream fos=new FileOutputStream(file);
-					wb.write(fos);
+						case NUMERIC:
+							if (DateUtil.isCellDateFormatted(cl)) 
+							{
+								SimpleDateFormat sdf=new SimpleDateFormat("dd/MM/yyyy");
+								value=sdf.format(cl.getDateCellValue());
+							}
+							else
+							{
+								long longValue=(long) cl.getNumericCellValue();
+								value=Long.toString(longValue);
+							}
+							break;
+
+						case BOOLEAN:
+							value=Boolean.toString(cl.getBooleanCellValue());
+							break;
+
+						default:
+							break;
+						}
+						cl.setCellValue(sl.randomNumber("'"+value+"-"+"'{0}"));
+						FileOutputStream fos=new FileOutputStream(file);
+						wb.write(fos);
+					}
 					break;
 				} 	
 			}
 		}
-		catch(EncryptedDocumentException e)
-		{
+		catch(EncryptedDocumentException|IOException e)
+		{e.printStackTrace();}	
+		
+		return value;
+	}
 
-		}
-		catch(IOException e)
-		{
-
-		}	
-		return customerName;
+	public void writeData(Sheet sh, int row, String title, int data)
+	{
+		sh.createRow(row).createCell(0).setCellValue(title);
+		sh.getRow(row).createCell(1).setCellValue(data);
 	}
 }

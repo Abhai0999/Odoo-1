@@ -1,0 +1,20 @@
+2019-10-20 17:10:46,938 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
+2019-10-20 17:10:57,686 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
+2019-10-20 17:11:03,301 [main] INFO com.odoo.webutils.MyTestListener - createSalesTeam script execution starts
+2019-10-20 17:12:10,785 [main] FATAL com.odoo.webutils.MyTestListener - element not interactable
+  (Session info: chrome=77.0.3865.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RQOJ408I', ip: '192.168.0.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\ASUS\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:65258}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3406f4a9e4f8f3413948e73be96ebfe4
+2019-10-20 17:12:10,804 [main] WARN com.odoo.webutils.MyTestListener - createSalesTeam script is failed
+2019-10-20 17:12:11,407 [main] INFO com.odoo.webutils.MyTestListener - Screenshot has been taken 
+2019-10-20 17:12:30,498 [main] FATAL com.odoo.webutils.MyTestListener - chrome not reachable
+  (Session info: chrome=77.0.3865.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RQOJ408I', ip: '192.168.0.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\ASUS\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:65258}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3406f4a9e4f8f3413948e73be96ebfe4
+*** Element info: {Using=xpath, value=//li[@class='o_user_menu']/a}

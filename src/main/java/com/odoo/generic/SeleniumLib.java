@@ -5,7 +5,6 @@ import java.util.Random;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -34,12 +33,12 @@ public class SeleniumLib
 		act.click(ele).perform();
 	}
 
-	public void mouseOverClick(WebElement ele, String stateName) 
+	public void mouseOverClick(WebElement ele) 
 	{
 		Actions act= new Actions(driver);
-		act.sendKeys(ele, stateName).perform();
-		act.sendKeys(Keys.ARROW_DOWN).perform();
-		act.sendKeys(Keys.ENTER).perform();
+		act.moveToElement(ele).perform();
+		act.click().perform();
+		
 	} 
 
 	public void jsClick(WebElement ele)
@@ -66,12 +65,17 @@ public class SeleniumLib
 		sel.deselectByIndex(index);
 	}
 
-	public void dragAndDrop(WebElement ele, int x, int y)
+	public void dragAndDropByCoodinate(WebElement ele, int x, int y)
 	{
 		Actions act=new Actions(driver);
 		act.clickAndHold(ele).perform();
 		act.dragAndDropBy(ele, x, y).perform();
 		act.release(ele).perform();
+	}
+	public void dragAndDropByWebelement(WebElement src, WebElement dest)
+	{
+		Actions act=new Actions(driver);
+		act.dragAndDrop(src, dest).perform();
 	}
 
 	public WebElement eWaitForElementPresent(int seconds, String xpath)
@@ -114,7 +118,7 @@ public class SeleniumLib
 	public String randomNumber(String pattern) 
 	{
 		Random rd= new Random();
-		int number = rd.nextInt(1000);
+		int number = rd.nextInt(10);
 		Object[] obj= {number};
 		String value = MessageFormat.format(pattern, obj);	
 		return value;
@@ -126,5 +130,5 @@ public class SeleniumLib
 		WebElement ele=wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(xpath)));
 		return ele;
 	}
-
+	
 }

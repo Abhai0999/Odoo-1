@@ -14,7 +14,7 @@ public class CustomerPage
 	public String image="//img[@name='image']";
 	public String pencil="//div[@class='o_form_image_controls']//button";
 	public String saveBtn="//div[@class='o_cp_buttons']//button[contains(text(),'Save')]";
-	public String customers="//div[@class='oe_kanban_details']//strong//span";//list of customers
+	public String allCustomers="//div[@class='oe_kanban_details']//strong//span";//list of customers
 	public String actinDrpDwn="//button[contains(text(),'Action')]";
 	public String deleteBtn="//a[contains(text(),'Delete')]";
 	public String OkBtn="//span[text()='Ok']";

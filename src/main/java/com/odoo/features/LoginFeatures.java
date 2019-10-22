@@ -20,6 +20,7 @@ public class LoginFeatures
 	
 	public void login(String username, String password)
 	{
+		
 		ls.enterUN(username);
 		ls.enterPwd(password);
 		ls.clickLoginBtn();

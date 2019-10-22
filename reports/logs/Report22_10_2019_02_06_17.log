@@ -1,0 +1,10 @@
+2019-10-22 14:06:17,648 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
+2019-10-22 14:06:28,845 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
+2019-10-22 14:06:33,583 [main] INFO com.odoo.webutils.MyTestListener - createOpportunity script execution starts
+2019-10-22 14:07:39,893 [main] INFO com.odoo.webutils.MyTestListener - createOpportunity script is passed
+2019-10-22 14:07:57,687 [main] INFO com.odoo.webutils.MyTestListener - drgAndDrpOpportunity script execution starts
+2019-10-22 14:08:26,398 [main] INFO com.odoo.webutils.MyTestListener - drgAndDrpOpportunity script is passed
+2019-10-22 14:08:43,768 [main] INFO com.odoo.webutils.MyTestListener - Browser Closed
+2019-10-22 14:08:43,976 [main] INFO com.odoo.webutils.MyTestListener - ExcelReport generated
+2019-10-22 14:08:43,976 [main] INFO com.odoo.webutils.MyTestListener - Framework execution Time Taken: 146.0seconds
+2019-10-22 14:08:43,983 [main] INFO com.odoo.webutils.MyTestListener - Framework execution ends

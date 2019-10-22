@@ -6,11 +6,11 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 
 import com.odoo.features.CommonFeatures;
+import com.odoo.features.ConfigurationFeatures;
 import com.odoo.features.SalesFeatures;
 import com.odoo.features.LoginFeatures;
 import com.odoo.generic.Driver;
 import com.odoo.generic.GenericLib;
-import com.odoo.steps.CustomerSteps;
 
 public abstract class BaseAbstractTest 
 {
@@ -18,7 +18,7 @@ public abstract class BaseAbstractTest
 	public LoginFeatures lf;
 	public CommonFeatures cf;
 	public SalesFeatures sf;
-	public CustomerSteps cs;
+	public ConfigurationFeatures cff;
 	
 	@BeforeClass
 	public void setUp()
@@ -29,7 +29,7 @@ public abstract class BaseAbstractTest
 		lf=new LoginFeatures(driver);
 		cf=new CommonFeatures(driver);
 		sf=new SalesFeatures(driver);
-		cs=new CustomerSteps(driver);
+		cff=new ConfigurationFeatures(driver); 
 	}
 	
 	@BeforeMethod

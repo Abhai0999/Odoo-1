@@ -1,0 +1,10 @@
+2019-10-21 18:49:51,751 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
+2019-10-21 18:50:02,543 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
+2019-10-21 18:50:11,250 [main] INFO com.odoo.webutils.MyTestListener - createOpportunity script execution starts
+2019-10-21 18:50:59,684 [main] FATAL com.odoo.webutils.MyTestListener - Keys to send should be a not null CharSequence
+2019-10-21 18:50:59,700 [main] WARN com.odoo.webutils.MyTestListener - createOpportunity script is failed
+2019-10-21 18:51:00,542 [main] INFO com.odoo.webutils.MyTestListener - Screenshot has been taken 
+2019-10-21 18:51:17,996 [main] INFO com.odoo.webutils.MyTestListener - Browser Closed
+2019-10-21 18:51:18,228 [main] INFO com.odoo.webutils.MyTestListener - ExcelReport generated
+2019-10-21 18:51:18,229 [main] INFO com.odoo.webutils.MyTestListener - Framework execution Time Taken: 86.0seconds
+2019-10-21 18:51:18,230 [main] INFO com.odoo.webutils.MyTestListener - Framework execution ends

@@ -10,4 +10,5 @@ public class BasePage
 	public String customersTab="//span[text()='Customers']";
 	public String configurationTab="//a[contains(text(),'Configuration')]";
 	public String SalesteamTab="//span[text()='Sales Teams']";
+	public String MyPipelineTab="//a/span[text()='My Pipeline']";
 }

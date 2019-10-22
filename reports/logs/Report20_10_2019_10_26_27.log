@@ -1,0 +1,5 @@
+2019-10-20 22:26:27,997 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
+2019-10-20 22:26:38,618 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
+2019-10-20 22:26:43,016 [main] INFO com.odoo.webutils.MyTestListener - createSalesTeam script execution starts
+2019-10-20 22:27:57,921 [main] WARN com.odoo.webutils.MyTestListener - createSalesTeam script is failed
+2019-10-20 22:27:58,286 [main] INFO com.odoo.webutils.MyTestListener - Screenshot has been taken 

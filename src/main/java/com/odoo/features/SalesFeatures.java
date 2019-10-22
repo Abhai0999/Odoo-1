@@ -2,41 +2,57 @@ package com.odoo.features;
 
 import org.openqa.selenium.WebDriver;
 
-import com.odoo.generic.SeleniumLib;
 import com.odoo.steps.CommonSteps;
 import com.odoo.steps.CustomerSteps;
+import com.odoo.steps.OpportunitySteps;
 
 public class SalesFeatures 
 {
 	CustomerSteps cs;
 	CommonSteps cms;
-	SeleniumLib sl;
+	OpportunitySteps os;
 		
 	public SalesFeatures(WebDriver driver) 
 	{
 		cs=new CustomerSteps(driver);
 		cms=new CommonSteps(driver);
-		sl=new SeleniumLib(driver);
+		os=new OpportunitySteps(driver);
 	}
 	
-	public void createNewCust(String[] customerData) 
+	public void createCustomer(String[] customerData) 
 	{		
 		cms.clickCRM();
 		cms.clickSales();
 		cms.clickCustomers();
 		cs.clickCreate();
 		cs.createCustomer(customerData);
-		cs.VerifyCrtCust(customerData);
+		cs.VerifyCrtCustomer(customerData);
 	}
-	public void deleteCust(String[] customerData) 
+	
+	public void deleteCustomer(String[] customerData) 
 	{
-		sl.iSleep(10);
 		cms.clickCRM();
-		sl.iSleep(10);
 		cms.clickSales();
 		cms.clickCustomers();
 		cs.deleteCustomer(customerData);
-		sl.iSleep(10);
-		cs.VerifyDltCust(customerData);
+		cs.VerifyDltCustomer(customerData);
+	}
+	
+	public void createOpportunity(String[] OpportunityData,String[] customerData) 
+	{
+		cms.clickCRM();
+		cms.clickSales();
+		cms.clickMyPipeLine();
+		os.clickCreate();
+		os.CreateOpportunity(OpportunityData, customerData);
+		os.verifyOpportunity(OpportunityData);
+	}
+	public void dragAnOpportunity(String[] OpportunityData) 
+	{
+		cms.clickCRM();
+		cms.clickSales();
+		cms.clickMyPipeLine();
+		os.dragAnOpportunity(OpportunityData);
+		os.verifyDragedOpportunity(OpportunityData);
 	}
 }

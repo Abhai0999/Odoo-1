@@ -24,15 +24,14 @@ public class CustomerSteps
 		cp=new CustomerPage();
 		sl=new SeleniumLib(driver);
 	}
+	
 	public void clickCreate() 
 	{
 		sl.iSleep(5);
 		driver.findElement(By.xpath(cp.createBtn)).click();
 	}
-
 	public void createCustomer(String[] CustomerData) 
 	{
-
 		WebElement name = sl.explicitlyWait(cp.customerName);
 		name.sendKeys(CustomerData[3]);
 
@@ -69,7 +68,7 @@ public class CustomerSteps
 
 		try 
 		{
-			Runtime.getRuntime().exec("./Resource/image.exe");
+			Runtime.getRuntime().exec("./Resource/meera.exe");
 		} 
 		catch (IOException e) 
 		{
@@ -82,7 +81,7 @@ public class CustomerSteps
 		sl.iSleep(5);
 		save.click();
 	}
-	public void VerifyCrtCust(String[] customerData) 
+	public void VerifyCrtCustomer(String[] customerData) 
 	{
 		sl.iSleep(5);
 		String actualName = driver.findElement(By.xpath(cp.newCustName)).getText();
@@ -98,8 +97,7 @@ public class CustomerSteps
 	public void deleteCustomer(String[] customerData) 
 	{
 		sl.iSleep(5);
-		List<WebElement> custNames = driver.findElements(By.xpath(cp.customers));
-		System.out.println("*****************"+custNames.size()+"*****************");
+		List<WebElement> custNames = driver.findElements(By.xpath(cp.allCustomers));
 		for (WebElement ele : custNames) 
 		{
 			String name = ele.getText();
@@ -117,12 +115,12 @@ public class CustomerSteps
 		sl.iSleep(5);
 		driver.findElement(By.xpath(cp.OkBtn)).click();
 	}
-	public void VerifyDltCust(String[] customerData) 
+	public void VerifyDltCustomer(String[] customerData) 
 	{
 		sl.iSleep(5);
 		driver.findElement(By.xpath(cp.customersTab)).click();
-		List<WebElement> custNames = driver.findElements(By.xpath(cp.customers));
-		for (WebElement ele : custNames) 
+		List<WebElement> allCustNames = driver.findElements(By.xpath(cp.allCustomers));
+		for (WebElement ele : allCustNames) 
 		{
 			String actualName = ele.getText();
 			Assert.assertNotEquals(actualName, customerData[3]);		
