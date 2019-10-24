@@ -26,11 +26,13 @@ public class LoginSteps
 	
 	public void enterUN(String username)
 	{
+		sl.iSleep(5);
 		driver.findElement(By.xpath(lp.unTxtBx)).sendKeys(username);
 	}
 	
 	public void enterPwd(String password)
 	{
+		sl.iSleep(6);
 		driver.findElement(By.xpath(lp.pwdTxtBx)).sendKeys(password);
 	}
 	

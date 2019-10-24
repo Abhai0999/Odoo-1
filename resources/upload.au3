@@ -1,0 +1,5 @@
+WinActivate("Open")
+Sleep("3000")
+ControlSetText("Open", "", "Edit1", "D:\SeleniumAutomation\Odoo\resources\nawaz")
+sleep("3000")
+ControlClick("Open", "", "Button1")

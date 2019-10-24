@@ -1,5 +1,8 @@
 package com.odoo.generic;
 
+import java.text.MessageFormat;
+import java.util.Random;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -11,6 +14,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class SeleniumLib 
 {
+	
 	WebDriver driver;
 	
 	public SeleniumLib(WebDriver driver)
@@ -96,6 +100,15 @@ public class SeleniumLib
 		
 	}
 	
+	public String randomValues(String pattern)
+		
+	{
+		Random rd = new Random();
+		int number = rd.nextInt(1000);
+		Object[] obj = {number};
+		String value = MessageFormat.format(pattern,obj);
+		return value;
+	}
 	
 	
 	
