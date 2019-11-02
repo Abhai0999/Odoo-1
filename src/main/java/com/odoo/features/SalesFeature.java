@@ -27,9 +27,9 @@ public class SalesFeature
 	
 	public void createNewCustomer(String[] customerData)
 	{
-		cs.clickCrm();
+		cs.clickCRM();
 		cs.clickSales();
-		cs.clickCust();
+		cs.clickCst();
 		cus.clickCreate();
 		cus.createCustomer(customerData);
 	}
@@ -44,9 +44,9 @@ public class SalesFeature
 	public void dltNewCustomer(String[] customerData1 )
 	{
 		
-		cs.clickCrm();
+		cs.clickCRM();
 		cs.clickSales();
-		cs.clickCust();
+		cs.clickCst();
 		cus.dltCustomer(customerData1);
 	}
 	

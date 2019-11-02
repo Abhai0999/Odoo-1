@@ -5,6 +5,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.Properties;
 
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
@@ -13,10 +14,12 @@ import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Capabilities;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.events.WebDriverEventListener;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
@@ -92,7 +95,24 @@ public class MyTestListener implements ITestListener, WebDriverEventListener
 	{
 		startTime=System.currentTimeMillis();
 		
-		SimpleDateFormat sdf=new SimpleDateFormat("dd_MM_yyyy_hh_mm_ss");
+		
+		
+		try
+		{
+				
+				File file = new File("./allure-results/environment.properties");
+				FileOutputStream fos = new FileOutputStream(file);
+				Properties prop = new Properties();
+				prop.setProperty("ApplicationName", GenericLib.getValue(GenericLib.getConfigFile(),"application"));
+				prop.setProperty("BrowserNAme", GenericLib.getValue(GenericLib.getConfigFile(), "browserName"));
+				prop.setProperty("Platform", GenericLib.os);
+				prop.store(fos, "Writing data");
+				}
+				catch(IOException e)
+		{
+					e.printStackTrace();
+		}
+				SimpleDateFormat sdf=new SimpleDateFormat("dd_MM_yyyy_hh_mm_ss");
 		System.setProperty("timestamp", sdf.format(new Date()));
 		
 		System.setProperty("logpath", GenericLib.dir+"/reports/logs");
@@ -105,14 +125,19 @@ public class MyTestListener implements ITestListener, WebDriverEventListener
 		
 		String filepath = GenericLib.getConfigFile();
 		String system = GenericLib.getValue(filepath, "system");
-		String browserName = GenericLib.getValue(filepath, "browserName");
+	String browserName=GenericLib.getValue(filepath, "browserName");
 		String headless = GenericLib.getValue(filepath, "headless");
+		
+//		String browserName=System.getProperty("browser");
+//		String headless=System.getProperty("headless");
 		
 		WebDriver driver = DriverFactory.launch(system, browserName, headless);
 		driver.manage().window().maximize();
 		Driver.setDriver(driver);
 		log.info("Browser Launched and maximized");
-	}
+		}
+
+
 
 	@Override
 	public void onFinish(ITestContext context) 
@@ -120,7 +145,7 @@ public class MyTestListener implements ITestListener, WebDriverEventListener
 		Driver.getDriver().close();
 		if (Driver.getDriver()!=null) 
 		{
-			Driver.getDriver().quit();
+	Driver.getDriver().quit();
 		}
 		log.info("Browser Closed");
 		

@@ -4,9 +4,9 @@
 <listeners>
 <listener class-name="com.odoo.webutils.MyTestListener" />
 </listeners>
-  <test  name="Test">
+  <test name="Test">
     <classes>
-      <class name="com.odoo.scripts.SalesTest"/>
+      <class name="com.odoo.scripts.ConfigurationTest"/>
     </classes>
   </test> 
 </suite> 

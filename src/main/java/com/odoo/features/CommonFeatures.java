@@ -24,12 +24,13 @@ public class CommonFeatures
 	}
 	public void salesDiv() {
 		sl.iSleep(4);
-		cs.clickCrm();
+		cs.clickCRM();
 		//sl.iSleep(3);
 		cs.clickSales();
 		
 		sl.iSleep(3);
-		cs.clickCust();
+		cs.clickCst();
 		//sl.iSleep(3);
+		
 	}
 }

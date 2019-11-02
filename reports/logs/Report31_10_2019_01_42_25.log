@@ -1,0 +1,18 @@
+2019-10-31 13:42:26,168 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
+2019-10-31 13:42:43,927 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
+2019-10-31 13:42:52,649 [main] INFO com.odoo.webutils.MyTestListener - createSalesTeam script execution starts
+2019-10-31 13:45:21,005 [main] FATAL com.odoo.webutils.MyTestListener - element click intercepted: Element <input class="o_field_char o_field_widget o_input oe_inline" name="alias_name" placeholder="" type="text" id="o_field_input_193"> is not clickable at point (356, 342). Other element would receive the click: <div role="dialog" class="modal o_technical_modal show" tabindex="-1" data-backdrop="static" id="modal_224" open="open" aria-modal="true" style="display: block;">...</div>
+  (Session info: chrome=77.0.3865.90)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-EUBAEQM', ip: '192.168.43.219', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62239}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d1457d76ab4a7394da892099f1478338
+2019-10-31 13:45:21,149 [main] WARN com.odoo.webutils.MyTestListener - createSalesTeam script is failed
+2019-10-31 13:45:21,797 [main] INFO com.odoo.webutils.MyTestListener - Screenshot has been taken 
+2019-10-31 13:45:38,444 [main] INFO com.odoo.webutils.MyTestListener - dltSalesTeam script execution starts
+2019-10-31 13:45:38,544 [main] INFO com.odoo.webutils.MyTestListener - dltSalesTeam script is skipped
+2019-10-31 13:45:40,335 [main] INFO com.odoo.webutils.MyTestListener - Browser Closed
+2019-10-31 13:45:40,755 [main] INFO com.odoo.webutils.MyTestListener - ExcelReport generated
+2019-10-31 13:45:40,757 [main] INFO com.odoo.webutils.MyTestListener - Framework execution Time Taken: 194.0seconds
+2019-10-31 13:45:40,758 [main] INFO com.odoo.webutils.MyTestListener - Framework execution ends

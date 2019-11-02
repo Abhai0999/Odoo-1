@@ -8,4 +8,7 @@ public class BasePage
 	public String logout="//a[text()='Log out']";
 	public String Sales="(//a[contains(text(),'Sales')])[1]";
 	public String Customer="//span[text()='Customers']";
+	public String configuration="//a[contains(text(),'Configuration')]";
+	public String salesTeamBtn="//span[text()='Sales Teams']";
+	public String MyPipleline= "//a/span[text()='My Pipeline']";
 }

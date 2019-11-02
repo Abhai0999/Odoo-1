@@ -9,6 +9,8 @@ import com.odoo.generic.SeleniumLib;
 import com.odoo.pageobjects.BasePage;
 import com.odoo.pageobjects.LoginPage;
 
+import io.qameta.allure.Step;
+
 public class LoginSteps 
 {
 	WebDriver driver;
@@ -24,6 +26,7 @@ public class LoginSteps
 		sl=new SeleniumLib(driver);
 	}
 	
+	@Step("Enter UserNAme")
 	public void enterUN(String username)
 	{
 		sl.iSleep(5);

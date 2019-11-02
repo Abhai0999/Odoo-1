@@ -6,7 +6,7 @@
 </listeners>
   <test  name="Test">
     <classes>
-      <class name="com.odoo.scripts.SalesTest"/>
+      <class name="com.odoo.scripts.CreateOpportunityTest"/>
     </classes>
   </test> 
-</suite> 
+</suite>
