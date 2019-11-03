@@ -1,0 +1,20 @@
+2019-11-02 14:14:12,056 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
+2019-11-02 14:14:16,281 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
+2019-11-02 14:14:18,949 [main] INFO com.odoo.webutils.MyTestListener - createCustomer script execution starts
+2019-11-02 14:15:57,339 [main] INFO com.odoo.webutils.MyTestListener - createCustomer script is passed
+2019-11-02 14:16:16,098 [main] INFO com.odoo.webutils.MyTestListener - createOpportunity script execution starts
+2019-11-02 14:17:28,303 [main] INFO com.odoo.webutils.MyTestListener - createOpportunity script is passed
+2019-11-02 14:17:46,177 [main] INFO com.odoo.webutils.MyTestListener - scheduleActivity script execution starts
+2019-11-02 14:19:41,846 [main] FATAL com.odoo.webutils.MyTestListener - element not interactable
+  (Session info: chrome=78.0.3904.70)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RQOJ408I', ip: '192.168.0.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.70, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\ASUS\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64611}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b3d0c3afa3d3116fce7e6bed8e43b76d
+2019-11-02 14:19:41,870 [main] WARN com.odoo.webutils.MyTestListener - scheduleActivity script is failed
+2019-11-02 14:19:42,865 [main] INFO com.odoo.webutils.MyTestListener - Screenshot has been taken 
+2019-11-02 14:20:03,998 [main] INFO com.odoo.webutils.MyTestListener - Browser Closed
+2019-11-02 14:20:04,228 [main] INFO com.odoo.webutils.MyTestListener - ExcelReport generated
+2019-11-02 14:20:04,228 [main] INFO com.odoo.webutils.MyTestListener - Framework execution Time Taken: 359.0seconds
+2019-11-02 14:20:04,228 [main] INFO com.odoo.webutils.MyTestListener - Framework execution ends

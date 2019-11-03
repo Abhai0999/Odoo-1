@@ -1,0 +1,25 @@
+2019-11-02 22:21:38,066 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
+2019-11-02 22:21:42,257 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
+2019-11-02 22:21:44,790 [main] INFO com.odoo.webutils.MyTestListener - createCustomer script execution starts
+2019-11-02 22:23:20,874 [main] INFO com.odoo.webutils.MyTestListener - createCustomer script is passed
+2019-11-02 22:23:37,920 [main] INFO com.odoo.webutils.MyTestListener - createOpportunity script execution starts
+2019-11-02 22:24:46,535 [main] INFO com.odoo.webutils.MyTestListener - createOpportunity script is passed
+2019-11-02 22:25:04,156 [main] INFO com.odoo.webutils.MyTestListener - scheduleActivity script execution starts
+2019-11-02 22:26:51,982 [main] FATAL com.odoo.webutils.MyTestListener - stale element reference: element is not attached to the page document
+  (Session info: chrome=78.0.3904.70)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RQOJ408I', ip: '192.168.0.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.70, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\ASUS\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:49876}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: debf9d7cfbff245bfb525b150e62bba3
+2019-11-02 22:26:51,994 [main] WARN com.odoo.webutils.MyTestListener - scheduleActivity script is failed
+2019-11-02 22:26:52,730 [main] INFO com.odoo.webutils.MyTestListener - Screenshot has been taken 
+2019-11-02 22:27:09,076 [main] INFO com.odoo.webutils.MyTestListener - drgAndDrpOpportunity script execution starts
+2019-11-02 22:27:09,082 [main] INFO com.odoo.webutils.MyTestListener - drgAndDrpOpportunity script is skipped
+2019-11-02 22:27:09,088 [main] INFO com.odoo.webutils.MyTestListener - deleteCustomer script execution starts
+2019-11-02 22:27:09,095 [main] INFO com.odoo.webutils.MyTestListener - deleteCustomer script is skipped
+2019-11-02 22:27:13,789 [main] INFO com.odoo.webutils.MyTestListener - Browser Closed
+2019-11-02 22:27:13,842 [main] INFO com.odoo.webutils.MyTestListener - ExcelReport generated
+2019-11-02 22:27:13,842 [main] INFO com.odoo.webutils.MyTestListener - Framework execution Time Taken: 342.0seconds
+2019-11-02 22:27:13,842 [main] INFO com.odoo.webutils.MyTestListener - Framework execution ends

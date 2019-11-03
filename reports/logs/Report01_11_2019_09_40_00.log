@@ -1,0 +1,16 @@
+2019-11-01 21:40:00,958 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
+2019-11-01 21:40:05,123 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
+2019-11-01 21:40:08,167 [main] INFO com.odoo.webutils.MyTestListener - scheduleActivity script execution starts
+2019-11-01 21:41:53,297 [main] FATAL com.odoo.webutils.MyTestListener - element click intercepted: Element <td class="fc-widget-content"></td> is not clickable at point (653, 459). Other element would receive the click: <div class="fc-bg"></div>
+  (Session info: chrome=78.0.3904.70)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RQOJ408I', ip: '192.168.0.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.70, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\ASUS\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57366}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ae91683541fc175a6bd7c5c3bbf5e9fe
+2019-11-01 21:41:53,297 [main] WARN com.odoo.webutils.MyTestListener - scheduleActivity script is failed
+2019-11-01 21:41:53,783 [main] INFO com.odoo.webutils.MyTestListener - Screenshot has been taken 
+2019-11-01 21:42:10,718 [main] INFO com.odoo.webutils.MyTestListener - Browser Closed
+2019-11-01 21:42:10,889 [main] INFO com.odoo.webutils.MyTestListener - ExcelReport generated
+2019-11-01 21:42:10,889 [main] INFO com.odoo.webutils.MyTestListener - Framework execution Time Taken: 136.0seconds
+2019-11-01 21:42:10,889 [main] INFO com.odoo.webutils.MyTestListener - Framework execution ends

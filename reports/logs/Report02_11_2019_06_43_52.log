@@ -1,0 +1,24 @@
+2019-11-02 18:43:52,773 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
+2019-11-02 18:43:56,963 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
+2019-11-02 18:44:02,441 [main] INFO com.odoo.webutils.MyTestListener - createCustomer script execution starts
+2019-11-02 18:45:41,318 [main] INFO com.odoo.webutils.MyTestListener - createCustomer script is passed
+2019-11-02 18:45:59,443 [main] INFO com.odoo.webutils.MyTestListener - createOpportunity script execution starts
+2019-11-02 18:47:12,709 [main] INFO com.odoo.webutils.MyTestListener - createOpportunity script is passed
+2019-11-02 18:47:30,832 [main] INFO com.odoo.webutils.MyTestListener - scheduleActivity script execution starts
+2019-11-02 18:49:26,307 [main] FATAL com.odoo.webutils.MyTestListener - element click intercepted: Element <td class="fc-widget-content"></td> is not clickable at point (653, 439). Other element would receive the click: <div class="fc-bg"></div>
+  (Session info: chrome=78.0.3904.70)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RQOJ408I', ip: '192.168.0.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.70, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\ASUS\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:65411}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f8ae1e84bb9c1a32df2fd329445fa517
+2019-11-02 18:49:26,318 [main] WARN com.odoo.webutils.MyTestListener - scheduleActivity script is failed
+2019-11-02 18:49:27,334 [main] INFO com.odoo.webutils.MyTestListener - Screenshot has been taken 
+2019-11-02 18:49:44,635 [main] INFO com.odoo.webutils.MyTestListener - drgAndDrpOpportunity script execution starts
+2019-11-02 18:49:44,650 [main] INFO com.odoo.webutils.MyTestListener - drgAndDrpOpportunity script is skipped
+2019-11-02 18:49:44,666 [main] INFO com.odoo.webutils.MyTestListener - deleteCustomer script execution starts
+2019-11-02 18:49:44,681 [main] INFO com.odoo.webutils.MyTestListener - deleteCustomer script is skipped
+2019-11-02 18:49:45,653 [main] INFO com.odoo.webutils.MyTestListener - Browser Closed
+2019-11-02 18:49:45,977 [main] INFO com.odoo.webutils.MyTestListener - ExcelReport generated
+2019-11-02 18:49:45,980 [main] INFO com.odoo.webutils.MyTestListener - Framework execution Time Taken: 360.0seconds
+2019-11-02 18:49:45,980 [main] INFO com.odoo.webutils.MyTestListener - Framework execution ends

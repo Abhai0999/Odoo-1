@@ -7,6 +7,8 @@ import com.odoo.generic.SeleniumLib;
 import com.odoo.steps.CommonSteps;
 import com.odoo.steps.LoginSteps;
 
+import io.qameta.allure.Feature;
+
 public class LoginFeatures 
 {
 	LoginSteps ls;
@@ -17,7 +19,7 @@ public class LoginFeatures
 	{
 		ls=new LoginSteps(driver);
 	}
-	
+	@Feature("valid log-in")
 	public void login(String username, String password)
 	{
 		
@@ -25,6 +27,7 @@ public class LoginFeatures
 		ls.enterPwd(password);
 		ls.clickLoginBtn();
 	}
+	@Feature("Verify valid logged in")
 	public void verifyValidLogin(String username)
 	{
 		ls.verifyCRM();

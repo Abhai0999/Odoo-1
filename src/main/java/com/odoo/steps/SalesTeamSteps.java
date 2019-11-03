@@ -23,32 +23,43 @@ public class SalesTeamSteps
 		sl=new SeleniumLib();
 	}
 
-	public void clickCreate() 
-	{
-		sl.iSleep(5);
-		driver.findElement(By.xpath(stp.createBtn)).click();
-	}
+//	public void clickCreate() 
+//	{
+//		sl.iSleep(5);
+//		driver.findElement(By.xpath(stp.createBtn)).click();
+//	}
 	public void createSalesTeam(String[] salesTeamData) 
 	{
+		int count=3;
 		sl.iSleep(5);
-		driver.findElement(By.xpath(stp.salesTeamNam)).sendKeys(salesTeamData[3]);
-		sl.iSleep(5);
-		driver.findElement(By.xpath(stp.teamLeaderNam)).click();
-		sl.iSleep(5);
-		driver.findElement(By.xpath(stp.clkAndEdt)).click();
-		sl.iSleep(5);
-		driver.findElement(By.xpath(stp.teamLeadNam)).sendKeys(salesTeamData[4]);
-		sl.iSleep(5);
-		driver.findElement(By.xpath(stp.teanLeadEmail)).sendKeys(salesTeamData[5]);
-		sl.iSleep(5);
-		driver.findElement(By.xpath(stp.teamLeadSaveBtn)).click();
-		sl.iSleep(10);
-		WebElement email = driver.findElement(By.xpath(stp.email));
-		email.click();
-		email.sendKeys(salesTeamData[6]);
-		sl.iSleep(10);
-		WebElement saveBTN = driver.findElement(By.xpath(stp.saveBtn));
-		saveBTN.click();
+		for (int i = 0; i<4; i++) 
+		{ 
+			sl.iSleep(5);
+			driver.findElement(By.xpath(stp.createBtn)).click();
+			sl.iSleep(5);
+			driver.findElement(By.xpath(stp.salesTeamNam)).sendKeys(salesTeamData[i+count]);
+			sl.iSleep(5);
+			driver.findElement(By.xpath(stp.teamLeaderNam)).click();
+			sl.iSleep(5);
+			driver.findElement(By.xpath(stp.clkAndEdt)).click();
+			sl.iSleep(5);
+			driver.findElement(By.xpath(stp.teamLeadNam)).sendKeys(salesTeamData[i+count+1]);
+			sl.iSleep(5);
+			driver.findElement(By.xpath(stp.teanLeadEmail)).sendKeys(salesTeamData[i+count+2]);
+			sl.iSleep(5);;
+			driver.findElement(By.xpath(stp.teamLeadSaveBtn)).click();
+			sl.iSleep(5);
+			WebElement email = driver.findElement(By.xpath(stp.email));
+			sl.iSleep(5);
+			email.click();
+			sl.iSleep(5);
+			email.sendKeys(salesTeamData[i+count+3]);
+			sl.iSleep(5);
+			WebElement saveBTN = driver.findElement(By.xpath(stp.saveBtn));
+			sl.iSleep(10);
+			saveBTN.click();
+			count=count+3;
+		}
 	}
 	public void verifyCrtSalesTeam(String[] salesTeamData) 
 	{ 
@@ -95,7 +106,7 @@ public class SalesTeamSteps
 		for (WebElement ele : salesTeamName) 
 		{
 			String actualName = ele.getText();
-			Assert.assertNotEquals(actualName, salesTeamData[3]);			
+			Assert.assertNotEquals(actualName, salesTeamData[15]);			
 		}
 		System.out.println("***************Delete SaleTeam Verified***************");
 	}

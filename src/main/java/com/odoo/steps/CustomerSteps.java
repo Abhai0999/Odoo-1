@@ -24,62 +24,47 @@ public class CustomerSteps
 		cp=new CustomerPage();
 		sl=new SeleniumLib(driver);
 	}
+
 	
-	public void clickCreate() 
-	{
-		sl.iSleep(5);
-		driver.findElement(By.xpath(cp.createBtn)).click();
-	}
 	public void createCustomer(String[] CustomerData) 
 	{
-		WebElement name = sl.explicitlyWait(cp.customerName);
-		name.sendKeys(CustomerData[3]);
-
-		WebElement street = sl.explicitlyWait(cp.streetName);
-		street.sendKeys(CustomerData[4]);
-
-		WebElement city = sl.explicitlyWait(cp.cityName);
-		city.sendKeys(CustomerData[5]);
-
-		WebElement state= sl.explicitlyWait(cp.stateName);
-		state.sendKeys(CustomerData[6]);
-		state.sendKeys(Keys.ARROW_DOWN);
-		state.sendKeys(Keys.ENTER);
-
-		WebElement zip= sl.explicitlyWait(cp.zipCode);
-		zip.sendKeys(CustomerData[7]);
-
-		WebElement conutry = sl.explicitlyWait(cp.countryName);
-		conutry.sendKeys(CustomerData[8]);
-
-		WebElement phone = sl.explicitlyWait(cp.phoneNo);
-		phone.sendKeys(CustomerData[9]);
-
-		WebElement email = sl.explicitlyWait(cp.emailID);
-		email.sendKeys(CustomerData[10]);
-
-		WebElement image = sl.explicitlyWait(cp.image);
-		image.click();
-
-		WebElement pencil = sl.explicitlyWait(cp.pencil);
-		pencil.click();
-
-		sl.iSleep(5);
-
-		try 
-		{
-			Runtime.getRuntime().exec("./Resource/meera.exe");
-		} 
-		catch (IOException e) 
-		{
-			e.printStackTrace();
-		}
-
-		sl.iSleep(5);
-
-		WebElement save = sl.explicitlyWait(cp.saveBtn);
-		sl.iSleep(5);
-		save.click();
+			sl.iSleep(5);
+			driver.findElement(By.xpath(cp.createBtn)).click();
+			sl.iSleep(5);
+			driver.findElement(By.xpath(cp.customerName)).sendKeys(CustomerData[3]);
+			sl.iSleep(5);
+			driver.findElement(By.xpath(cp.streetName)).sendKeys(CustomerData[4]);
+			sl.iSleep(5);
+			driver.findElement(By.xpath(cp.cityName)).sendKeys(CustomerData[5]);
+			sl.iSleep(5);
+			WebElement state = driver.findElement(By.xpath(cp.stateName));
+			sl.iSleep(5);
+			state.sendKeys(CustomerData[6]);
+			state.sendKeys(Keys.ARROW_DOWN);
+			state.sendKeys(Keys.ENTER);
+			sl.iSleep(5);
+			driver.findElement(By.xpath(cp.zipCode)).sendKeys(CustomerData[7]);
+			sl.iSleep(5);
+			driver.findElement(By.xpath(cp.countryName)).sendKeys(CustomerData[8]);
+			sl.iSleep(2);
+			driver.findElement(By.xpath(cp.phoneNo)).sendKeys(CustomerData[9]);
+			sl.iSleep(2);
+			driver.findElement(By.xpath(cp.emailID)).sendKeys(CustomerData[10]);
+			sl.iSleep(2);
+			driver.findElement(By.xpath(cp.image)).click();
+			sl.iSleep(2);
+			driver.findElement(By.xpath(cp.pencil)).click();
+			sl.iSleep(2);
+			try 
+			{
+				Runtime.getRuntime().exec("./Resource/Clair.exe");
+			} 
+			catch (IOException e) 
+			{
+				e.printStackTrace();
+			}
+			sl.iSleep(10);
+			driver.findElement(By.xpath(cp.saveBtn)).click();
 	}
 	public void VerifyCrtCustomer(String[] customerData) 
 	{

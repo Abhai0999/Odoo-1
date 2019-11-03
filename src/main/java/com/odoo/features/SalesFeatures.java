@@ -24,7 +24,6 @@ public class SalesFeatures
 		cms.clickCRM();
 		cms.clickSales();
 		cms.clickCustomers();
-		cs.clickCreate();
 		cs.createCustomer(customerData);
 		cs.VerifyCrtCustomer(customerData);
 	}
@@ -45,7 +44,15 @@ public class SalesFeatures
 		cms.clickMyPipeLine();
 		os.clickCreate();
 		os.CreateOpportunity(OpportunityData, customerData);
-		os.verifyOpportunity(OpportunityData);
+		os.verifyCreateOpportunity(OpportunityData);
+	}
+	public void scheduleActitivity() 
+	{
+		cms.clickCRM();
+		cms.clickSales();
+		cms.clickMyPipeLine();
+		os.scheduleActivity();
+		os.verifyScheduleActivity();
 	}
 	public void dragAnOpportunity(String[] OpportunityData) 
 	{
@@ -53,6 +60,6 @@ public class SalesFeatures
 		cms.clickSales();
 		cms.clickMyPipeLine();
 		os.dragAnOpportunity(OpportunityData);
-		os.verifyDragedOpportunity(OpportunityData);
+		//os.verifyDragedOpportunity(OpportunityData);
 	}
 }

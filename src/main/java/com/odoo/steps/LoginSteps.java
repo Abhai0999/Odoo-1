@@ -8,6 +8,8 @@ import com.odoo.generic.SeleniumLib;
 import com.odoo.pageobjects.BasePage;
 import com.odoo.pageobjects.LoginPage;
 
+import io.qameta.allure.Step;
+
 public class LoginSteps 
 {
 	WebDriver driver;
@@ -22,29 +24,29 @@ public class LoginSteps
 		bp=new BasePage();
 		sl=new SeleniumLib(driver);
 	}
-	
+	@Step
 	public void enterUN(String username)
 	{
 		sl.iSleep(5);
 		driver.findElement(By.xpath(lp.unTxtBx)).sendKeys(username);
 	}
-	
+	@Step
 	public void enterPwd(String password)
 	{
 		driver.findElement(By.xpath(lp.pwdTxtBx)).sendKeys(password);
 	}
-	
+	@Step
 	public void clickLoginBtn()
 	{
 		driver.findElement(By.xpath(lp.loginBtn)).click();
 	}
-	
+	@Step
 	public void verifyCRM()
 	{
-		boolean flag = sl.eWaitForVisiblity(20, bp.crm).isDisplayed();
+		boolean flag = sl.explicitlyWait(bp.crm,20).isDisplayed();
 		Assert.assertTrue(flag);
 	}
-	
+	@Step
 	public void verifyLoggedInEmailID(String username)
 	{
 		String actualEmailID = driver.findElement(By.xpath(bp.loggedInEmailID)).getText();

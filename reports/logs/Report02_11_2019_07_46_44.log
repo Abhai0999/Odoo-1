@@ -1,0 +1,8 @@
+2019-11-02 07:46:44,952 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
+2019-11-02 07:46:49,107 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
+2019-11-02 07:46:51,753 [main] INFO com.odoo.webutils.MyTestListener - scheduleActivity script execution starts
+2019-11-02 07:49:13,227 [main] INFO com.odoo.webutils.MyTestListener - scheduleActivity script is passed
+2019-11-02 07:49:30,261 [main] INFO com.odoo.webutils.MyTestListener - Browser Closed
+2019-11-02 07:49:30,729 [main] INFO com.odoo.webutils.MyTestListener - ExcelReport generated
+2019-11-02 07:49:30,729 [main] INFO com.odoo.webutils.MyTestListener - Framework execution Time Taken: 173.0seconds
+2019-11-02 07:49:30,730 [main] INFO com.odoo.webutils.MyTestListener - Framework execution ends

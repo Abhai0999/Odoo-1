@@ -11,4 +11,5 @@ public class BasePage
 	public String configurationTab="//a[contains(text(),'Configuration')]";
 	public String SalesteamTab="//span[text()='Sales Teams']";
 	public String MyPipelineTab="//a/span[text()='My Pipeline']";
+	public String settingTab="//a/span[text()='Settings']";
 }

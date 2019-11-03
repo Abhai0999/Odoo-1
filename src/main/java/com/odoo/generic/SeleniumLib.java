@@ -62,7 +62,7 @@ public class SeleniumLib
 	public void selectDrpDwnOption(WebElement ele, int index)
 	{
 		Select sel=new Select(ele);
-		sel.deselectByIndex(index);
+		sel.selectByIndex(index);
 	}
 
 	public void dragAndDropByCoodinate(WebElement ele, int x, int y)
@@ -94,13 +94,11 @@ public class SeleniumLib
 		return wb;
 	}
 
-	public WebElement eWaitForVisiblity(int seconds, String xpath)
+	public WebElement explicitlyWait(String xpath, int seconds) 
 	{
-		WebDriverWait wait=new WebDriverWait(driver, seconds);
-		WebElement wb = wait.until
-				(ExpectedConditions.visibilityOfElementLocated(By.xpath(xpath)));
-
-		return wb;
+		WebDriverWait wait= new WebDriverWait(driver, seconds);
+		WebElement ele=wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(xpath)));
+		return ele;
 	}
 
 	public void iSleep(int seconds)
@@ -118,17 +116,9 @@ public class SeleniumLib
 	public String randomNumber(String pattern) 
 	{
 		Random rd= new Random();
-		int number = rd.nextInt(10);
+		int number = rd.nextInt(100);
 		Object[] obj= {number};
 		String value = MessageFormat.format(pattern, obj);	
 		return value;
 	}
-
-	public WebElement explicitlyWait(String xpath) 
-	{
-		WebDriverWait wait= new WebDriverWait(driver, 20);
-		WebElement ele=wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(xpath)));
-		return ele;
-	}
-	
 }

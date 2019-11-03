@@ -1,0 +1,23 @@
+2019-10-24 07:15:58,967 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
+2019-10-24 07:16:10,585 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
+2019-10-24 07:16:15,252 [main] INFO com.odoo.webutils.MyTestListener - createSalesTeam script execution starts
+2019-10-24 07:17:40,951 [main] FATAL com.odoo.webutils.MyTestListener - element click intercepted: Element <input class="o_field_char o_field_widget o_input oe_inline" name="alias_name" placeholder="" type="text" id="o_field_input_109"> is not clickable at point (256, 326). Other element would receive the click: <div role="dialog" class="modal o_technical_modal show" tabindex="-1" data-backdrop="static" id="modal_140" open="open" aria-modal="true" style="display: block;">...</div>
+  (Session info: chrome=78.0.3904.70)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RQOJ408I', ip: '192.168.0.120', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.70, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\ASUS\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54438}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 523867b9409f4269db0040fa34eb4392
+2019-10-24 07:17:40,987 [main] WARN com.odoo.webutils.MyTestListener - createSalesTeam script is failed
+2019-10-24 07:17:41,537 [main] INFO com.odoo.webutils.MyTestListener - Screenshot has been taken 
+2019-10-24 07:17:51,763 [main] FATAL com.odoo.webutils.MyTestListener - element click intercepted: Element <a role="button" class="dropdown-toggle" data-toggle="dropdown" data-display="static" aria-expanded="false" href="#">...</a> is not clickable at point (1415, 23). Other element would receive the click: <div role="dialog" class="modal o_technical_modal show" tabindex="-1" data-backdrop="static" id="modal_140" open="open" aria-modal="true" style="display: block;">...</div>
+  (Session info: chrome=78.0.3904.70)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RQOJ408I', ip: '192.168.0.120', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.70, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\ASUS\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54438}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 523867b9409f4269db0040fa34eb4392
+2019-10-24 07:17:56,702 [main] INFO com.odoo.webutils.MyTestListener - Browser Closed
+2019-10-24 07:17:56,980 [main] INFO com.odoo.webutils.MyTestListener - ExcelReport generated
+2019-10-24 07:17:56,980 [main] INFO com.odoo.webutils.MyTestListener - Framework execution Time Taken: 118.0seconds
+2019-10-24 07:17:56,980 [main] INFO com.odoo.webutils.MyTestListener - Framework execution ends

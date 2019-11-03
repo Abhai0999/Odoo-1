@@ -1,0 +1,18 @@
+2019-10-23 23:35:41,926 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
+2019-10-23 23:35:52,998 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
+2019-10-23 23:35:56,247 [main] INFO com.odoo.webutils.MyTestListener - createUsers script execution starts
+2019-10-23 23:36:18,120 [main] FATAL com.odoo.webutils.MyTestListener - no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Manage Users']"}
+  (Session info: chrome=78.0.3904.70)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RQOJ408I', ip: '192.168.0.120', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.70, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\ASUS\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52304}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a3c35da5f1143a496a91189c8236bdfe
+*** Element info: {Using=xpath, value=//span[text()='Manage Users']}
+2019-10-23 23:36:18,149 [main] WARN com.odoo.webutils.MyTestListener - createUsers script is failed
+2019-10-23 23:36:19,670 [main] INFO com.odoo.webutils.MyTestListener - Screenshot has been taken 
+2019-10-23 23:36:36,917 [main] INFO com.odoo.webutils.MyTestListener - Browser Closed
+2019-10-23 23:36:37,607 [main] INFO com.odoo.webutils.MyTestListener - ExcelReport generated
+2019-10-23 23:36:37,608 [main] INFO com.odoo.webutils.MyTestListener - Framework execution Time Taken: 55.0seconds
+2019-10-23 23:36:37,608 [main] INFO com.odoo.webutils.MyTestListener - Framework execution ends

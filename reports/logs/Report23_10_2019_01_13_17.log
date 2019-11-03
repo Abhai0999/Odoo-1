@@ -1,0 +1,26 @@
+2019-10-23 13:13:17,991 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
+2019-10-23 13:13:27,958 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
+2019-10-23 13:13:32,982 [main] INFO com.odoo.webutils.MyTestListener - createCustomer script execution starts
+2019-10-23 13:14:15,355 [main] FATAL com.odoo.webutils.MyTestListener - no such element: Unable to locate element: {"method":"xpath","selector":"//div[@name='name']//input"}
+  (Session info: chrome=78.0.3904.70)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RQOJ408I', ip: '192.168.0.130', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.70, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\ASUS\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64100}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2965e5d96479dc8a543510d2f32afe31
+*** Element info: {Using=xpath, value=//div[@name='name']//input}
+2019-10-23 13:14:15,869 [main] FATAL com.odoo.webutils.MyTestListener - no such element: Unable to locate element: {"method":"xpath","selector":"//div[@name='name']//input"}
+  (Session info: chrome=78.0.3904.70)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RQOJ408I', ip: '192.168.0.130', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.70, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\ASUS\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64100}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2965e5d96479dc8a543510d2f32afe31
+*** Element info: {Using=xpath, value=//div[@name='name']//input}
+2019-10-23 13:14:47,924 [main] INFO com.odoo.webutils.MyTestListener - createCustomer script is passed
+2019-10-23 13:15:04,287 [main] INFO com.odoo.webutils.MyTestListener - Browser Closed
+2019-10-23 13:15:04,368 [main] INFO com.odoo.webutils.MyTestListener - ExcelReport generated
+2019-10-23 13:15:04,368 [main] INFO com.odoo.webutils.MyTestListener - Framework execution Time Taken: 106.0seconds
+2019-10-23 13:15:04,368 [main] INFO com.odoo.webutils.MyTestListener - Framework execution ends

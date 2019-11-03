@@ -11,7 +11,7 @@ public class CustomerPage
 	public String zipCode="//input[@name='zip']";
 	public String phoneNo="//input[@name='phone']";
 	public String emailID="//input[@name='email']";
-	public String image="//img[@name='image']";
+	public String image="//div[contains(@class,'oe_avatar')]//img";
 	public String pencil="//div[@class='o_form_image_controls']//button";
 	public String saveBtn="//div[@class='o_cp_buttons']//button[contains(text(),'Save')]";
 	public String allCustomers="//div[@class='oe_kanban_details']//strong//span";//list of customers

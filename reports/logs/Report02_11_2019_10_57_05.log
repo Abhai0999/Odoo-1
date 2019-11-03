@@ -1,0 +1,26 @@
+2019-11-02 22:57:06,127 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
+2019-11-02 22:57:10,327 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
+2019-11-02 22:57:13,964 [main] INFO com.odoo.webutils.MyTestListener - createCustomer script execution starts
+2019-11-02 22:59:30,042 [main] INFO com.odoo.webutils.MyTestListener - createCustomer script is passed
+2019-11-02 22:59:47,477 [main] INFO com.odoo.webutils.MyTestListener - createOpportunity script execution starts
+2019-11-02 23:00:58,452 [main] FATAL com.odoo.webutils.MyTestListener - no such element: Unable to locate element: {"method":"xpath","selector":"//h1/span[@name='name']"}
+  (Session info: chrome=78.0.3904.70)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RQOJ408I', ip: '192.168.0.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.70, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\ASUS\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50639}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: cce33c529335d168fe5549e955aa107a
+*** Element info: {Using=xpath, value=//h1/span[@name='name']}
+2019-11-02 23:00:58,477 [main] WARN com.odoo.webutils.MyTestListener - createOpportunity script is failed
+2019-11-02 23:00:59,118 [main] INFO com.odoo.webutils.MyTestListener - Screenshot has been taken 
+2019-11-02 23:01:18,041 [main] INFO com.odoo.webutils.MyTestListener - scheduleActivity script execution starts
+2019-11-02 23:01:18,085 [main] INFO com.odoo.webutils.MyTestListener - scheduleActivity script is skipped
+2019-11-02 23:01:18,099 [main] INFO com.odoo.webutils.MyTestListener - drgAndDrpOpportunity script execution starts
+2019-11-02 23:01:18,114 [main] INFO com.odoo.webutils.MyTestListener - drgAndDrpOpportunity script is skipped
+2019-11-02 23:01:18,126 [main] INFO com.odoo.webutils.MyTestListener - deleteCustomer script execution starts
+2019-11-02 23:01:18,136 [main] INFO com.odoo.webutils.MyTestListener - deleteCustomer script is skipped
+2019-11-02 23:01:23,040 [main] INFO com.odoo.webutils.MyTestListener - Browser Closed
+2019-11-02 23:01:23,191 [main] INFO com.odoo.webutils.MyTestListener - ExcelReport generated
+2019-11-02 23:01:23,192 [main] INFO com.odoo.webutils.MyTestListener - Framework execution Time Taken: 263.0seconds
+2019-11-02 23:01:23,193 [main] INFO com.odoo.webutils.MyTestListener - Framework execution ends

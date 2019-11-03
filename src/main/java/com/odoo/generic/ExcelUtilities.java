@@ -89,62 +89,133 @@ public class ExcelUtilities
 		return value;
 	}
 
-	public String readAndWriteData(String sheetName, String testcaseID, int cellCount) 
+	public String[] readAndWriteData1(String sheetInput,String sheetOutput, String testcaseID, int row, int cell) 
 	{
-		String value=null;
+		String[] value=null;
 		try
 		{
 			File file=new File(filepath);
 			FileInputStream fis=new FileInputStream(file);
 			Workbook wb = WorkbookFactory.create(fis);
-			Sheet sh = wb.getSheet(sheetName);
+			Sheet sh = wb.getSheet(sheetInput);
 			int rowCount = sh.getLastRowNum();
-			System.out.println("************"+rowCount+"************");
-			for (int i=1; i <=rowCount; i++) 
+			for (int i = 1; i <= rowCount; i++) 
 			{
 				Row rw = sh.getRow(i);
 				if (rw.getCell(0).getStringCellValue().equalsIgnoreCase(testcaseID)) 
 				{
-					for (int j=3; j<cellCount; j++) 
+					int cellCount=rw.getLastCellNum();
+					for (int j = 3; j<cellCount; j++) 
 					{
 						Cell cl = rw.getCell(j);
+						value=new String[cellCount];
 						switch (cl.getCellType()) 
 						{
 						case STRING:
-							value=cl.getStringCellValue();
+							value[j]=cl.getStringCellValue();
 							break;
 
 						case NUMERIC:
 							if (DateUtil.isCellDateFormatted(cl)) 
 							{
 								SimpleDateFormat sdf=new SimpleDateFormat("dd/MM/yyyy");
-								value=sdf.format(cl.getDateCellValue());
+								value[j]=sdf.format(cl.getDateCellValue());
 							}
 							else
 							{
 								long longValue=(long) cl.getNumericCellValue();
-								value=Long.toString(longValue);
+								value[j]=Long.toString(longValue);
 							}
 							break;
 
 						case BOOLEAN:
-							value=Boolean.toString(cl.getBooleanCellValue());
+							value[j]=Boolean.toString(cl.getBooleanCellValue());
 							break;
 
 						default:
 							break;
 						}
-						cl.setCellValue(sl.randomNumber("'"+value+"-"+"'{0}"));
-						FileOutputStream fos=new FileOutputStream(file);
-						wb.write(fos);
+							
+						if(j<=3) 
+						{
+							String[] newValue = value[cell].split("_");
+							FileOutputStream fos=new FileOutputStream(file);
+							Sheet sh2 = wb.getSheet(sheetOutput);
+							sh2.getRow(row).createCell(cell).setCellValue(sl.randomNumber("'"+newValue[0]+"-'{0}")+"-"+newValue[1]);
+							wb.write(fos);
+						}
 					}
-					break;
+				break;
 				} 	
 			}
 		}
 		catch(EncryptedDocumentException|IOException e)
 		{e.printStackTrace();}	
-		
+		return value;
+	}
+	
+	public String[] readAndWriteData2(String sheetInput,String sheetOutput, String testcaseID, int row) 
+	{
+		String[] value=null;
+		try
+		{
+			File file=new File(filepath);
+			FileInputStream fis=new FileInputStream(file);
+			Workbook wb = WorkbookFactory.create(fis);
+			Sheet sh = wb.getSheet(sheetInput);
+			int rowCount = sh.getLastRowNum();
+			for (int i = 1; i <= rowCount; i++) 
+			{
+				Row rw = sh.getRow(i);
+				if (rw.getCell(0).getStringCellValue().equalsIgnoreCase(testcaseID)) 
+				{
+					int cellCount=rw.getLastCellNum();
+					for (int j = 3; j<cellCount; j++) 
+					{
+						Cell cl = rw.getCell(j);
+						value=new String[cellCount];
+						switch (cl.getCellType()) 
+						{
+						case STRING:
+							value[j]=cl.getStringCellValue();
+							break;
+
+						case NUMERIC:
+							if (DateUtil.isCellDateFormatted(cl)) 
+							{
+								SimpleDateFormat sdf=new SimpleDateFormat("dd/MM/yyyy");
+								value[j]=sdf.format(cl.getDateCellValue());
+							}
+							else
+							{
+								long longValue=(long) cl.getNumericCellValue();
+								value[j]=Long.toString(longValue);
+							}
+							break;
+
+						case BOOLEAN:
+							value[j]=Boolean.toString(cl.getBooleanCellValue());
+							break;
+
+						default:
+							break;
+						}
+							
+						if(j<=3) 
+						{
+							String[] newValue = value[j].split("_");
+							FileOutputStream fos=new FileOutputStream(file);
+							Sheet sh2 = wb.getSheet(sheetOutput);
+							sh2.getRow(row).createCell(j).setCellValue(sl.randomNumber("'"+newValue[0]+"-'{0}")+"-"+newValue[1]);
+							wb.write(fos);
+						}
+					}
+				break;
+				} 	
+			}
+		}
+		catch(EncryptedDocumentException|IOException e)
+		{e.printStackTrace();}	
 		return value;
 	}
 

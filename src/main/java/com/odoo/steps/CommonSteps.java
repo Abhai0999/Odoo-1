@@ -20,7 +20,7 @@ public class CommonSteps
 
 	public void clickCRM() 
 	{
-		sl.iSleep(5);
+		sl.iSleep(10);
 		driver.findElement(By.xpath(bp.crm)).click();
 	}
 	
@@ -58,5 +58,10 @@ public class CommonSteps
 	{
 		sl.iSleep(5);
 		driver.findElement(By.xpath(bp.MyPipelineTab)).click();
+	} 
+	public void clickSetting() 
+	{
+		sl.iSleep(5);
+		driver.findElement(By.xpath(bp.settingTab)).click();;
 	}
 }

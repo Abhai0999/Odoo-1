@@ -1,0 +1,3 @@
+2019-10-23 23:48:54,615 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
+2019-10-23 23:49:05,144 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
+2019-10-23 23:49:07,580 [main] INFO com.odoo.webutils.MyTestListener - createUsers script execution starts

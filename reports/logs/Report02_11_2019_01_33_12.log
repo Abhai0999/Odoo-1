@@ -1,0 +1,29 @@
+2019-11-02 13:33:12,668 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
+2019-11-02 13:33:16,867 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
+2019-11-02 13:33:20,871 [main] INFO com.odoo.webutils.MyTestListener - createCustomer script execution starts
+2019-11-02 13:34:58,422 [main] INFO com.odoo.webutils.MyTestListener - createCustomer script is passed
+2019-11-02 13:35:16,302 [main] INFO com.odoo.webutils.MyTestListener - createOpportunity script execution starts
+2019-11-02 13:36:26,609 [main] INFO com.odoo.webutils.MyTestListener - createOpportunity script is passed
+2019-11-02 13:36:44,853 [main] INFO com.odoo.webutils.MyTestListener - scheduleActivity script execution starts
+2019-11-02 13:37:38,265 [main] FATAL com.odoo.webutils.MyTestListener - no such element: Unable to locate element: {"method":"xpath","selector":"//div[@name='activity_type_id']//input"}
+  (Session info: chrome=78.0.3904.70)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RQOJ408I', ip: '192.168.0.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.70, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\ASUS\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64385}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 86a4d596d58cf60fdf7e182b803f6689
+*** Element info: {Using=xpath, value=//div[@name='activity_type_id']//input}
+2019-11-02 13:37:38,283 [main] WARN com.odoo.webutils.MyTestListener - scheduleActivity script is failed
+2019-11-02 13:37:38,871 [main] INFO com.odoo.webutils.MyTestListener - Screenshot has been taken 
+2019-11-02 13:37:49,035 [main] FATAL com.odoo.webutils.MyTestListener - element click intercepted: Element <a role="button" class="dropdown-toggle" data-toggle="dropdown" data-display="static" aria-expanded="false" href="#">...</a> is not clickable at point (1415, 23). Other element would receive the click: <div role="dialog" class="modal o_technical_modal show" tabindex="-1" data-backdrop="static" id="modal_215" open="open" aria-modal="true" style="display: block;">...</div>
+  (Session info: chrome=78.0.3904.70)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RQOJ408I', ip: '192.168.0.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.70, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\ASUS\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64385}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 86a4d596d58cf60fdf7e182b803f6689
+2019-11-02 13:37:53,920 [main] INFO com.odoo.webutils.MyTestListener - Browser Closed
+2019-11-02 13:37:54,089 [main] INFO com.odoo.webutils.MyTestListener - ExcelReport generated
+2019-11-02 13:37:54,090 [main] INFO com.odoo.webutils.MyTestListener - Framework execution Time Taken: 288.0seconds
+2019-11-02 13:37:54,090 [main] INFO com.odoo.webutils.MyTestListener - Framework execution ends
