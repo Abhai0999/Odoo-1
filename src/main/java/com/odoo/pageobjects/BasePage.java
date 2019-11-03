@@ -12,4 +12,5 @@ public class BasePage
 	public String SalesteamTab="//span[text()='Sales Teams']";
 	public String MyPipelineTab="//a/span[text()='My Pipeline']";
 	public String settingTab="//a/span[text()='Settings']";
+	public String activitytypeTab="//span[text()='Activity Types']";
 }

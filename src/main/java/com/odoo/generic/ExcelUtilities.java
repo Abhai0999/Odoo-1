@@ -174,6 +174,7 @@ public class ExcelUtilities
 					{
 						Cell cl = rw.getCell(j);
 						value=new String[cellCount];
+						System.out.println("**********************"+cellCount+"**********************");
 						switch (cl.getCellType()) 
 						{
 						case STRING:
@@ -201,7 +202,7 @@ public class ExcelUtilities
 							break;
 						}
 							
-						if(j<=3) 
+						if(j>2) 
 						{
 							String[] newValue = value[j].split("_");
 							FileOutputStream fos=new FileOutputStream(file);

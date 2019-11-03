@@ -2,6 +2,7 @@ package com.odoo.features;
 
 import org.openqa.selenium.WebDriver;
 
+import com.odoo.steps.ActivityTypeSteps;
 import com.odoo.steps.CommonSteps;
 import com.odoo.steps.SalesTeamSteps;
 import com.odoo.steps.SettingSteps;
@@ -11,12 +12,14 @@ public class ConfigurationFeatures
 	CommonSteps cms;
 	SalesTeamSteps sts;
 	SettingSteps ss;
+	ActivityTypeSteps ats;
 	
 	public ConfigurationFeatures(WebDriver driver) 
 	{
 		cms=new CommonSteps(driver);
 		ss= new SettingSteps(driver);
 		sts=new SalesTeamSteps(driver);
+		ats=new ActivityTypeSteps(driver);
 	}
 	
 	public void createUser(String[] userData) 
@@ -44,4 +47,12 @@ public class ConfigurationFeatures
 		sts.deleteSalesTeam(salesTeamData);
 		//sts.verifyDltSalesTeam(salesTeamData);
 	}
+	 public void createActivityType(String[] activityData) 
+	 {
+		 cms.clickCRM();
+		 cms.clickConfiguration();
+		 cms.clickActivityType();
+		 ats.createActivityType(activityData);
+		 ats.verifyActivityType(activityData);
+	 }
 }

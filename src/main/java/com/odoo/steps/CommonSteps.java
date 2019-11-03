@@ -64,4 +64,9 @@ public class CommonSteps
 		sl.iSleep(5);
 		driver.findElement(By.xpath(bp.settingTab)).click();;
 	}
+	public void clickActivityType() 
+	{
+		sl.iSleep(5);
+		driver.findElement(By.xpath(bp.activitytypeTab)).click();
+	}
 }
