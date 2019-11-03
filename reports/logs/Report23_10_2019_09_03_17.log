@@ -1,0 +1,22 @@
+2019-10-23 21:03:17,350 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
+2019-10-23 21:03:24,767 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
+2019-10-23 21:03:29,411 [main] INFO com.odoo.webutils.MyTestListener - createSalesCallTeam script execution starts
+2019-10-23 21:06:17,096 [main] INFO com.odoo.webutils.MyTestListener - createSalesCallTeam script is passed
+2019-10-23 21:06:30,062 [main] INFO com.odoo.webutils.MyTestListener - createSalesEamilTeam script execution starts
+2019-10-23 21:09:13,548 [main] INFO com.odoo.webutils.MyTestListener - createSalesEamilTeam script is passed
+2019-10-23 21:09:25,858 [main] INFO com.odoo.webutils.MyTestListener - createSalesMeetTeam script execution starts
+2019-10-23 21:12:09,196 [main] INFO com.odoo.webutils.MyTestListener - createSalesMeetTeam script is passed
+2019-10-23 21:12:22,010 [main] INFO com.odoo.webutils.MyTestListener - createSalesSmsTeam script execution starts
+2019-10-23 21:15:04,996 [main] INFO com.odoo.webutils.MyTestListener - createSalesSmsTeam script is passed
+2019-10-23 21:15:17,430 [main] INFO com.odoo.webutils.MyTestListener - dltSalesCallTeam script execution starts
+2019-10-23 21:16:42,322 [main] INFO com.odoo.webutils.MyTestListener - dltSalesCallTeam script is passed
+2019-10-23 21:16:54,342 [main] INFO com.odoo.webutils.MyTestListener - dltSalesEamilTeam script execution starts
+2019-10-23 21:18:19,032 [main] INFO com.odoo.webutils.MyTestListener - dltSalesEamilTeam script is passed
+2019-10-23 21:18:31,409 [main] INFO com.odoo.webutils.MyTestListener - dltSalesMeetTeam script execution starts
+2019-10-23 21:19:55,914 [main] INFO com.odoo.webutils.MyTestListener - dltSalesMeetTeam script is passed
+2019-10-23 21:20:08,136 [main] INFO com.odoo.webutils.MyTestListener - dltSalesSmsTeam script execution starts
+2019-10-23 21:21:32,457 [main] INFO com.odoo.webutils.MyTestListener - dltSalesSmsTeam script is passed
+2019-10-23 21:21:45,519 [main] INFO com.odoo.webutils.MyTestListener - Browser Closed
+2019-10-23 21:21:45,776 [main] INFO com.odoo.webutils.MyTestListener - ExcelReport generated
+2019-10-23 21:21:45,780 [main] INFO com.odoo.webutils.MyTestListener - Framework execution Time Taken: 1108.0seconds
+2019-10-23 21:21:45,780 [main] INFO com.odoo.webutils.MyTestListener - Framework execution ends

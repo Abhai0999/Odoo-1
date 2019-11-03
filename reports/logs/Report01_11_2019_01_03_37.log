@@ -1,0 +1,25 @@
+2019-11-01 13:03:37,921 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
+2019-11-01 13:03:44,671 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
+2019-11-01 13:03:52,470 [main] INFO com.odoo.webutils.MyTestListener - scheduledActivity script execution starts
+2019-11-01 13:04:39,299 [main] FATAL com.odoo.webutils.MyTestListener - no such element: Unable to locate element: {"method":"xpath","selector":"//div[@name='activity_type_id']//input"}
+  (Session info: chrome=77.0.3865.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ALAM-PC', ip: '192.168.43.227', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Alam\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55061}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f7de946f53518aec28efe72655c68727
+*** Element info: {Using=xpath, value=//div[@name='activity_type_id']//input}
+2019-11-01 13:04:39,538 [main] WARN com.odoo.webutils.MyTestListener - scheduledActivity script is failed
+2019-11-01 13:04:40,535 [main] INFO com.odoo.webutils.MyTestListener - Screenshot has been taken 
+2019-11-01 13:05:00,970 [main] FATAL com.odoo.webutils.MyTestListener - element click intercepted: Element <a class="dropdown-item" data-menu="logout" href="#" role="menuitem">...</a> is not clickable at point (1263, 203). Other element would receive the click: <div role="dialog" class="modal o_technical_modal show" tabindex="-1" data-backdrop="static" id="modal_173" open="open" aria-modal="true" style="display: block;">...</div>
+  (Session info: chrome=77.0.3865.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ALAM-PC', ip: '192.168.43.227', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Alam\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55061}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f7de946f53518aec28efe72655c68727
+2019-11-01 13:05:02,378 [main] INFO com.odoo.webutils.MyTestListener - Browser Closed
+2019-11-01 13:05:02,847 [main] INFO com.odoo.webutils.MyTestListener - ExcelReport generated
+2019-11-01 13:05:02,847 [main] INFO com.odoo.webutils.MyTestListener - Framework execution Time Taken: 85.0seconds
+2019-11-01 13:05:02,847 [main] INFO com.odoo.webutils.MyTestListener - Framework execution ends

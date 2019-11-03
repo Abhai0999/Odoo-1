@@ -14,7 +14,7 @@ public class SalesTeamPage
 	public String checkbox1="(//div[@class='custom-control custom-checkbox']/input/following-sibling::label)[2]";//hardCode
 	public String checkbox2="(//div[@class='custom-control custom-checkbox']/input/following-sibling::label)[3]";//hardCode
 	public String selectBtn="//span[text()='Select']";
-	public String saveBtn="//button[contains(text(),'Save')]";
+	public String saveBtn="//button[contains(text(),'Save')]";	
 	public String verifyTeamLead="//div[@class='oe_title']//h1//span";
 	public String SalesTeam="//tbody[@class='ui-sortable']//td[@class='o_data_cell o_list_char o_required_modifier']";
 	public String action="(//div[@class='btn-group o_dropdown']//button)[2]";

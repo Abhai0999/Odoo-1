@@ -1,0 +1,32 @@
+2019-10-24 09:36:20,274 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
+2019-10-24 09:36:27,556 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
+2019-10-24 09:36:30,923 [main] INFO com.odoo.webutils.MyTestListener - createSalesCallTeam script execution starts
+2019-10-24 09:39:18,152 [main] INFO com.odoo.webutils.MyTestListener - createSalesCallTeam script is passed
+2019-10-24 09:39:30,978 [main] INFO com.odoo.webutils.MyTestListener - createSalesEamilTeam script execution starts
+2019-10-24 09:42:15,254 [main] INFO com.odoo.webutils.MyTestListener - createSalesEamilTeam script is passed
+2019-10-24 09:42:28,149 [main] INFO com.odoo.webutils.MyTestListener - createSalesMeetTeam script execution starts
+2019-10-24 09:42:28,352 [main] WARN com.odoo.webutils.MyTestListener - createSalesMeetTeam script is failed
+2019-10-24 09:42:30,080 [main] INFO com.odoo.webutils.MyTestListener - Screenshot has been taken 
+2019-10-24 09:42:35,146 [main] FATAL com.odoo.webutils.MyTestListener - no such element: Unable to locate element: {"method":"xpath","selector":"//li[@class='o_user_menu']/a"}
+  (Session info: chrome=77.0.3865.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ALAM-PC', ip: '192.168.1.118', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Alam\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:49429}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ebe1d8b689cf64371635f122fba76536
+*** Element info: {Using=xpath, value=//li[@class='o_user_menu']/a}
+2019-10-24 09:42:35,168 [main] INFO com.odoo.webutils.MyTestListener - createSalesSmsTeam script execution starts
+2019-10-24 09:42:35,173 [main] INFO com.odoo.webutils.MyTestListener - createSalesSmsTeam script is skipped
+2019-10-24 09:42:35,279 [main] INFO com.odoo.webutils.MyTestListener - dltSalesCallTeam script execution starts
+2019-10-24 09:42:35,305 [main] INFO com.odoo.webutils.MyTestListener - dltSalesCallTeam script is skipped
+2019-10-24 09:42:35,324 [main] INFO com.odoo.webutils.MyTestListener - dltSalesEamilTeam script execution starts
+2019-10-24 09:42:35,347 [main] INFO com.odoo.webutils.MyTestListener - dltSalesEamilTeam script is skipped
+2019-10-24 09:42:35,409 [main] INFO com.odoo.webutils.MyTestListener - dltSalesMeetTeam script execution starts
+2019-10-24 09:42:35,412 [main] INFO com.odoo.webutils.MyTestListener - dltSalesMeetTeam script is skipped
+2019-10-24 09:42:35,416 [main] INFO com.odoo.webutils.MyTestListener - dltSalesSmsTeam script execution starts
+2019-10-24 09:42:35,420 [main] INFO com.odoo.webutils.MyTestListener - dltSalesSmsTeam script is skipped
+2019-10-24 09:42:36,320 [main] INFO com.odoo.webutils.MyTestListener - Browser Closed
+2019-10-24 09:42:36,594 [main] INFO com.odoo.webutils.MyTestListener - ExcelReport generated
+2019-10-24 09:42:36,595 [main] INFO com.odoo.webutils.MyTestListener - Framework execution Time Taken: 376.0seconds
+2019-10-24 09:42:36,595 [main] INFO com.odoo.webutils.MyTestListener - Framework execution ends

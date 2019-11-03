@@ -1,0 +1,18 @@
+2019-10-26 20:55:55,042 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
+2019-10-26 20:56:01,808 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
+2019-10-26 20:56:10,752 [main] INFO com.odoo.webutils.MyTestListener - createOpportunity script execution starts
+2019-10-26 20:57:30,020 [main] FATAL com.odoo.webutils.MyTestListener - stale element reference: element is not attached to the page document
+  (Session info: chrome=77.0.3865.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ALAM-PC', ip: '192.168.43.227', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Alam\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60634}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: cb5827971dd2595423fcc5b94924f063
+2019-10-26 20:57:41,494 [main] INFO com.odoo.webutils.MyTestListener - createOpportunity script is passed
+2019-10-26 20:58:05,645 [main] INFO com.odoo.webutils.MyTestListener - deleteOpportunity script execution starts
+2019-10-26 20:59:01,391 [main] INFO com.odoo.webutils.MyTestListener - deleteOpportunity script is passed
+2019-10-26 20:59:26,857 [main] INFO com.odoo.webutils.MyTestListener - Browser Closed
+2019-10-26 20:59:27,606 [main] INFO com.odoo.webutils.MyTestListener - ExcelReport generated
+2019-10-26 20:59:27,607 [main] INFO com.odoo.webutils.MyTestListener - Framework execution Time Taken: 212.0seconds
+2019-10-26 20:59:27,608 [main] INFO com.odoo.webutils.MyTestListener - Framework execution ends

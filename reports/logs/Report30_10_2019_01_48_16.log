@@ -1,0 +1,22 @@
+2019-10-30 13:48:16,562 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
+2019-10-30 13:48:23,783 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
+2019-10-30 13:48:36,020 [main] INFO com.odoo.webutils.MyTestListener - newCustomer script execution starts
+2019-10-30 13:49:33,339 [main] FATAL com.odoo.webutils.MyTestListener - no such element: Unable to locate element: {"method":"xpath","selector":"//div[@name='name']/input"}
+  (Session info: chrome=77.0.3865.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ALAM-PC', ip: '192.168.43.227', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Alam\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:62724}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: bdc3c8a81976197cd978e715770febbc
+*** Element info: {Using=xpath, value=//div[@name='name']/input}
+2019-10-30 13:49:33,438 [main] WARN com.odoo.webutils.MyTestListener - newCustomer script is failed
+2019-10-30 13:49:34,305 [main] INFO com.odoo.webutils.MyTestListener - Screenshot has been taken 
+2019-10-30 13:49:56,742 [main] INFO com.odoo.webutils.MyTestListener - createOpportunity script execution starts
+2019-10-30 13:49:56,771 [main] INFO com.odoo.webutils.MyTestListener - createOpportunity script is skipped
+2019-10-30 13:49:56,785 [main] INFO com.odoo.webutils.MyTestListener - scheduledActivity script execution starts
+2019-10-30 13:49:56,792 [main] INFO com.odoo.webutils.MyTestListener - scheduledActivity script is skipped
+2019-10-30 13:49:59,652 [main] INFO com.odoo.webutils.MyTestListener - Browser Closed
+2019-10-30 13:50:00,065 [main] INFO com.odoo.webutils.MyTestListener - ExcelReport generated
+2019-10-30 13:50:00,066 [main] INFO com.odoo.webutils.MyTestListener - Framework execution Time Taken: 103.0seconds
+2019-10-30 13:50:00,066 [main] INFO com.odoo.webutils.MyTestListener - Framework execution ends

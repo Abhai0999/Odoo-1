@@ -1,0 +1,16 @@
+2019-10-26 16:09:51,696 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
+2019-10-26 16:09:59,198 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
+2019-10-26 16:10:02,538 [main] INFO com.odoo.webutils.MyTestListener - createOpportunity script execution starts
+2019-10-26 16:11:00,661 [main] FATAL com.odoo.webutils.MyTestListener - element not interactable
+  (Session info: chrome=77.0.3865.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ALAM-PC', ip: '192.168.0.103', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Alam\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50866}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: dc7b1e8b42e1d7c32e1c8ec72685b3a8
+2019-10-26 16:11:00,684 [main] WARN com.odoo.webutils.MyTestListener - createOpportunity script is failed
+2019-10-26 16:11:01,642 [main] INFO com.odoo.webutils.MyTestListener - Screenshot has been taken 
+2019-10-26 16:11:27,069 [main] INFO com.odoo.webutils.MyTestListener - Browser Closed
+2019-10-26 16:11:28,408 [main] INFO com.odoo.webutils.MyTestListener - ExcelReport generated
+2019-10-26 16:11:28,423 [main] INFO com.odoo.webutils.MyTestListener - Framework execution Time Taken: 96.0seconds
+2019-10-26 16:11:28,424 [main] INFO com.odoo.webutils.MyTestListener - Framework execution ends

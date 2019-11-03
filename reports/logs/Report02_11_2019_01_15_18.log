@@ -1,0 +1,16 @@
+2019-11-02 01:15:18,332 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
+2019-11-02 01:15:26,702 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
+2019-11-02 01:15:31,017 [main] INFO com.odoo.webutils.MyTestListener - scheduledActivity script execution starts
+2019-11-02 01:16:48,761 [main] FATAL com.odoo.webutils.MyTestListener - element click intercepted: Element <td class="fc-widget-content"></td> is not clickable at point (569, 453). Other element would receive the click: <div class="fc-bg"></div>
+  (Session info: chrome=77.0.3865.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ALAM-PC', ip: '192.168.2.105', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Alam\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51977}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d55201d3c42dcc807e63adddacaeafc7
+2019-11-02 01:16:49,043 [main] WARN com.odoo.webutils.MyTestListener - scheduledActivity script is failed
+2019-11-02 01:16:50,510 [main] INFO com.odoo.webutils.MyTestListener - Screenshot has been taken 
+2019-11-02 01:17:13,623 [main] INFO com.odoo.webutils.MyTestListener - Browser Closed
+2019-11-02 01:17:14,695 [main] INFO com.odoo.webutils.MyTestListener - ExcelReport generated
+2019-11-02 01:17:14,695 [main] INFO com.odoo.webutils.MyTestListener - Framework execution Time Taken: 116.0seconds
+2019-11-02 01:17:14,696 [main] INFO com.odoo.webutils.MyTestListener - Framework execution ends

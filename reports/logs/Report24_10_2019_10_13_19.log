@@ -1,0 +1,3 @@
+2019-10-24 10:13:19,290 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
+2019-10-24 10:13:25,565 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
+2019-10-24 10:13:29,727 [main] INFO com.odoo.webutils.MyTestListener - createSalesMeetTeam script execution starts

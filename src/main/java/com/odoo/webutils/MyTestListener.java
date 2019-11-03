@@ -5,6 +5,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.Properties;
 
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
@@ -91,6 +92,22 @@ public class MyTestListener implements ITestListener, WebDriverEventListener
 	public void onStart(ITestContext context) 
 	{
 		startTime=System.currentTimeMillis();
+		try
+		{
+		File file=new File("./allure-results/environment.properties");
+		FileOutputStream fos=new FileOutputStream(file);
+		Properties prop=new Properties();
+		
+		prop.setProperty("ApplicationName", GenericLib.getValue(GenericLib.getConfigFile(), "application"));
+		prop.setProperty("Browsername", GenericLib.getValue(GenericLib.getConfigFile(), "browserName"));		
+		prop.setProperty("Platform", GenericLib.os);		
+		prop.store(fos, "Writting data");
+		}
+		catch(IOException e)
+		{
+			e.printStackTrace();	
+			
+		}		
 		
 		SimpleDateFormat sdf=new SimpleDateFormat("dd_MM_yyyy_hh_mm_ss");
 		System.setProperty("timestamp", sdf.format(new Date()));
@@ -107,6 +124,9 @@ public class MyTestListener implements ITestListener, WebDriverEventListener
 		String system = GenericLib.getValue(filepath, "system");
 		String browserName = GenericLib.getValue(filepath, "browserName");
 		String headless = GenericLib.getValue(filepath, "headless");
+		
+//		String browserName = System.getProperty("browser");
+//		String headless = System.getProperty("headless");
 		
 		WebDriver driver = DriverFactory.launch(system, browserName, headless);
 		driver.manage().window().maximize();

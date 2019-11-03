@@ -110,6 +110,15 @@ public class SeleniumLib
 	}
 	
 	
+	public WebElement prescenceOfElementWait(int seconds,String xpath )
+	{
+		WebDriverWait wait=new WebDriverWait(driver, seconds);
+		WebElement wb = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(xpath)));
+		return wb;
+		
+	}
+	
+	
 	
 	
 	

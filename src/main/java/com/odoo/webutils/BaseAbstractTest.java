@@ -15,6 +15,7 @@ import com.odoo.generic.GenericLib;
 public abstract class BaseAbstractTest 
 {
 	public static EventFiringWebDriver driver;   //global driver
+	
 	public LoginFeatures lf;
 	public CommonFeatures cf;
 	public SalesFeature sf;

@@ -1,0 +1,20 @@
+2019-10-28 20:14:19,952 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
+2019-10-28 20:14:28,591 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
+2019-10-28 20:14:33,566 [main] INFO com.odoo.webutils.MyTestListener - newCustomer script execution starts
+2019-10-28 20:15:30,349 [main] INFO com.odoo.webutils.MyTestListener - newCustomer script is passed
+2019-10-28 20:15:53,231 [main] INFO com.odoo.webutils.MyTestListener - scheduledActivity script execution starts
+2019-10-28 20:16:33,931 [main] INFO com.odoo.webutils.MyTestListener - scheduledActivity script is passed
+2019-10-28 20:16:57,018 [main] INFO com.odoo.webutils.MyTestListener - createOpportunity script execution starts
+2019-10-28 20:18:04,141 [main] FATAL com.odoo.webutils.MyTestListener - stale element reference: element is not attached to the page document
+  (Session info: chrome=77.0.3865.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ALAM-PC', ip: '192.168.0.102', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Alam\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58784}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a440f4808b8ed2902fe0830cc45022cf
+2019-10-28 20:18:15,641 [main] INFO com.odoo.webutils.MyTestListener - createOpportunity script is passed
+2019-10-28 20:18:38,414 [main] INFO com.odoo.webutils.MyTestListener - Browser Closed
+2019-10-28 20:18:38,856 [main] INFO com.odoo.webutils.MyTestListener - ExcelReport generated
+2019-10-28 20:18:38,857 [main] INFO com.odoo.webutils.MyTestListener - Framework execution Time Taken: 259.0seconds
+2019-10-28 20:18:38,857 [main] INFO com.odoo.webutils.MyTestListener - Framework execution ends

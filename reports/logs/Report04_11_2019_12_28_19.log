@@ -1,0 +1,31 @@
+2019-11-04 00:28:20,002 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
+2019-11-04 00:28:28,622 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
+2019-11-04 00:28:32,698 [main] INFO com.odoo.webutils.MyTestListener - newCustomer script execution starts
+2019-11-04 00:29:47,676 [main] INFO com.odoo.webutils.MyTestListener - newCustomer script is passed
+2019-11-04 00:30:10,398 [main] INFO com.odoo.webutils.MyTestListener - createOpportunity script execution starts
+2019-11-04 00:31:18,204 [main] INFO com.odoo.webutils.MyTestListener - createOpportunity script is passed
+2019-11-04 00:31:41,202 [main] INFO com.odoo.webutils.MyTestListener - scheduledActivity script execution starts
+2019-11-04 00:32:04,808 [main] FATAL com.odoo.webutils.MyTestListener - no such element: Unable to locate element: {"method":"xpath","selector":"//div[@name='activity_type_id']//input"}
+  (Session info: chrome=77.0.3865.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ALAM-PC', ip: '192.168.2.105', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Alam\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53837}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 796f9b0395727fd623144bb62402ccee
+*** Element info: {Using=xpath, value=//div[@name='activity_type_id']//input}
+2019-11-04 00:32:04,948 [main] WARN com.odoo.webutils.MyTestListener - scheduledActivity script is failed
+2019-11-04 00:32:06,705 [main] INFO com.odoo.webutils.MyTestListener - Screenshot has been taken 
+2019-11-04 00:32:16,918 [main] FATAL com.odoo.webutils.MyTestListener - element click intercepted: Element <a aria-expanded="false" class="dropdown-toggle" data-display="static" data-toggle="dropdown" href="#" role="button">...</a> is not clickable at point (1263, 23). Other element would receive the click: <div role="dialog" class="modal o_technical_modal show" tabindex="-1" data-backdrop="static" id="modal_139" open="open" aria-modal="true" style="display: block;">...</div>
+  (Session info: chrome=77.0.3865.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ALAM-PC', ip: '192.168.2.105', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Alam\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53837}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 796f9b0395727fd623144bb62402ccee
+2019-11-04 00:32:16,970 [main] INFO com.odoo.webutils.MyTestListener - creatSalesAct script execution starts
+2019-11-04 00:32:16,981 [main] INFO com.odoo.webutils.MyTestListener - creatSalesAct script is skipped
+2019-11-04 00:32:18,303 [main] INFO com.odoo.webutils.MyTestListener - Browser Closed
+2019-11-04 00:32:18,733 [main] INFO com.odoo.webutils.MyTestListener - ExcelReport generated
+2019-11-04 00:32:18,733 [main] INFO com.odoo.webutils.MyTestListener - Framework execution Time Taken: 238.0seconds
+2019-11-04 00:32:18,738 [main] INFO com.odoo.webutils.MyTestListener - Framework execution ends

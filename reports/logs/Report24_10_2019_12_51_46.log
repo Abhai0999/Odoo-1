@@ -1,0 +1,9 @@
+2019-10-24 00:51:46,539 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
+2019-10-24 00:51:55,360 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
+2019-10-24 00:52:00,013 [main] INFO com.odoo.webutils.MyTestListener - createSalesCallTeam script execution starts
+2019-10-24 00:54:49,507 [main] INFO com.odoo.webutils.MyTestListener - createSalesCallTeam script is passed
+2019-10-24 00:55:01,728 [main] INFO com.odoo.webutils.MyTestListener - createSalesEamilTeam script execution starts
+2019-10-24 00:57:45,283 [main] INFO com.odoo.webutils.MyTestListener - createSalesEamilTeam script is passed
+2019-10-24 00:57:57,847 [main] INFO com.odoo.webutils.MyTestListener - createSalesMeetTeam script execution starts
+2019-10-24 01:00:41,024 [main] INFO com.odoo.webutils.MyTestListener - createSalesMeetTeam script is passed
+2019-10-24 01:00:53,279 [main] INFO com.odoo.webutils.MyTestListener - createSalesSmsTeam script execution starts

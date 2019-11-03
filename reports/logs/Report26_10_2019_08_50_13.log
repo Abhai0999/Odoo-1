@@ -1,0 +1,26 @@
+2019-10-26 20:50:13,612 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
+2019-10-26 20:50:20,627 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
+2019-10-26 20:50:35,042 [main] INFO com.odoo.webutils.MyTestListener - createOpportunity script execution starts
+2019-10-26 20:51:57,754 [main] FATAL com.odoo.webutils.MyTestListener - stale element reference: element is not attached to the page document
+  (Session info: chrome=77.0.3865.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ALAM-PC', ip: '192.168.43.227', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Alam\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60538}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ed61e999f3e2ba99f732a9292a986874
+2019-10-26 20:52:09,249 [main] INFO com.odoo.webutils.MyTestListener - createOpportunity script is passed
+2019-10-26 20:52:34,003 [main] INFO com.odoo.webutils.MyTestListener - deleteOpportunity script execution starts
+2019-10-26 20:53:24,434 [main] FATAL com.odoo.webutils.MyTestListener - element click intercepted: Element <a href="#">...</a> is not clickable at point (47, 69). Other element would receive the click: <div role="dialog" class="modal o_technical_modal show" tabindex="-1" data-backdrop="static" id="modal_181" open="open" aria-modal="true" style="display: block;">...</div>
+  (Session info: chrome=77.0.3865.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ALAM-PC', ip: '192.168.43.227', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Alam\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60538}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ed61e999f3e2ba99f732a9292a986874
+2019-10-26 20:53:24,462 [main] WARN com.odoo.webutils.MyTestListener - deleteOpportunity script is failed
+2019-10-26 20:53:25,165 [main] INFO com.odoo.webutils.MyTestListener - Screenshot has been taken 
+2019-10-26 20:53:50,849 [main] INFO com.odoo.webutils.MyTestListener - Browser Closed
+2019-10-26 20:53:51,619 [main] INFO com.odoo.webutils.MyTestListener - ExcelReport generated
+2019-10-26 20:53:51,621 [main] INFO com.odoo.webutils.MyTestListener - Framework execution Time Taken: 218.0seconds
+2019-10-26 20:53:51,621 [main] INFO com.odoo.webutils.MyTestListener - Framework execution ends

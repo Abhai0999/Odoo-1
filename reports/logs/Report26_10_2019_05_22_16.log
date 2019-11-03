@@ -1,0 +1,16 @@
+2019-10-26 17:22:17,195 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
+2019-10-26 17:22:24,875 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
+2019-10-26 17:22:29,093 [main] INFO com.odoo.webutils.MyTestListener - createOpportunity script execution starts
+2019-10-26 17:23:44,232 [main] FATAL com.odoo.webutils.MyTestListener - stale element reference: element is not attached to the page document
+  (Session info: chrome=77.0.3865.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ALAM-PC', ip: '192.168.0.103', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Alam\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55377}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c2de393aba06a9750536b60beea33c37
+2019-10-26 17:24:05,671 [main] INFO com.odoo.webutils.MyTestListener - createOpportunity script is passed
+2019-10-26 17:24:31,155 [main] INFO com.odoo.webutils.MyTestListener - Browser Closed
+2019-10-26 17:24:32,350 [main] INFO com.odoo.webutils.MyTestListener - ExcelReport generated
+2019-10-26 17:24:32,351 [main] INFO com.odoo.webutils.MyTestListener - Framework execution Time Taken: 135.0seconds
+2019-10-26 17:24:32,351 [main] INFO com.odoo.webutils.MyTestListener - Framework execution ends

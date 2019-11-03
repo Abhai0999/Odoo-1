@@ -1,0 +1,24 @@
+2019-10-25 16:25:39,541 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
+2019-10-25 16:25:47,322 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
+2019-10-25 16:25:51,496 [main] INFO com.odoo.webutils.MyTestListener - createOpportunity script execution starts
+2019-10-25 16:27:02,833 [main] FATAL com.odoo.webutils.MyTestListener - stale element reference: element is not attached to the page document
+  (Session info: chrome=77.0.3865.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ALAM-PC', ip: '192.168.0.103', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Alam\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50527}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d2349024e117e188c9900a91fd736197
+2019-10-25 16:27:02,919 [main] WARN com.odoo.webutils.MyTestListener - createOpportunity script is failed
+2019-10-25 16:27:03,546 [main] INFO com.odoo.webutils.MyTestListener - Screenshot has been taken 
+2019-10-25 16:27:23,985 [main] FATAL com.odoo.webutils.MyTestListener - element not interactable
+  (Session info: chrome=77.0.3865.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ALAM-PC', ip: '192.168.0.103', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Alam\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50527}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d2349024e117e188c9900a91fd736197
+2019-10-25 16:27:26,972 [main] INFO com.odoo.webutils.MyTestListener - Browser Closed
+2019-10-25 16:27:27,739 [main] INFO com.odoo.webutils.MyTestListener - ExcelReport generated
+2019-10-25 16:27:27,740 [main] INFO com.odoo.webutils.MyTestListener - Framework execution Time Taken: 108.0seconds
+2019-10-25 16:27:27,741 [main] INFO com.odoo.webutils.MyTestListener - Framework execution ends

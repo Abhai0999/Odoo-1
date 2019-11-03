@@ -1,0 +1,5 @@
+2019-11-02 16:37:37,362 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
+2019-11-02 16:37:44,860 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
+2019-11-02 16:37:49,204 [main] INFO com.odoo.webutils.MyTestListener - scheduledActivity script execution starts
+2019-11-02 16:40:11,959 [main] WARN com.odoo.webutils.MyTestListener - scheduledActivity script is failed
+2019-11-02 16:40:12,922 [main] INFO com.odoo.webutils.MyTestListener - Screenshot has been taken 

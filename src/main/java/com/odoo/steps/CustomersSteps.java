@@ -38,7 +38,7 @@ public class CustomersSteps
 
 	public void  createCustomer(String[] customerData )
 	{
-		sl.iSleep(5);
+		sl.iSleep(10);
 
 		driver.findElement(By.xpath(cp.custNameTxtBx)).sendKeys(customerData[3]);		
 		driver.findElement(By.xpath(cp.streetTxtBx)).sendKeys(customerData[4]);

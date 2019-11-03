@@ -1,0 +1,14 @@
+2019-11-03 12:29:29,017 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
+2019-11-03 12:29:35,721 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
+2019-11-03 12:29:50,954 [main] INFO com.odoo.webutils.MyTestListener - newCustomer script execution starts
+2019-11-03 12:30:57,317 [main] INFO com.odoo.webutils.MyTestListener - newCustomer script is passed
+2019-11-03 12:31:20,969 [main] INFO com.odoo.webutils.MyTestListener - scheduledActivity script execution starts
+2019-11-03 12:32:36,996 [main] FATAL com.odoo.webutils.MyTestListener - element click intercepted: Element <td class="fc-widget-content"></td> is not clickable at point (569, 453). Other element would receive the click: <div class="fc-bg"></div>
+  (Session info: chrome=77.0.3865.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ALAM-PC', ip: '192.168.1.104', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Alam\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:49650}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 483899326c27ade18142fe101828af54
+2019-11-03 12:32:37,058 [main] WARN com.odoo.webutils.MyTestListener - scheduledActivity script is failed
+2019-11-03 12:32:38,016 [main] INFO com.odoo.webutils.MyTestListener - Screenshot has been taken 

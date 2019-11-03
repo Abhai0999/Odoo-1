@@ -10,6 +10,7 @@ public class BasePage
 	public String customerLink="//span[text()='Customers']";
 	public String configuration="//a[contains(text(),'Configuration')]";
 	public String salesTeamBtn="//span[text()='Sales Teams']";
+	public String myPipeLine="//span[text()='My Pipeline']";
 	
 	
 }
