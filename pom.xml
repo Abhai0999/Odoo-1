@@ -34,9 +34,8 @@
             <headlessType>${headless}</headlessType>
           </systemPropertyVariables>
           
-          <forkCount>2</forkCount>
-          <useSystemClassLoader>true</useSystemClassLoader>
-          <useManifestOnlyJar>false</useManifestOnlyJar>
+          
+          <useSystemClassLoader>false</useSystemClassLoader>
           <argLine>
       		-javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
           </argLine>
