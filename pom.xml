@@ -34,6 +34,7 @@
             <headlessType>${headless}</headlessType>
           </systemPropertyVariables>
           
+          <forkCount>2</forkCount>
           <useSystemClassLoader>false</useSystemClassLoader>
           
           <argLine>
