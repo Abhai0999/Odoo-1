@@ -35,8 +35,8 @@
           </systemPropertyVariables>
           
           <forkCount>2</forkCount>
-          <useSystemClassLoader>false</useSystemClassLoader>
-          
+          <useSystemClassLoader>true</useSystemClassLoader>
+          <useManifestOnlyJar>false</useManifestOnlyJar>
           <argLine>
       		-javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
           </argLine>
