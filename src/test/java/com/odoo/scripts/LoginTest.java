@@ -6,9 +6,16 @@ import com.odoo.generic.ExcelUtilities;
 import com.odoo.generic.GenericLib;
 import com.odoo.webutils.BaseAbstractTest;
 
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
+import io.qameta.allure.Story;
+import net.bytebuddy.implementation.bind.annotation.BindingPriority;
+
 public class LoginTest extends BaseAbstractTest
 {
 	@Test
+	@Severity(SeverityLevel.BLOCKER)
+	@Story("Login with valid credential")
 	public void validLoginTest()
 	{
 		String filepath=GenericLib.dir+"/testdata/Odoodata.xlsx";

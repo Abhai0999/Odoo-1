@@ -5,6 +5,8 @@ import org.testng.Reporter;
 
 import com.odoo.steps.LoginSteps;
 
+import io.qameta.allure.Feature;
+
 public class LoginFeatures 
 {
 	LoginSteps ls;
@@ -14,6 +16,7 @@ public class LoginFeatures
 		ls=new LoginSteps(driver);
 	}
 	
+	@Feature("login feature")
 	public void login(String username, String password)
 	{
 		ls.enterUN(username);
@@ -21,6 +24,7 @@ public class LoginFeatures
 		ls.clickLoginBtn();
 	}
 	
+	@Feature("Verifying login feature with valid credentials")
 	public void verifyValidLogin(String username)
 	{
 		ls.verifyCRM();
