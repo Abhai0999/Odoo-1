@@ -29,9 +29,9 @@ public class PipeLineSteps
 
 	public void createOpportunity(String[] opportunity,String[] customer)
 	{
-		sl.iSleep(2);
+		sl.iSleep(5);
 		driver.findElement(By.xpath(plp.create)).click();
-		sl.iSleep(2);
+		sl.iSleep(5);
 		driver.findElement(By.xpath(plp.opportunityText)).sendKeys(opportunity[3]);
 		sl.iSleep(5);
 		driver.findElement(By.xpath(plp.custText)).click();
@@ -39,28 +39,30 @@ public class PipeLineSteps
 		driver.findElement(By.xpath(plp.search)).click();
 		sl.iSleep(5);
 		List<WebElement> allCust = driver.findElements(By.xpath(plp.addCst));
+		
 		int count = allCust.size();
+		
 		for (int i = 0; i<count; i++) 
 		{
 			WebElement custLink = allCust.get(i);
 			String custText = custLink.getText();
 			if(custText.equalsIgnoreCase(customer[3]))
 			{
+				
 				sl.jsClick(custLink);
 				break;
 
 			}
 		}
 
-		sl.iSleep(5);
+		sl.iSleep(3);
 		WebElement click = driver.findElement(By.xpath(plp.expRev));
 		WebElement click1 = sl.prescenceOfElementWait(20, plp.expRev);
-		sl.jsClick(click1);
-		WebElement click2 = sl.eWaitForVisiblity(20, click);
-		click2.click();		
-		WebElement clear = sl.eWaitForVisiblity(20,click);
+		sl.jsClick(click1);		
+		sl.jsClick(click);				
+		WebElement clear = sl.eWaitForVisiblity(30,click);
 		clear.clear();
-		WebElement data = sl.eWaitForVisiblity(20,click);
+		WebElement data = sl.eWaitForVisiblity(30,click);		
 		data.sendKeys(opportunity[5]);		
 		driver.findElement(By.xpath(plp.addBtn)).click();
 
@@ -98,11 +100,11 @@ public class PipeLineSteps
 				ele.click();
 			}
 		}
-		sl.iSleep(5);
+		sl.iSleep(3);
 		driver.findElement(By.xpath(plp.action)).click();
-		sl.iSleep(5);
+		sl.iSleep(3);
 		driver.findElement(By.xpath(plp.delete)).click();
-		sl.iSleep(5);
+		sl.iSleep(3);
 		driver.findElement(By.xpath(plp.deleteConfirmation)).click();
 	}
 
@@ -136,9 +138,10 @@ public class PipeLineSteps
 		sl.iSleep(5);
 		WebElement activityClick = driver.findElement(By.xpath(plp.activity));
 		sl.jsClick(activityClick);
-		sl.iSleep(5);
+		sl.iSleep(10);
 		WebElement activityDrpDwn = driver.findElement(By.xpath(plp.activityType));	
-		activityDrpDwn.click();
+		sl.jsClick(activityDrpDwn);
+		//activityDrpDwn.click();
 		sl.iSleep(5);
 		activityDrpDwn.sendKeys(activityType[3]);
 		sl.iSleep(5);
@@ -164,20 +167,20 @@ public class PipeLineSteps
 			}
 		}
 
-		sl.iSleep(5);
+		sl.iSleep(3);
 		driver.findElement(By.xpath(plp.actdayWise)).click();
-		sl.iSleep(5);
+		sl.iSleep(3);
 		driver.findElement(By.xpath(plp.time)).click();
-		sl.iSleep(5);		 
+		sl.iSleep(3);		 
 		driver.findElement(By.xpath(plp.creatActBtn)).click();	
 
 	}
 
 	public void verfschdMeetingAct(String[]expected,String[] opportunity)
 	{
-		sl.iSleep(5);
+		sl.iSleep(3);
 		driver.findElement(By.xpath(plp.clickPipeline)).click();
-		sl.iSleep(5);
+		sl.iSleep(3);
 		List<WebElement> alloptions = driver.findElements(By.xpath(plp.verifyOpportunity));
 		int count = alloptions.size();
 		for (int i = 0; i <count; i++) 
@@ -189,9 +192,9 @@ public class PipeLineSteps
 			if (text.equalsIgnoreCase(opportunity[3])) 
 			{
 				link.click();
-				sl.iSleep(5);
+				sl.iSleep(3);
 				String actual = driver.findElement(By.xpath(plp.verifySchdAct)).getText();		
-				sl.iSleep(5);
+				sl.iSleep(3);
 				Assert.assertEquals(actual, expected[8]);		
 				Reporter.log(expected[3] + "is Verifyied",true);
 				break;
@@ -280,9 +283,9 @@ public class PipeLineSteps
 		activityDrpDwn.sendKeys(Keys.ENTER);
 		sl.iSleep(5);
 		driver.findElement(By.xpath(plp.actSummury)).sendKeys(activityType[4]);
-		sl.iSleep(5);
+		sl.iSleep(3);
 		WebElement dueDate = driver.findElement(By.xpath(plp.dueDate));
-		sl.iSleep(5);
+		sl.iSleep(3);
 		dueDate.clear();
 		LocalDate date = LocalDate.now().plusDays(2);
 		DateTimeFormatter formatters = DateTimeFormatter.ofPattern("MM/dd/yyyy");
@@ -299,7 +302,7 @@ public class PipeLineSteps
 
 	public void verifyCreatCallAct(String[]opportunity,String[] expected)
 	{
-		sl.iSleep(5);
+		sl.iSleep(3);
 		List<WebElement> alloptions = driver.findElements(By.xpath(plp.verifyOpportunity));
 		int count = alloptions.size();
 
@@ -311,15 +314,203 @@ public class PipeLineSteps
 			{
 
 				link.click();
-				sl.iSleep(5);
+				sl.iSleep(3);
 				String actual = driver.findElement(By.xpath(plp.verifySchdAct)).getText();		
-				sl.iSleep(5);
+				sl.iSleep(3);
 				Assert.assertEquals(actual, expected[7]);		
 				Reporter.log(expected[3] + " Activity is Verifyied",true);
 				break;
 			}
 		}
 
+	}
+	
+	public void callActDone(String[] data )
+	{
+		
+		sl.iSleep(2);
+		driver.findElement(By.xpath(plp.clickPipeline)).click();
+		sl.iSleep(2);
+		List<WebElement> ele = driver.findElements(By.xpath(plp.qualifiedClock));
+		ele.get(0).click();
+		sl.iSleep(2);
+		driver.findElement(By.xpath(plp.markDone)).click();
+		sl.iSleep(2);
+		driver.findElement(By.xpath(plp.feedBack)).sendKeys(data[8]);
+		sl.iSleep(2);
+		WebElement actDone = driver.findElement(By.xpath(plp.actCnfBtn));		
+		sl.jsClick(actDone);
+		
+	}
+	
+	public void VerifyCallActDone(String[] expected )
+	{
+		sl.iSleep(2);
+		List<WebElement> ele = driver.findElements(By.xpath(plp.qualifiedClock));
+		ele.get(0).click();
+		sl.iSleep(2);
+		String actualText = driver.findElement(By.xpath(plp.verifyActdone)).getText();		
+		Assert.assertEquals(actualText, expected[9]);
+		Reporter.log(expected[9] + "for this opportunity",true);
+		
+	}
+	
+	public void dragOpprQualfdToPrep(String[] opportunity)
+	{
+		sl.iSleep(2);
+		List<WebElement> allOptions = driver.findElements(By.xpath(plp.verifyOpportunity));
+		int count = allOptions.size();
+		for(int i=0;i<count;i++)
+		{
+			WebElement optionsLink = allOptions.get(i);
+			String linkText = optionsLink.getText();
+
+			if(linkText.equalsIgnoreCase(opportunity[3]))
+			{
+				sl.dragAndDrop(optionsLink,250, 100);
+			}
+		}
+	}
+	
+	public void verifydragOpprQualfdToPrep(String[] expected)
+	{
+		sl.iSleep(2);
+		List<WebElement> opportunity = driver.findElements(By.xpath(plp.verifyPropositionOpp));		
+		for (int i = 0; i < opportunity.size(); i++) 
+		{
+			WebElement link = opportunity.get(i);
+			String actual = link.getText();			
+			if(actual.equalsIgnoreCase(expected[3]))				
+			{				
+				Assert.assertEquals(actual, expected[3]);
+				Reporter.log("Proposition " + expected[3] + " is verified",true);
+				break;
+			}
+
+		}
+		
+	}
+	
+	public void createEmailAct(String[] activityType )
+	{
+		sl.iSleep(3);
+		List<WebElement> ele = driver.findElements(By.xpath(plp.PropositioClock));
+		ele.get(0).click();
+		sl.iSleep(3);
+		WebElement activityClick = driver.findElement(By.xpath(plp.activity));
+		sl.jsClick(activityClick);
+		sl.iSleep(5);
+		WebElement activityDrpDwn = driver.findElement(By.xpath(plp.activityType));	
+		activityDrpDwn.click();
+		sl.iSleep(5);
+		activityDrpDwn.sendKeys(activityType[3]);
+		sl.iSleep(5);
+		activityDrpDwn.sendKeys(Keys.ENTER);
+		sl.iSleep(5);
+		driver.findElement(By.xpath(plp.actSummury)).sendKeys(activityType[4]);
+		sl.iSleep(5);
+		WebElement dueDate = driver.findElement(By.xpath(plp.dueDate));
+		sl.iSleep(5);
+		dueDate.clear();
+		LocalDate date = LocalDate.now().plusDays(4);
+		DateTimeFormatter formatters = DateTimeFormatter.ofPattern("MM/dd/yyyy");
+		String text = date.format(formatters);
+		dueDate.sendKeys(text);
+		WebElement assigned = driver.findElement(By.xpath(plp.assignTo));
+		assigned.clear();
+		assigned.sendKeys(activityType[5]);
+		assigned.sendKeys(Keys.ENTER);		
+		driver.findElement(By.xpath(plp.scheduledBtn)).click();
+		
+	}
+	
+	public void verifyCreatEmailAct(String[] opportunity,String[] expected )
+	{
+		sl.iSleep(3);
+		List<WebElement> alloptions = driver.findElements(By.xpath(plp.verifyOpportunity));
+		int count = alloptions.size();
+
+		for (int i = 0; i <count; i++) 
+		{
+			WebElement link = alloptions.get(i);
+			String text = link.getText();
+			if (text.equalsIgnoreCase(opportunity[3])) 
+			{
+
+				link.click();
+				sl.iSleep(3);
+				String actual = driver.findElement(By.xpath(plp.verifySchdAct)).getText();		
+				sl.iSleep(3);
+				Assert.assertEquals(actual, expected[6]);		
+				Reporter.log(expected[3] + " Activity is Verifyied",true);
+				break;
+			}
+		}
+		
+	}
+	
+	public void EmailActDone(String[] data)
+	{
+		
+		sl.iSleep(2);
+		driver.findElement(By.xpath(plp.clickPipeline)).click();
+		sl.iSleep(2);
+		List<WebElement> ele = driver.findElements(By.xpath(plp.PropositioClock));
+		ele.get(0).click();
+		sl.iSleep(2);
+		driver.findElement(By.xpath(plp.markDone)).click();
+		sl.iSleep(2);
+		driver.findElement(By.xpath(plp.feedBack)).sendKeys(data[7]);
+		sl.iSleep(2);
+		WebElement actDone = driver.findElement(By.xpath(plp.actCnfBtn));		
+		sl.jsClick(actDone);
+	}
+	
+	public void verifyEmailActDone(String[] expected )
+	{
+		sl.iSleep(2);
+		List<WebElement> ele = driver.findElements(By.xpath(plp.PropositioClock));
+		ele.get(0).click();
+		sl.iSleep(2);
+		String actualText = driver.findElement(By.xpath(plp.verifyActdone)).getText();		
+		Assert.assertEquals(actualText, expected[8]);
+		Reporter.log(expected[8] + "for this opportunity",true);
+		
+	}
+	
+	public void dragOpprPrepToWon(String[] opportunity )
+	{
+		sl.iSleep(2);
+		List<WebElement> allOptions = driver.findElements(By.xpath(plp.verifyOpportunity));
+		int count = allOptions.size();
+		for(int i=0;i<count;i++)
+		{
+			WebElement optionsLink = allOptions.get(i);
+			String linkText = optionsLink.getText();
+
+			if(linkText.equalsIgnoreCase(opportunity[3]))
+			{
+				sl.dragAndDrop(optionsLink,250, 100);
+			}
+		}
+		
+	}
+	public void verifydragOpprPrepToWon(String[] expected )
+	{
+		sl.iSleep(2);
+		List<WebElement> opportunity = driver.findElements(By.xpath(plp.verifyWonOpportunity));		
+		for (int i = 0; i < opportunity.size(); i++) 
+		{
+			WebElement link = opportunity.get(i);
+			String actual = link.getText();			
+			if(actual.equalsIgnoreCase(expected[3]))				
+			{				
+				Assert.assertEquals(actual, expected[3]);
+				Reporter.log("Won " + expected[3] + " is verified",true);
+				break;
+			}
+
+		}
 	}
 
 }

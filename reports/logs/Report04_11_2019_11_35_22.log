@@ -1,0 +1,16 @@
+2019-11-04 23:35:23,055 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
+2019-11-04 23:35:29,836 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
+2019-11-04 23:35:33,599 [main] INFO com.odoo.webutils.MyTestListener - newCustomer script execution starts
+2019-11-04 23:36:33,610 [main] INFO com.odoo.webutils.MyTestListener - newCustomer script is passed
+2019-11-04 23:37:01,076 [main] INFO com.odoo.webutils.MyTestListener - createOpportunity script execution starts
+2019-11-04 23:37:39,183 [main] FATAL com.odoo.webutils.MyTestListener - no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='name']"}
+  (Session info: chrome=78.0.3904.87)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ALAM-PC', ip: '192.168.2.105', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.87, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\Alam\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:49640}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e8fe23167db3b239795d4ad9bc309323
+*** Element info: {Using=xpath, value=//input[@name='name']}
+2019-11-04 23:37:39,205 [main] WARN com.odoo.webutils.MyTestListener - createOpportunity script is failed
+2019-11-04 23:37:40,111 [main] INFO com.odoo.webutils.MyTestListener - Screenshot has been taken 

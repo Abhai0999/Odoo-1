@@ -85,6 +85,27 @@ public class SalesTest extends BaseAbstractTest
 		sf.creatCallAct(data);
 		String[] data1 = eu.readData("Sheet1", "createOpportunity_ID");
 		sf.verifyCreatCallAct(data1, data);
+		sf.callActDone(data);
+		sf.VerifyCallActDone(data);
+		sf.dragOpprQualfdToPrep(data1);
+		sf.verifydragOpprQualfdToPrep(data1);
+		
+	}
+	
+	@Test(dependsOnMethods= {"creatSalesAct","scheduledActivity","createOpportunity","newCustomer"})
+	public void createEmailAct()
+	{
+		String filepath=GenericLib.dir+"/testdata/Odoodata.xlsx";
+		ExcelUtilities eu=new ExcelUtilities(filepath);
+		String[] data = eu.readData("Sheet1", "scheduledEmailActivity_ID");
+		lf.login(data[1], data[2]);
+		sf.createEmailAct(data);
+		String[] data1 = eu.readData("Sheet1", "createOpportunity_ID");
+		sf.verifyCreatEmailAct(data1, data);
+		sf.EmailActDone(data);
+		sf.VerifyEmailActDone(data);
+		sf.dragOpprPrepToWon(data1);
+		sf.verifydragOpprPrepToWon(data1);
 		
 	}
 

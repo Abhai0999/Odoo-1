@@ -1,0 +1,8 @@
+2019-11-05 14:50:50,710 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
+2019-11-05 14:50:58,202 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
+2019-11-05 14:51:07,134 [main] INFO com.odoo.webutils.MyTestListener - createLostReason script execution starts
+2019-11-05 14:51:49,061 [main] INFO com.odoo.webutils.MyTestListener - createLostReason script is passed
+2019-11-05 14:52:02,016 [main] INFO com.odoo.webutils.MyTestListener - Browser Closed
+2019-11-05 14:52:03,315 [main] INFO com.odoo.webutils.MyTestListener - ExcelReport generated
+2019-11-05 14:52:03,316 [main] INFO com.odoo.webutils.MyTestListener - Framework execution Time Taken: 72.0seconds
+2019-11-05 14:52:03,317 [main] INFO com.odoo.webutils.MyTestListener - Framework execution ends

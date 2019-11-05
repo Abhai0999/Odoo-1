@@ -1,0 +1,8 @@
+2019-11-05 02:31:18,453 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
+2019-11-05 02:31:25,381 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
+2019-11-05 02:31:29,247 [main] INFO com.odoo.webutils.MyTestListener - createEmailAct script execution starts
+2019-11-05 02:32:55,171 [main] INFO com.odoo.webutils.MyTestListener - createEmailAct script is passed
+2019-11-05 02:33:08,598 [main] INFO com.odoo.webutils.MyTestListener - Browser Closed
+2019-11-05 02:33:09,061 [main] INFO com.odoo.webutils.MyTestListener - ExcelReport generated
+2019-11-05 02:33:09,062 [main] INFO com.odoo.webutils.MyTestListener - Framework execution Time Taken: 110.0seconds
+2019-11-05 02:33:09,063 [main] INFO com.odoo.webutils.MyTestListener - Framework execution ends

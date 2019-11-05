@@ -6,6 +6,7 @@ import com.odoo.generic.ExcelUtilities;
 import com.odoo.generic.GenericLib;
 import com.odoo.generic.SeleniumLib;
 import com.odoo.steps.CommonSteps;
+import com.odoo.steps.LostReasonSteps;
 import com.odoo.steps.SalesTeamSteps;
 
 public class ConfigurationFeature 
@@ -13,12 +14,14 @@ public class ConfigurationFeature
 	SalesTeamSteps sts;
 	CommonSteps cs;
 	SeleniumLib sl;
+	LostReasonSteps lrs;
 	
 	public ConfigurationFeature(WebDriver driver)
 	{
 		sts=new SalesTeamSteps(driver); 
 		cs=new CommonSteps(driver);
 		sl=new SeleniumLib(driver);
+		lrs=new LostReasonSteps(driver); 
 		
 	}
 	
@@ -52,6 +55,21 @@ public class ConfigurationFeature
 	public void verifyDltSalesTeam(String expSalesTeam )
 	{
 			sts.verifyDltSalesTeam(expSalesTeam);
+	}
+	
+	public void createLostReason(String[] reason)
+	{
+		cs.clickCRM();
+		cs.clickConfiguration();
+		cs.clickOnLostReason();
+		lrs.createLostReason(reason);
+		
+		
+	}
+	
+	public void verifyCreateLostReason(String[]expected,String[]reason )
+	{
+		lrs.verifyCreateLostReason(expected, reason);
 	}
 	
 	

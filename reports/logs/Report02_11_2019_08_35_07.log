@@ -1,3 +1,0 @@
-2019-11-02 20:35:07,321 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
-2019-11-02 20:35:16,186 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
-2019-11-02 20:35:20,514 [main] INFO com.odoo.webutils.MyTestListener - scheduledActivity script execution starts

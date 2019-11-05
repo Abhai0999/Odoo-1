@@ -1,0 +1,5 @@
+2019-11-05 00:05:22,557 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
+2019-11-05 00:05:29,066 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
+2019-11-05 00:05:32,555 [main] INFO com.odoo.webutils.MyTestListener - newCustomer script execution starts
+2019-11-05 00:06:33,338 [main] INFO com.odoo.webutils.MyTestListener - newCustomer script is passed
+2019-11-05 00:07:32,133 [main] INFO com.odoo.webutils.MyTestListener - createOpportunity script execution starts

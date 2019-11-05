@@ -11,6 +11,7 @@ public class BasePage
 	public String configuration="//a[contains(text(),'Configuration')]";
 	public String salesTeamBtn="//span[text()='Sales Teams']";
 	public String myPipeLine="//span[text()='My Pipeline']";
+	public String lostReason="//span[text()='Lost Reasons']";
 	
 	
 }

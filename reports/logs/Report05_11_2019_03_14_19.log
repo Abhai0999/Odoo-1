@@ -1,0 +1,16 @@
+2019-11-05 03:14:19,679 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
+2019-11-05 03:14:26,917 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
+2019-11-05 03:14:30,743 [main] INFO com.odoo.webutils.MyTestListener - newCustomer script execution starts
+2019-11-05 03:15:25,405 [main] INFO com.odoo.webutils.MyTestListener - newCustomer script is passed
+2019-11-05 03:15:37,607 [main] INFO com.odoo.webutils.MyTestListener - createOpportunity script execution starts
+2019-11-05 03:16:33,154 [main] INFO com.odoo.webutils.MyTestListener - createOpportunity script is passed
+2019-11-05 03:16:45,748 [main] INFO com.odoo.webutils.MyTestListener - scheduledActivity script execution starts
+2019-11-05 03:18:21,287 [main] INFO com.odoo.webutils.MyTestListener - scheduledActivity script is passed
+2019-11-05 03:18:33,259 [main] INFO com.odoo.webutils.MyTestListener - creatSalesAct script execution starts
+2019-11-05 03:19:51,479 [main] INFO com.odoo.webutils.MyTestListener - creatSalesAct script is passed
+2019-11-05 03:20:04,525 [main] INFO com.odoo.webutils.MyTestListener - createEmailAct script execution starts
+2019-11-05 03:21:22,405 [main] INFO com.odoo.webutils.MyTestListener - createEmailAct script is passed
+2019-11-05 03:21:37,561 [main] INFO com.odoo.webutils.MyTestListener - Browser Closed
+2019-11-05 03:21:38,155 [main] INFO com.odoo.webutils.MyTestListener - ExcelReport generated
+2019-11-05 03:21:38,156 [main] INFO com.odoo.webutils.MyTestListener - Framework execution Time Taken: 438.0seconds
+2019-11-05 03:21:38,156 [main] INFO com.odoo.webutils.MyTestListener - Framework execution ends

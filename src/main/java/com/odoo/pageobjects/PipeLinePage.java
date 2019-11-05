@@ -35,6 +35,9 @@ public class PipeLinePage
 	public String scheduledBtn="//span[text()='Schedule']";
 	public String verifySchdAct="//div[@name='activity_ids']//strong/following-sibling::strong";
 	public String clickNext="//div[@class='o_calendar_sidebar_container d-none d-md-block']//a[@title='Next']";
+	public String verifyPropositionOpp ="//div[@data-id='3']//strong//span";
+	public String PropositioClock ="//div[@data-id='3']//div[@name='activity_ids']//a[@role='button']//span";
+	public String verifyWonOpportunity ="//div[@data-id='4']//strong//span";
 
 
 

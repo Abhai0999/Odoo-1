@@ -122,11 +122,11 @@ public class MyTestListener implements ITestListener, WebDriverEventListener
 		
 		String filepath = GenericLib.getConfigFile();
 		String system = GenericLib.getValue(filepath, "system");
-		String browserName = GenericLib.getValue(filepath, "browserName");
-		String headless = GenericLib.getValue(filepath, "headless");
+//		String browserName = GenericLib.getValue(filepath, "browserName");
+//		String headless = GenericLib.getValue(filepath, "headless");
 		
-//		String browserName = System.getProperty("browser");
-//		String headless = System.getProperty("headless");
+		String browserName = System.getProperty("browser");
+		String headless = System.getProperty("headless");
 		
 		WebDriver driver = DriverFactory.launch(system, browserName, headless);
 		driver.manage().window().maximize();

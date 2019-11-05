@@ -62,9 +62,9 @@ public class SalesFeature
 
 	public void createOpportunity(String[] opportunity,String[] customer )
 	{
-		sl.iSleep(5);
+		//sl.iSleep(5);
 		cs.clickCRM();
-		sl.iSleep(5);
+		//sl.iSleep(5);
 		cs.clickSales();
 		cs.clickMyPipeLine();
 		pls.createOpportunity(opportunity, customer);		
@@ -77,9 +77,9 @@ public class SalesFeature
 
 	public void deleteOpportunity(String[] opportunity )
 	{
-		sl.iSleep(5);
+		//sl.iSleep(5);
 		cs.clickCRM();
-		sl.iSleep(5);
+		//sl.iSleep(5);
 		cs.clickSales();
 		cs.clickMyPipeLine();
 		pls.deleteOpportunity(opportunity);
@@ -93,9 +93,8 @@ public class SalesFeature
 
 	public void schdMeetingAct(String[] activityType )
 	{
-		sl.iSleep(2);
-		cs.clickCRM();
-		sl.iSleep(2);		
+		
+		cs.clickCRM();				
 		pls.schdMeetingAct(activityType);		
 	}
 
@@ -126,15 +125,61 @@ public class SalesFeature
 	
 	public void creatCallAct(String[] activityType )
 	{
-		sl.iSleep(2);
-		cs.clickCRM();
-		sl.iSleep(2);
+		
+		cs.clickCRM();		
 		pls.creatCallAct(activityType);
 	}
 	
 	public void verifyCreatCallAct(String[]opportunity,String[] expected)
 	{
 		pls.verifyCreatCallAct(opportunity, expected);
+	}
+	
+	public void callActDone(String[] data)
+	{
+		pls.callActDone(data);
+	}
+	public void VerifyCallActDone(String[] expected)
+	{
+		pls.VerifyCallActDone(expected);
+	}
+	public void dragOpprQualfdToPrep(String[]opportunity)
+	{
+		pls.dragOpprQualfdToPrep(opportunity);
+	}
+	public void verifydragOpprQualfdToPrep(String[] expected )
+	{
+		pls.verifydragOpprQualfdToPrep(expected);
+	}
+	
+	public void createEmailAct(String[] activityType)
+	{
+		
+		cs.clickCRM();		
+		pls.createEmailAct(activityType);
+	}
+	public void verifyCreatEmailAct(String[] opportunity,String[] expected )
+	{
+		pls.verifyCreatEmailAct(opportunity, expected);
+	}
+	
+	public void EmailActDone(String[] data)
+	{
+		pls.EmailActDone(data);
+	}
+	
+	public void VerifyEmailActDone(String[] expected )
+	{
+		pls.verifyEmailActDone(expected);
+	}
+	
+	public void dragOpprPrepToWon(String[] opportunity )
+	{
+		pls.dragOpprPrepToWon(opportunity);
+	}
+	public void verifydragOpprPrepToWon(String[] expected )
+	{
+		pls.verifydragOpprPrepToWon(expected);
 	}
 
 }

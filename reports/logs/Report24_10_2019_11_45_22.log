@@ -1,3 +1,0 @@
-2019-10-24 23:45:22,631 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
-2019-10-24 23:45:30,341 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
-2019-10-24 23:45:34,792 [main] INFO com.odoo.webutils.MyTestListener - createOpportunity script execution starts

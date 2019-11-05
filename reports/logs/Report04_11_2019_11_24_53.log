@@ -1,0 +1,29 @@
+2019-11-04 23:24:53,635 [main] INFO com.odoo.webutils.MyTestListener - Framework execution starts
+2019-11-04 23:25:00,854 [main] INFO com.odoo.webutils.MyTestListener - Browser Launched and maximized
+2019-11-04 23:25:04,768 [main] INFO com.odoo.webutils.MyTestListener - newCustomer script execution starts
+2019-11-04 23:26:10,585 [main] INFO com.odoo.webutils.MyTestListener - newCustomer script is passed
+2019-11-04 23:26:38,396 [main] INFO com.odoo.webutils.MyTestListener - createOpportunity script execution starts
+2019-11-04 23:27:42,867 [main] FATAL com.odoo.webutils.MyTestListener - element not interactable
+  (Session info: chrome=78.0.3904.87)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ALAM-PC', ip: '192.168.2.105', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.87, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Alam\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:49547}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e2b75e81d2c665ab0a4e2faaba1c8243
+2019-11-04 23:27:42,900 [main] WARN com.odoo.webutils.MyTestListener - createOpportunity script is failed
+2019-11-04 23:27:43,849 [main] INFO com.odoo.webutils.MyTestListener - Screenshot has been taken 
+2019-11-04 23:27:59,022 [main] FATAL com.odoo.webutils.MyTestListener - element click intercepted: Element <a aria-expanded="false" class="dropdown-toggle" data-display="static" data-toggle="dropdown" href="#" role="button">...</a> is not clickable at point (1263, 23). Other element would receive the click: <div role="dialog" class="modal o_technical_modal show" tabindex="-1" data-backdrop="static" id="modal_290" open="open" aria-modal="true" style="display: block;">...</div>
+  (Session info: chrome=78.0.3904.87)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ALAM-PC', ip: '192.168.2.105', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.87, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Alam\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:49547}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e2b75e81d2c665ab0a4e2faaba1c8243
+2019-11-04 23:27:59,115 [main] INFO com.odoo.webutils.MyTestListener - scheduledActivity script execution starts
+2019-11-04 23:27:59,137 [main] INFO com.odoo.webutils.MyTestListener - scheduledActivity script is skipped
+2019-11-04 23:27:59,143 [main] INFO com.odoo.webutils.MyTestListener - creatSalesAct script execution starts
+2019-11-04 23:27:59,191 [main] INFO com.odoo.webutils.MyTestListener - creatSalesAct script is skipped
+2019-11-04 23:28:02,438 [main] INFO com.odoo.webutils.MyTestListener - Browser Closed
+2019-11-04 23:28:02,867 [main] INFO com.odoo.webutils.MyTestListener - ExcelReport generated
+2019-11-04 23:28:02,867 [main] INFO com.odoo.webutils.MyTestListener - Framework execution Time Taken: 189.0seconds
+2019-11-04 23:28:02,873 [main] INFO com.odoo.webutils.MyTestListener - Framework execution ends
